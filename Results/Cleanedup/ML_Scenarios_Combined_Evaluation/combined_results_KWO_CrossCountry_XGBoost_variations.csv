@@ -1,0 +1,13 @@
+Lag,MAE,RMSE,MAPE,Model,Sub-Model
+1,945.5781939,2970.401223,0.949804524,XGBRegressor_woInteractionTerms,AllVar
+2,1602.818133,4796.442136,1.346379856,XGBRegressor_woInteractionTerms,AllVar
+3,1757.695789,4225.54299,1.601727191,XGBRegressor_woInteractionTerms,AllVar
+1,909.9165925,3429.711223,0.931438071,XGBRegressor_wdrop_winteract,AllVar
+2,1407.205908,4020.384938,1.552064119,XGBRegressor_wdrop_winteract,AllVar
+3,1383.226084,2952.683099,1.704851123,XGBRegressor_wdrop_winteract,AllVar
+1,791.900971,3014.5905,0.787711816,XGBRegressor_wInteractionTerms,AllVar
+2,1148.395207,3649.299805,1.128072778,XGBRegressor_wInteractionTerms,AllVar
+3,1152.169812,3025.008643,1.197157146,XGBRegressor_wInteractionTerms,AllVar
+1,1354.251723,3663.374117,1.167162089,XGBRegressor_wdrop_wointeract,AllVar
+2,2653.161071,6127.015583,2.077398439,XGBRegressor_wdrop_wointeract,AllVar
+3,3544.890413,7394.26142,2.796060099,XGBRegressor_wdrop_wointeract,AllVar

@@ -1,0 +1,136 @@
+Lag,Feature Name,Elasticity
+3,Year,3.8027778
+3,rd_expenditure_lag1,0.3171088
+3,rd_expenditure_missing_lag1,0.0
+3,rd_expenditure_lag2,0.020409063
+3,rd_expenditure_missing_lag2,0.0
+3,rd_expenditure_lag3,-0.00076612475
+3,rd_expenditure_missing_lag3,0.0
+3,Country_CA,0.0
+3,Country_CH,0.0
+3,Country_CN,0.0
+3,Country_DE,0.0
+3,Country_GB,0.0
+3,Country_JP,0.0
+3,Country_KR,0.0
+3,Country_US,0.0
+3,Year^2,0.0
+3,Year rd_expenditure_lag1,1.6419404
+3,Year rd_expenditure_missing_lag1,0.0
+3,Year rd_expenditure_lag2,0.05172303
+3,Year rd_expenditure_missing_lag2,0.0
+3,Year rd_expenditure_lag3,0.01885423
+3,Year rd_expenditure_missing_lag3,0.0
+3,Year Country_CA,0.008597143
+3,Year Country_CH,0.0
+3,Year Country_CN,0.31293312
+3,Year Country_DE,0.0564726
+3,Year Country_GB,-0.0008645754
+3,Year Country_JP,-0.0012701715
+3,Year Country_KR,0.3268695
+3,Year Country_US,0.12574613
+3,rd_expenditure_lag1^2,0.0
+3,rd_expenditure_lag1 rd_expenditure_missing_lag1,0.0
+3,rd_expenditure_lag1 rd_expenditure_lag2,0.003798099
+3,rd_expenditure_lag1 rd_expenditure_missing_lag2,0.0
+3,rd_expenditure_lag1 rd_expenditure_lag3,0.0039751814
+3,rd_expenditure_lag1 rd_expenditure_missing_lag3,0.0
+3,rd_expenditure_lag1 Country_CA,0.0
+3,rd_expenditure_lag1 Country_CH,0.0
+3,rd_expenditure_lag1 Country_CN,0.0
+3,rd_expenditure_lag1 Country_DE,0.0
+3,rd_expenditure_lag1 Country_GB,0.0
+3,rd_expenditure_lag1 Country_JP,0.0031672039
+3,rd_expenditure_lag1 Country_KR,0.0
+3,rd_expenditure_lag1 Country_US,0.0
+3,rd_expenditure_missing_lag1^2,0.0
+3,rd_expenditure_missing_lag1 rd_expenditure_lag2,0.0
+3,rd_expenditure_missing_lag1 rd_expenditure_missing_lag2,0.0
+3,rd_expenditure_missing_lag1 rd_expenditure_lag3,0.0
+3,rd_expenditure_missing_lag1 rd_expenditure_missing_lag3,0.0
+3,rd_expenditure_missing_lag1 Country_CA,0.0
+3,rd_expenditure_missing_lag1 Country_CH,0.0
+3,rd_expenditure_missing_lag1 Country_CN,0.0
+3,rd_expenditure_missing_lag1 Country_DE,0.0
+3,rd_expenditure_missing_lag1 Country_GB,0.0
+3,rd_expenditure_missing_lag1 Country_JP,0.0
+3,rd_expenditure_missing_lag1 Country_KR,0.0
+3,rd_expenditure_missing_lag1 Country_US,0.0
+3,rd_expenditure_lag2^2,0.0
+3,rd_expenditure_lag2 rd_expenditure_missing_lag2,0.0
+3,rd_expenditure_lag2 rd_expenditure_lag3,0.0
+3,rd_expenditure_lag2 rd_expenditure_missing_lag3,0.0
+3,rd_expenditure_lag2 Country_CA,0.0
+3,rd_expenditure_lag2 Country_CH,0.0
+3,rd_expenditure_lag2 Country_CN,0.0
+3,rd_expenditure_lag2 Country_DE,-6.121984e-06
+3,rd_expenditure_lag2 Country_GB,0.0
+3,rd_expenditure_lag2 Country_JP,0.0
+3,rd_expenditure_lag2 Country_KR,0.0
+3,rd_expenditure_lag2 Country_US,0.0
+3,rd_expenditure_missing_lag2^2,0.0
+3,rd_expenditure_missing_lag2 rd_expenditure_lag3,0.0
+3,rd_expenditure_missing_lag2 rd_expenditure_missing_lag3,0.0
+3,rd_expenditure_missing_lag2 Country_CA,0.0
+3,rd_expenditure_missing_lag2 Country_CH,0.0
+3,rd_expenditure_missing_lag2 Country_CN,0.0
+3,rd_expenditure_missing_lag2 Country_DE,0.0
+3,rd_expenditure_missing_lag2 Country_GB,0.0
+3,rd_expenditure_missing_lag2 Country_JP,0.0
+3,rd_expenditure_missing_lag2 Country_KR,0.0
+3,rd_expenditure_missing_lag2 Country_US,0.0
+3,rd_expenditure_lag3^2,0.0
+3,rd_expenditure_lag3 rd_expenditure_missing_lag3,0.0
+3,rd_expenditure_lag3 Country_CA,0.0
+3,rd_expenditure_lag3 Country_CH,0.0
+3,rd_expenditure_lag3 Country_CN,0.0
+3,rd_expenditure_lag3 Country_DE,0.0
+3,rd_expenditure_lag3 Country_GB,0.0
+3,rd_expenditure_lag3 Country_JP,0.0
+3,rd_expenditure_lag3 Country_KR,0.0
+3,rd_expenditure_lag3 Country_US,0.0
+3,rd_expenditure_missing_lag3^2,0.0
+3,rd_expenditure_missing_lag3 Country_CA,0.0
+3,rd_expenditure_missing_lag3 Country_CH,0.0
+3,rd_expenditure_missing_lag3 Country_CN,0.0
+3,rd_expenditure_missing_lag3 Country_DE,0.0
+3,rd_expenditure_missing_lag3 Country_GB,0.0
+3,rd_expenditure_missing_lag3 Country_JP,0.0
+3,rd_expenditure_missing_lag3 Country_KR,0.0
+3,rd_expenditure_missing_lag3 Country_US,0.0
+3,Country_CA^2,0.0
+3,Country_CA Country_CH,0.0
+3,Country_CA Country_CN,0.0
+3,Country_CA Country_DE,0.0
+3,Country_CA Country_GB,0.0
+3,Country_CA Country_JP,0.0
+3,Country_CA Country_KR,0.0
+3,Country_CA Country_US,0.0
+3,Country_CH^2,0.0
+3,Country_CH Country_CN,0.0
+3,Country_CH Country_DE,0.0
+3,Country_CH Country_GB,0.0
+3,Country_CH Country_JP,0.0
+3,Country_CH Country_KR,0.0
+3,Country_CH Country_US,0.0
+3,Country_CN^2,0.0
+3,Country_CN Country_DE,0.0
+3,Country_CN Country_GB,0.0
+3,Country_CN Country_JP,0.0
+3,Country_CN Country_KR,0.0
+3,Country_CN Country_US,0.0
+3,Country_DE^2,0.0
+3,Country_DE Country_GB,0.0
+3,Country_DE Country_JP,0.0
+3,Country_DE Country_KR,0.0
+3,Country_DE Country_US,0.0
+3,Country_GB^2,0.0
+3,Country_GB Country_JP,0.0
+3,Country_GB Country_KR,0.0
+3,Country_GB Country_US,0.0
+3,Country_JP^2,0.0
+3,Country_JP Country_KR,0.0
+3,Country_JP Country_US,0.0
+3,Country_KR^2,0.0
+3,Country_KR Country_US,0.0
+3,Country_US^2,0.0

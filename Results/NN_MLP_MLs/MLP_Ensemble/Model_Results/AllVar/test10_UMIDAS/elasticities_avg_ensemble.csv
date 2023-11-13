@@ -1,0 +1,1553 @@
+Country,Feature,Elasticity
+CA,Businesses_R&D expenditure_lag1,-7.546026608906686e-06
+CA,Businesses_R&D expenditure_lag10,0.0
+CA,Businesses_R&D expenditure_lag11,0.0
+CA,Businesses_R&D expenditure_lag2,-3.215862970440261e-05
+CA,Businesses_R&D expenditure_lag3,-7.83699865375335e-06
+CA,Businesses_R&D expenditure_lag4,-4.829137721268732e-05
+CA,Businesses_R&D expenditure_lag5,-6.745075952494517e-06
+CA,Businesses_R&D expenditure_lag6,-7.256355729623465e-08
+CA,Businesses_R&D expenditure_lag7,-2.691720292204991e-05
+CA,Businesses_R&D expenditure_lag8,-4.786196135682985e-05
+CA,Businesses_R&D expenditure_lag9,-4.825121626102676e-08
+CA,Businesses_product development_lag1,0.0002802606525074225
+CA,Businesses_product development_lag10,-1.0919843513571928e-05
+CA,Businesses_product development_lag11,-0.00041479127258450414
+CA,Businesses_product development_lag2,0.0008216076699318364
+CA,Businesses_product development_lag3,0.0006433016281031693
+CA,Businesses_product development_lag4,0.0007471884592572072
+CA,Businesses_product development_lag5,7.126740683209695e-05
+CA,Businesses_product development_lag6,2.6664062800894802e-05
+CA,Businesses_product development_lag7,9.160170992496812e-05
+CA,Businesses_product development_lag8,0.0001611865946809606
+CA,Businesses_product development_lag9,-4.894592317820449e-08
+CA,Consulting Firms_innovation management_lag1,0.00048792389648345607
+CA,Consulting Firms_innovation management_lag10,0.0001098954244904841
+CA,Consulting Firms_innovation management_lag11,-2.0508297784544992e-05
+CA,Consulting Firms_innovation management_lag2,0.0013352777638162177
+CA,Consulting Firms_innovation management_lag3,-0.0013091671966928213
+CA,Consulting Firms_innovation management_lag4,-0.0015412950962005803
+CA,Consulting Firms_innovation management_lag5,-0.0001234156618374982
+CA,Consulting Firms_innovation management_lag6,-0.0006214901275476829
+CA,Consulting Firms_innovation management_lag7,-0.0001384861348439396
+CA,Consulting Firms_innovation management_lag8,-1.8228712736648352e-05
+CA,Consulting Firms_innovation management_lag9,0.00011113734872196801
+CA,Consulting Firms_innovation strategy_lag1,0.0001720975462133841
+CA,Consulting Firms_innovation strategy_lag10,0.0
+CA,Consulting Firms_innovation strategy_lag11,-2.196310758032875e-06
+CA,Consulting Firms_innovation strategy_lag2,0.0007619819675952991
+CA,Consulting Firms_innovation strategy_lag3,-0.0005221991607959353
+CA,Consulting Firms_innovation strategy_lag4,-0.0005162026558203555
+CA,Consulting Firms_innovation strategy_lag5,-0.00011477713049619827
+CA,Consulting Firms_innovation strategy_lag6,-1.9283431671889655e-05
+CA,Consulting Firms_innovation strategy_lag7,-2.6474790599119538e-05
+CA,Consulting Firms_innovation strategy_lag8,-5.918075211714798e-05
+CA,Consulting Firms_innovation strategy_lag9,-8.86361435126067e-05
+CA,Government agencies_government grants_lag1,-5.3184146721226475e-05
+CA,Government agencies_government grants_lag10,-6.290672675883494e-05
+CA,Government agencies_government grants_lag11,3.022030162658969e-06
+CA,Government agencies_government grants_lag2,-0.0001981933645826454
+CA,Government agencies_government grants_lag3,-0.0003685091563966125
+CA,Government agencies_government grants_lag4,-0.00023433376549898336
+CA,Government agencies_government grants_lag5,-7.338917688078557e-08
+CA,Government agencies_government grants_lag6,-6.699538714353063e-05
+CA,Government agencies_government grants_lag7,-7.325826421341238e-08
+CA,Government agencies_government grants_lag8,-5.202490666609568e-05
+CA,Government agencies_government grants_lag9,-7.272700718507015e-05
+CA,Government agencies_research funding_lag1,0.00010349616699386389
+CA,Government agencies_research funding_lag10,0.00024551286286926674
+CA,Government agencies_research funding_lag11,-2.429464378413589e-08
+CA,Government agencies_research funding_lag2,1.5843924096164604e-05
+CA,Government agencies_research funding_lag3,-5.881652632827657e-05
+CA,Government agencies_research funding_lag4,-0.00015511196407411867
+CA,Government agencies_research funding_lag5,5.822727742270217e-05
+CA,Government agencies_research funding_lag6,0.0003811084190723098
+CA,Government agencies_research funding_lag7,2.6862654005223402e-05
+CA,Government agencies_research funding_lag8,-4.930169173652151e-08
+CA,Government agencies_research funding_lag9,0.00010426939921520292
+CA,Innovation Hubs_startup incubation_lag1,0.0
+CA,Innovation Hubs_startup incubation_lag10,1.1981663495438017e-07
+CA,Innovation Hubs_startup incubation_lag11,0.0
+CA,Innovation Hubs_startup incubation_lag2,0.0
+CA,Innovation Hubs_startup incubation_lag3,0.0
+CA,Innovation Hubs_startup incubation_lag4,0.0
+CA,Innovation Hubs_startup incubation_lag5,0.0
+CA,Innovation Hubs_startup incubation_lag6,0.0
+CA,Innovation Hubs_startup incubation_lag7,0.0
+CA,Innovation Hubs_startup incubation_lag8,0.0
+CA,Innovation Hubs_startup incubation_lag9,0.0
+CA,Innovation Hubs_technology park_lag1,7.244000400532968e-05
+CA,Innovation Hubs_technology park_lag10,-0.0002853733477725958
+CA,Innovation Hubs_technology park_lag11,-0.0007065846755479773
+CA,Innovation Hubs_technology park_lag2,8.962353726928995e-06
+CA,Innovation Hubs_technology park_lag3,-0.00017005206464091316
+CA,Innovation Hubs_technology park_lag4,0.00020218049903633072
+CA,Innovation Hubs_technology park_lag5,0.0005619840199748675
+CA,Innovation Hubs_technology park_lag6,-0.0002455385913375115
+CA,Innovation Hubs_technology park_lag7,3.091062147480746e-06
+CA,Innovation Hubs_technology park_lag8,0.00016718526864679007
+CA,Innovation Hubs_technology park_lag9,0.00015042624503015152
+CA,Month,-0.0090916852086472
+CA,Patent Attorneys_patent attorney_lag1,-2.498935070131362e-08
+CA,Patent Attorneys_patent attorney_lag10,0.0002944804171177869
+CA,Patent Attorneys_patent attorney_lag11,0.0002731410084137072
+CA,Patent Attorneys_patent attorney_lag2,0.0
+CA,Patent Attorneys_patent attorney_lag3,9.035830165278943e-07
+CA,Patent Attorneys_patent attorney_lag4,-9.833388806631167e-05
+CA,Patent Attorneys_patent attorney_lag5,-9.428665847129498e-06
+CA,Patent Attorneys_patent attorney_lag6,2.151875608736494e-05
+CA,Patent Attorneys_patent attorney_lag7,5.335583846317604e-05
+CA,Patent Attorneys_patent attorney_lag8,0.00014155011847227192
+CA,Patent Attorneys_patent attorney_lag9,4.316041333368048e-05
+CA,Patent Attorneys_patent registration_lag1,0.0
+CA,Patent Attorneys_patent registration_lag10,4.903320305553886e-05
+CA,Patent Attorneys_patent registration_lag11,0.0
+CA,Patent Attorneys_patent registration_lag2,0.0
+CA,Patent Attorneys_patent registration_lag3,0.0
+CA,Patent Attorneys_patent registration_lag4,0.0
+CA,Patent Attorneys_patent registration_lag5,0.0
+CA,Patent Attorneys_patent registration_lag6,0.0
+CA,Patent Attorneys_patent registration_lag7,0.0
+CA,Patent Attorneys_patent registration_lag8,0.0
+CA,Patent Attorneys_patent registration_lag9,-4.880827921321421e-05
+CA,R&D Employees_R&D jobs_lag1,-3.850021826413771e-05
+CA,R&D Employees_R&D jobs_lag10,-0.00010351123217939555
+CA,R&D Employees_R&D jobs_lag11,-4.90384840304614e-06
+CA,R&D Employees_R&D jobs_lag2,-1.1166348510111372e-05
+CA,R&D Employees_R&D jobs_lag3,-3.913189148685584e-05
+CA,R&D Employees_R&D jobs_lag4,-0.00015415614917098234
+CA,R&D Employees_R&D jobs_lag5,-0.00013722353847697377
+CA,R&D Employees_R&D jobs_lag6,-5.772251871652164e-05
+CA,R&D Employees_R&D jobs_lag7,-2.7658074480617263e-05
+CA,R&D Employees_R&D jobs_lag8,-0.00010712351601493235
+CA,R&D Employees_R&D jobs_lag9,-7.611730051091096e-05
+CA,Research Institutions_collaboration with industry_lag1,0.0
+CA,Research Institutions_collaboration with industry_lag10,0.0
+CA,Research Institutions_collaboration with industry_lag11,0.0
+CA,Research Institutions_collaboration with industry_lag2,0.0
+CA,Research Institutions_collaboration with industry_lag3,0.0
+CA,Research Institutions_collaboration with industry_lag4,0.0
+CA,Research Institutions_collaboration with industry_lag5,0.0
+CA,Research Institutions_collaboration with industry_lag6,0.0
+CA,Research Institutions_collaboration with industry_lag7,0.0
+CA,Research Institutions_collaboration with industry_lag8,0.0
+CA,Research Institutions_collaboration with industry_lag9,0.0
+CA,Research Institutions_research grant_lag1,0.0
+CA,Research Institutions_research grant_lag10,-2.429464378413589e-08
+CA,Research Institutions_research grant_lag11,8.574960277959084e-07
+CA,Research Institutions_research grant_lag2,0.0
+CA,Research Institutions_research grant_lag3,-8.479448771746926e-06
+CA,Research Institutions_research grant_lag4,-2.498935070131362e-08
+CA,Research Institutions_research grant_lag5,-2.498935070131362e-08
+CA,Research Institutions_research grant_lag6,-2.395657247689087e-08
+CA,Research Institutions_research grant_lag7,0.0
+CA,Research Institutions_research grant_lag8,0.00014049268191229202
+CA,Research Institutions_research grant_lag9,8.388034472469978e-06
+CA,Tax Authorities_R&D tax credit_lag1,8.672888887910327e-05
+CA,Tax Authorities_R&D tax credit_lag10,0.0
+CA,Tax Authorities_R&D tax credit_lag11,-2.395657247689087e-08
+CA,Tax Authorities_R&D tax credit_lag2,-0.0001352750557756129
+CA,Tax Authorities_R&D tax credit_lag3,0.00013899736222811043
+CA,Tax Authorities_R&D tax credit_lag4,3.2599849661589055e-06
+CA,Tax Authorities_R&D tax credit_lag5,-2.1137721978448097e-06
+CA,Tax Authorities_R&D tax credit_lag6,-3.2316103218666585e-05
+CA,Tax Authorities_R&D tax credit_lag7,-1.697783909548889e-07
+CA,Tax Authorities_R&D tax credit_lag8,-6.2293525100661405e-06
+CA,Tax Authorities_R&D tax credit_lag9,-2.395657247689087e-08
+CA,VCs_VC investment_lag1,2.8152444247098174e-06
+CA,VCs_VC investment_lag10,-2.9453768462796385e-05
+CA,VCs_VC investment_lag11,3.555958324189608e-05
+CA,VCs_VC investment_lag2,7.710358127951622e-05
+CA,VCs_VC investment_lag3,8.642628265079111e-05
+CA,VCs_VC investment_lag4,3.1804602864819266e-05
+CA,VCs_VC investment_lag5,-3.740327791698898e-05
+CA,VCs_VC investment_lag6,-3.422757795002932e-05
+CA,VCs_VC investment_lag7,0.0
+CA,VCs_VC investment_lag8,0.0
+CA,VCs_VC investment_lag9,0.0
+CA,VCs_startup funding_lag1,7.401216954804113e-05
+CA,VCs_startup funding_lag10,0.0
+CA,VCs_startup funding_lag11,-1.9822663671220652e-05
+CA,VCs_startup funding_lag2,-0.00026205654105676025
+CA,VCs_startup funding_lag3,0.00011881822094589248
+CA,VCs_startup funding_lag4,-0.00021254164135219375
+CA,VCs_startup funding_lag5,0.00010798913873562318
+CA,VCs_startup funding_lag6,0.0003757629454776179
+CA,VCs_startup funding_lag7,3.0041861829583165e-05
+CA,VCs_startup funding_lag8,-4.825121626102676e-08
+CA,VCs_startup funding_lag9,2.3735541011168e-08
+CA,Year,-0.05009430010647824
+CA,export_vol_lag1,-1.8836076443828156e-05
+CA,export_vol_lag2,-0.000181550269650567
+CA,gdpca_lag1,0.18024253961940606
+CA,gdpca_lag2,-0.18103726203242937
+CA,import_vol_lag1,0.0008595258478165609
+CA,import_vol_lag2,0.00025678135887271007
+CA,inflation_lag1,-0.0015645739822260415
+CA,inflation_lag2,-0.002057610068198604
+CA,population_lag1,0.0005691399872497035
+CA,population_lag2,0.0004840935605898267
+CA,rd_expenditure_lag1,0.7580118467410405
+CA,rd_expenditure_lag2,0.22895066718260448
+CA,rd_expenditure_missing_lag1,0.0
+CA,rd_expenditure_missing_lag2,0.0
+CA,unemp_rate_lag1,-0.0014344112124914925
+CA,unemp_rate_lag2,-0.001341009998577647
+CH,Businesses_R&D expenditure_lag1,0.0
+CH,Businesses_R&D expenditure_lag10,0.0
+CH,Businesses_R&D expenditure_lag11,0.0
+CH,Businesses_R&D expenditure_lag2,0.0
+CH,Businesses_R&D expenditure_lag3,0.0
+CH,Businesses_R&D expenditure_lag4,0.0
+CH,Businesses_R&D expenditure_lag5,0.0
+CH,Businesses_R&D expenditure_lag6,0.0
+CH,Businesses_R&D expenditure_lag7,0.0
+CH,Businesses_R&D expenditure_lag8,0.0
+CH,Businesses_R&D expenditure_lag9,0.0
+CH,Businesses_product development_lag1,0.0
+CH,Businesses_product development_lag10,0.0
+CH,Businesses_product development_lag11,0.0
+CH,Businesses_product development_lag2,0.0
+CH,Businesses_product development_lag3,0.0
+CH,Businesses_product development_lag4,0.0
+CH,Businesses_product development_lag5,0.0
+CH,Businesses_product development_lag6,0.0
+CH,Businesses_product development_lag7,0.0
+CH,Businesses_product development_lag8,0.0
+CH,Businesses_product development_lag9,0.0
+CH,Consulting Firms_innovation management_lag1,0.0
+CH,Consulting Firms_innovation management_lag10,0.0
+CH,Consulting Firms_innovation management_lag11,0.0
+CH,Consulting Firms_innovation management_lag2,0.0
+CH,Consulting Firms_innovation management_lag3,0.0
+CH,Consulting Firms_innovation management_lag4,0.0
+CH,Consulting Firms_innovation management_lag5,0.0
+CH,Consulting Firms_innovation management_lag6,0.0
+CH,Consulting Firms_innovation management_lag7,0.0
+CH,Consulting Firms_innovation management_lag8,0.0
+CH,Consulting Firms_innovation management_lag9,0.0
+CH,Consulting Firms_innovation strategy_lag1,0.0
+CH,Consulting Firms_innovation strategy_lag10,0.0
+CH,Consulting Firms_innovation strategy_lag11,0.0
+CH,Consulting Firms_innovation strategy_lag2,0.0
+CH,Consulting Firms_innovation strategy_lag3,0.0
+CH,Consulting Firms_innovation strategy_lag4,0.0
+CH,Consulting Firms_innovation strategy_lag5,0.0
+CH,Consulting Firms_innovation strategy_lag6,0.0
+CH,Consulting Firms_innovation strategy_lag7,0.0
+CH,Consulting Firms_innovation strategy_lag8,0.0
+CH,Consulting Firms_innovation strategy_lag9,0.0
+CH,Government agencies_government grants_lag1,0.0
+CH,Government agencies_government grants_lag10,0.0
+CH,Government agencies_government grants_lag11,0.0
+CH,Government agencies_government grants_lag2,0.0
+CH,Government agencies_government grants_lag3,0.0
+CH,Government agencies_government grants_lag4,0.0
+CH,Government agencies_government grants_lag5,0.0
+CH,Government agencies_government grants_lag6,0.0
+CH,Government agencies_government grants_lag7,0.0
+CH,Government agencies_government grants_lag8,0.0
+CH,Government agencies_government grants_lag9,0.0
+CH,Government agencies_research funding_lag1,0.0
+CH,Government agencies_research funding_lag10,0.0
+CH,Government agencies_research funding_lag11,0.0
+CH,Government agencies_research funding_lag2,0.0
+CH,Government agencies_research funding_lag3,0.0
+CH,Government agencies_research funding_lag4,0.0
+CH,Government agencies_research funding_lag5,0.0
+CH,Government agencies_research funding_lag6,0.0
+CH,Government agencies_research funding_lag7,0.0
+CH,Government agencies_research funding_lag8,0.0
+CH,Government agencies_research funding_lag9,0.0
+CH,Innovation Hubs_startup incubation_lag1,0.0
+CH,Innovation Hubs_startup incubation_lag10,0.0
+CH,Innovation Hubs_startup incubation_lag11,0.0
+CH,Innovation Hubs_startup incubation_lag2,0.0
+CH,Innovation Hubs_startup incubation_lag3,0.0
+CH,Innovation Hubs_startup incubation_lag4,0.0
+CH,Innovation Hubs_startup incubation_lag5,0.0
+CH,Innovation Hubs_startup incubation_lag6,0.0
+CH,Innovation Hubs_startup incubation_lag7,0.0
+CH,Innovation Hubs_startup incubation_lag8,0.0
+CH,Innovation Hubs_startup incubation_lag9,0.0
+CH,Innovation Hubs_technology park_lag1,0.0
+CH,Innovation Hubs_technology park_lag10,0.0
+CH,Innovation Hubs_technology park_lag11,0.0
+CH,Innovation Hubs_technology park_lag2,0.0
+CH,Innovation Hubs_technology park_lag3,0.0
+CH,Innovation Hubs_technology park_lag4,0.0
+CH,Innovation Hubs_technology park_lag5,0.0
+CH,Innovation Hubs_technology park_lag6,0.0
+CH,Innovation Hubs_technology park_lag7,0.0
+CH,Innovation Hubs_technology park_lag8,0.0
+CH,Innovation Hubs_technology park_lag9,0.0
+CH,Month,-0.01872169498819858
+CH,Patent Attorneys_patent attorney_lag1,0.0
+CH,Patent Attorneys_patent attorney_lag10,0.0
+CH,Patent Attorneys_patent attorney_lag11,0.0
+CH,Patent Attorneys_patent attorney_lag2,0.0
+CH,Patent Attorneys_patent attorney_lag3,0.0
+CH,Patent Attorneys_patent attorney_lag4,0.0
+CH,Patent Attorneys_patent attorney_lag5,0.0
+CH,Patent Attorneys_patent attorney_lag6,0.0
+CH,Patent Attorneys_patent attorney_lag7,0.0
+CH,Patent Attorneys_patent attorney_lag8,0.0
+CH,Patent Attorneys_patent attorney_lag9,0.0
+CH,Patent Attorneys_patent registration_lag1,0.0
+CH,Patent Attorneys_patent registration_lag10,0.0
+CH,Patent Attorneys_patent registration_lag11,0.0
+CH,Patent Attorneys_patent registration_lag2,0.0
+CH,Patent Attorneys_patent registration_lag3,0.0
+CH,Patent Attorneys_patent registration_lag4,0.0
+CH,Patent Attorneys_patent registration_lag5,0.0
+CH,Patent Attorneys_patent registration_lag6,0.0
+CH,Patent Attorneys_patent registration_lag7,0.0
+CH,Patent Attorneys_patent registration_lag8,0.0
+CH,Patent Attorneys_patent registration_lag9,0.0
+CH,R&D Employees_R&D jobs_lag1,0.0
+CH,R&D Employees_R&D jobs_lag10,0.0
+CH,R&D Employees_R&D jobs_lag11,0.0
+CH,R&D Employees_R&D jobs_lag2,0.0
+CH,R&D Employees_R&D jobs_lag3,0.0
+CH,R&D Employees_R&D jobs_lag4,0.0
+CH,R&D Employees_R&D jobs_lag5,0.0
+CH,R&D Employees_R&D jobs_lag6,0.0
+CH,R&D Employees_R&D jobs_lag7,0.0
+CH,R&D Employees_R&D jobs_lag8,0.0
+CH,R&D Employees_R&D jobs_lag9,0.0
+CH,Research Institutions_collaboration with industry_lag1,0.0
+CH,Research Institutions_collaboration with industry_lag10,0.0
+CH,Research Institutions_collaboration with industry_lag11,0.0
+CH,Research Institutions_collaboration with industry_lag2,0.0
+CH,Research Institutions_collaboration with industry_lag3,0.0
+CH,Research Institutions_collaboration with industry_lag4,0.0
+CH,Research Institutions_collaboration with industry_lag5,0.0
+CH,Research Institutions_collaboration with industry_lag6,0.0
+CH,Research Institutions_collaboration with industry_lag7,0.0
+CH,Research Institutions_collaboration with industry_lag8,0.0
+CH,Research Institutions_collaboration with industry_lag9,0.0
+CH,Research Institutions_research grant_lag1,0.0
+CH,Research Institutions_research grant_lag10,0.0
+CH,Research Institutions_research grant_lag11,0.0
+CH,Research Institutions_research grant_lag2,0.0
+CH,Research Institutions_research grant_lag3,0.0
+CH,Research Institutions_research grant_lag4,0.0
+CH,Research Institutions_research grant_lag5,0.0
+CH,Research Institutions_research grant_lag6,0.0
+CH,Research Institutions_research grant_lag7,0.0
+CH,Research Institutions_research grant_lag8,0.0
+CH,Research Institutions_research grant_lag9,0.0
+CH,Tax Authorities_R&D tax credit_lag1,0.0
+CH,Tax Authorities_R&D tax credit_lag10,0.0
+CH,Tax Authorities_R&D tax credit_lag11,0.0
+CH,Tax Authorities_R&D tax credit_lag2,0.0
+CH,Tax Authorities_R&D tax credit_lag3,0.0
+CH,Tax Authorities_R&D tax credit_lag4,0.0
+CH,Tax Authorities_R&D tax credit_lag5,0.0
+CH,Tax Authorities_R&D tax credit_lag6,0.0
+CH,Tax Authorities_R&D tax credit_lag7,0.0
+CH,Tax Authorities_R&D tax credit_lag8,0.0
+CH,Tax Authorities_R&D tax credit_lag9,0.0
+CH,VCs_VC investment_lag1,0.0
+CH,VCs_VC investment_lag10,0.0
+CH,VCs_VC investment_lag11,0.0
+CH,VCs_VC investment_lag2,0.0
+CH,VCs_VC investment_lag3,0.0
+CH,VCs_VC investment_lag4,0.0
+CH,VCs_VC investment_lag5,0.0
+CH,VCs_VC investment_lag6,0.0
+CH,VCs_VC investment_lag7,0.0
+CH,VCs_VC investment_lag8,0.0
+CH,VCs_VC investment_lag9,0.0
+CH,VCs_startup funding_lag1,0.0
+CH,VCs_startup funding_lag10,0.0
+CH,VCs_startup funding_lag11,0.0
+CH,VCs_startup funding_lag2,0.0
+CH,VCs_startup funding_lag3,0.0
+CH,VCs_startup funding_lag4,0.0
+CH,VCs_startup funding_lag5,0.0
+CH,VCs_startup funding_lag6,0.0
+CH,VCs_startup funding_lag7,0.0
+CH,VCs_startup funding_lag8,0.0
+CH,VCs_startup funding_lag9,0.0
+CH,Year,-0.0948126814328134
+CH,export_vol_lag1,-0.000132560820981098
+CH,export_vol_lag2,-0.0009795628340270924
+CH,gdpca_lag1,0.4508237585425377
+CH,gdpca_lag2,-0.4411099530756474
+CH,import_vol_lag1,0.0012201942533465627
+CH,import_vol_lag2,0.00037096342643963
+CH,inflation_lag1,-0.0024329347110324307
+CH,inflation_lag2,-0.0031846617966948543
+CH,population_lag1,0.00022880240621816483
+CH,population_lag2,0.00019427223254524505
+CH,rd_expenditure_lag1,0.7488444693386554
+CH,rd_expenditure_lag2,0.22419278491288425
+CH,rd_expenditure_missing_lag1,0.0
+CH,rd_expenditure_missing_lag2,0.0
+CH,unemp_rate_lag1,-0.001161719568335684
+CH,unemp_rate_lag2,-0.001074080706894165
+CN,Businesses_R&D expenditure_lag1,0.0
+CN,Businesses_R&D expenditure_lag10,0.0
+CN,Businesses_R&D expenditure_lag11,0.0
+CN,Businesses_R&D expenditure_lag2,0.0
+CN,Businesses_R&D expenditure_lag3,0.0
+CN,Businesses_R&D expenditure_lag4,0.0
+CN,Businesses_R&D expenditure_lag5,0.0
+CN,Businesses_R&D expenditure_lag6,0.0
+CN,Businesses_R&D expenditure_lag7,0.0
+CN,Businesses_R&D expenditure_lag8,0.0
+CN,Businesses_R&D expenditure_lag9,0.0
+CN,Businesses_product development_lag1,0.0
+CN,Businesses_product development_lag10,0.0
+CN,Businesses_product development_lag11,0.0
+CN,Businesses_product development_lag2,0.0
+CN,Businesses_product development_lag3,0.0
+CN,Businesses_product development_lag4,0.0
+CN,Businesses_product development_lag5,0.0
+CN,Businesses_product development_lag6,0.0
+CN,Businesses_product development_lag7,0.0
+CN,Businesses_product development_lag8,0.0
+CN,Businesses_product development_lag9,0.0
+CN,Consulting Firms_innovation management_lag1,0.0
+CN,Consulting Firms_innovation management_lag10,0.0
+CN,Consulting Firms_innovation management_lag11,0.0
+CN,Consulting Firms_innovation management_lag2,0.0
+CN,Consulting Firms_innovation management_lag3,0.0
+CN,Consulting Firms_innovation management_lag4,0.0
+CN,Consulting Firms_innovation management_lag5,0.0
+CN,Consulting Firms_innovation management_lag6,0.0
+CN,Consulting Firms_innovation management_lag7,0.0
+CN,Consulting Firms_innovation management_lag8,0.0
+CN,Consulting Firms_innovation management_lag9,0.0
+CN,Consulting Firms_innovation strategy_lag1,0.0
+CN,Consulting Firms_innovation strategy_lag10,0.0
+CN,Consulting Firms_innovation strategy_lag11,0.0
+CN,Consulting Firms_innovation strategy_lag2,0.0
+CN,Consulting Firms_innovation strategy_lag3,0.0
+CN,Consulting Firms_innovation strategy_lag4,0.0
+CN,Consulting Firms_innovation strategy_lag5,0.0
+CN,Consulting Firms_innovation strategy_lag6,0.0
+CN,Consulting Firms_innovation strategy_lag7,0.0
+CN,Consulting Firms_innovation strategy_lag8,0.0
+CN,Consulting Firms_innovation strategy_lag9,0.0
+CN,Government agencies_government grants_lag1,0.0
+CN,Government agencies_government grants_lag10,0.0
+CN,Government agencies_government grants_lag11,0.0
+CN,Government agencies_government grants_lag2,0.0
+CN,Government agencies_government grants_lag3,0.0
+CN,Government agencies_government grants_lag4,0.0
+CN,Government agencies_government grants_lag5,0.0
+CN,Government agencies_government grants_lag6,0.0
+CN,Government agencies_government grants_lag7,0.0
+CN,Government agencies_government grants_lag8,0.0
+CN,Government agencies_government grants_lag9,0.0
+CN,Government agencies_research funding_lag1,0.0
+CN,Government agencies_research funding_lag10,0.0
+CN,Government agencies_research funding_lag11,0.0
+CN,Government agencies_research funding_lag2,0.0
+CN,Government agencies_research funding_lag3,0.0
+CN,Government agencies_research funding_lag4,0.0
+CN,Government agencies_research funding_lag5,0.0
+CN,Government agencies_research funding_lag6,0.0
+CN,Government agencies_research funding_lag7,0.0
+CN,Government agencies_research funding_lag8,0.0
+CN,Government agencies_research funding_lag9,0.0
+CN,Innovation Hubs_startup incubation_lag1,0.0
+CN,Innovation Hubs_startup incubation_lag10,0.0
+CN,Innovation Hubs_startup incubation_lag11,0.0
+CN,Innovation Hubs_startup incubation_lag2,0.0
+CN,Innovation Hubs_startup incubation_lag3,0.0
+CN,Innovation Hubs_startup incubation_lag4,0.0
+CN,Innovation Hubs_startup incubation_lag5,0.0
+CN,Innovation Hubs_startup incubation_lag6,0.0
+CN,Innovation Hubs_startup incubation_lag7,0.0
+CN,Innovation Hubs_startup incubation_lag8,0.0
+CN,Innovation Hubs_startup incubation_lag9,0.0
+CN,Innovation Hubs_technology park_lag1,0.0
+CN,Innovation Hubs_technology park_lag10,0.0
+CN,Innovation Hubs_technology park_lag11,0.0
+CN,Innovation Hubs_technology park_lag2,0.0
+CN,Innovation Hubs_technology park_lag3,0.0
+CN,Innovation Hubs_technology park_lag4,0.0
+CN,Innovation Hubs_technology park_lag5,0.0
+CN,Innovation Hubs_technology park_lag6,0.0
+CN,Innovation Hubs_technology park_lag7,0.0
+CN,Innovation Hubs_technology park_lag8,0.0
+CN,Innovation Hubs_technology park_lag9,0.0
+CN,Month,-0.0016280557027367531
+CN,Patent Attorneys_patent attorney_lag1,0.0
+CN,Patent Attorneys_patent attorney_lag10,0.0
+CN,Patent Attorneys_patent attorney_lag11,0.0
+CN,Patent Attorneys_patent attorney_lag2,0.0
+CN,Patent Attorneys_patent attorney_lag3,0.0
+CN,Patent Attorneys_patent attorney_lag4,0.0
+CN,Patent Attorneys_patent attorney_lag5,0.0
+CN,Patent Attorneys_patent attorney_lag6,0.0
+CN,Patent Attorneys_patent attorney_lag7,0.0
+CN,Patent Attorneys_patent attorney_lag8,0.0
+CN,Patent Attorneys_patent attorney_lag9,0.0
+CN,Patent Attorneys_patent registration_lag1,0.0
+CN,Patent Attorneys_patent registration_lag10,0.0
+CN,Patent Attorneys_patent registration_lag11,0.0
+CN,Patent Attorneys_patent registration_lag2,0.0
+CN,Patent Attorneys_patent registration_lag3,0.0
+CN,Patent Attorneys_patent registration_lag4,0.0
+CN,Patent Attorneys_patent registration_lag5,0.0
+CN,Patent Attorneys_patent registration_lag6,0.0
+CN,Patent Attorneys_patent registration_lag7,0.0
+CN,Patent Attorneys_patent registration_lag8,0.0
+CN,Patent Attorneys_patent registration_lag9,0.0
+CN,R&D Employees_R&D jobs_lag1,0.0
+CN,R&D Employees_R&D jobs_lag10,0.0
+CN,R&D Employees_R&D jobs_lag11,0.0
+CN,R&D Employees_R&D jobs_lag2,0.0
+CN,R&D Employees_R&D jobs_lag3,0.0
+CN,R&D Employees_R&D jobs_lag4,0.0
+CN,R&D Employees_R&D jobs_lag5,0.0
+CN,R&D Employees_R&D jobs_lag6,0.0
+CN,R&D Employees_R&D jobs_lag7,0.0
+CN,R&D Employees_R&D jobs_lag8,0.0
+CN,R&D Employees_R&D jobs_lag9,0.0
+CN,Research Institutions_collaboration with industry_lag1,0.0
+CN,Research Institutions_collaboration with industry_lag10,0.0
+CN,Research Institutions_collaboration with industry_lag11,0.0
+CN,Research Institutions_collaboration with industry_lag2,0.0
+CN,Research Institutions_collaboration with industry_lag3,0.0
+CN,Research Institutions_collaboration with industry_lag4,0.0
+CN,Research Institutions_collaboration with industry_lag5,0.0
+CN,Research Institutions_collaboration with industry_lag6,0.0
+CN,Research Institutions_collaboration with industry_lag7,0.0
+CN,Research Institutions_collaboration with industry_lag8,0.0
+CN,Research Institutions_collaboration with industry_lag9,0.0
+CN,Research Institutions_research grant_lag1,0.0
+CN,Research Institutions_research grant_lag10,0.0
+CN,Research Institutions_research grant_lag11,0.0
+CN,Research Institutions_research grant_lag2,0.0
+CN,Research Institutions_research grant_lag3,0.0
+CN,Research Institutions_research grant_lag4,0.0
+CN,Research Institutions_research grant_lag5,0.0
+CN,Research Institutions_research grant_lag6,0.0
+CN,Research Institutions_research grant_lag7,0.0
+CN,Research Institutions_research grant_lag8,0.0
+CN,Research Institutions_research grant_lag9,0.0
+CN,Tax Authorities_R&D tax credit_lag1,0.0
+CN,Tax Authorities_R&D tax credit_lag10,0.0
+CN,Tax Authorities_R&D tax credit_lag11,0.0
+CN,Tax Authorities_R&D tax credit_lag2,0.0
+CN,Tax Authorities_R&D tax credit_lag3,0.0
+CN,Tax Authorities_R&D tax credit_lag4,0.0
+CN,Tax Authorities_R&D tax credit_lag5,0.0
+CN,Tax Authorities_R&D tax credit_lag6,0.0
+CN,Tax Authorities_R&D tax credit_lag7,0.0
+CN,Tax Authorities_R&D tax credit_lag8,0.0
+CN,Tax Authorities_R&D tax credit_lag9,0.0
+CN,VCs_VC investment_lag1,0.0
+CN,VCs_VC investment_lag10,0.0
+CN,VCs_VC investment_lag11,0.0
+CN,VCs_VC investment_lag2,0.0
+CN,VCs_VC investment_lag3,0.0
+CN,VCs_VC investment_lag4,0.0
+CN,VCs_VC investment_lag5,0.0
+CN,VCs_VC investment_lag6,0.0
+CN,VCs_VC investment_lag7,0.0
+CN,VCs_VC investment_lag8,0.0
+CN,VCs_VC investment_lag9,0.0
+CN,VCs_startup funding_lag1,0.0
+CN,VCs_startup funding_lag10,0.0
+CN,VCs_startup funding_lag11,0.0
+CN,VCs_startup funding_lag2,0.0
+CN,VCs_startup funding_lag3,0.0
+CN,VCs_startup funding_lag4,0.0
+CN,VCs_startup funding_lag5,0.0
+CN,VCs_startup funding_lag6,0.0
+CN,VCs_startup funding_lag7,0.0
+CN,VCs_startup funding_lag8,0.0
+CN,VCs_startup funding_lag9,0.0
+CN,Year,-0.00911406808603636
+CN,export_vol_lag1,-9.495265317127632e-05
+CN,export_vol_lag2,-0.0004364698354868818
+CN,gdpca_lag1,0.0062928392511347065
+CN,gdpca_lag2,-0.005411105457460508
+CN,import_vol_lag1,0.0005588751030027988
+CN,import_vol_lag2,0.0001298123352507505
+CN,inflation_lag1,-0.0001931778604518078
+CN,inflation_lag2,-0.0002563632540841354
+CN,population_lag1,0.005124135885347166
+CN,population_lag2,0.004550390526065198
+CN,rd_expenditure_lag1,0.7483174103757609
+CN,rd_expenditure_lag2,0.2374814717018086
+CN,rd_expenditure_missing_lag1,0.0
+CN,rd_expenditure_missing_lag2,0.0
+CN,unemp_rate_lag1,-0.00015294277326693588
+CN,unemp_rate_lag2,-0.00014302900755232574
+DE,Businesses_R&D expenditure_lag1,0.0
+DE,Businesses_R&D expenditure_lag10,0.0
+DE,Businesses_R&D expenditure_lag11,0.0
+DE,Businesses_R&D expenditure_lag2,0.0
+DE,Businesses_R&D expenditure_lag3,0.0
+DE,Businesses_R&D expenditure_lag4,0.0
+DE,Businesses_R&D expenditure_lag5,0.0
+DE,Businesses_R&D expenditure_lag6,0.0
+DE,Businesses_R&D expenditure_lag7,0.0
+DE,Businesses_R&D expenditure_lag8,0.0
+DE,Businesses_R&D expenditure_lag9,0.0
+DE,Businesses_product development_lag1,0.0
+DE,Businesses_product development_lag10,0.0
+DE,Businesses_product development_lag11,0.0
+DE,Businesses_product development_lag2,0.0
+DE,Businesses_product development_lag3,0.0
+DE,Businesses_product development_lag4,0.0
+DE,Businesses_product development_lag5,0.0
+DE,Businesses_product development_lag6,0.0
+DE,Businesses_product development_lag7,0.0
+DE,Businesses_product development_lag8,0.0
+DE,Businesses_product development_lag9,0.0
+DE,Consulting Firms_innovation management_lag1,0.0
+DE,Consulting Firms_innovation management_lag10,0.0
+DE,Consulting Firms_innovation management_lag11,0.0
+DE,Consulting Firms_innovation management_lag2,0.0
+DE,Consulting Firms_innovation management_lag3,0.0
+DE,Consulting Firms_innovation management_lag4,0.0
+DE,Consulting Firms_innovation management_lag5,0.0
+DE,Consulting Firms_innovation management_lag6,0.0
+DE,Consulting Firms_innovation management_lag7,0.0
+DE,Consulting Firms_innovation management_lag8,0.0
+DE,Consulting Firms_innovation management_lag9,0.0
+DE,Consulting Firms_innovation strategy_lag1,0.0
+DE,Consulting Firms_innovation strategy_lag10,0.0
+DE,Consulting Firms_innovation strategy_lag11,0.0
+DE,Consulting Firms_innovation strategy_lag2,0.0
+DE,Consulting Firms_innovation strategy_lag3,0.0
+DE,Consulting Firms_innovation strategy_lag4,0.0
+DE,Consulting Firms_innovation strategy_lag5,0.0
+DE,Consulting Firms_innovation strategy_lag6,0.0
+DE,Consulting Firms_innovation strategy_lag7,0.0
+DE,Consulting Firms_innovation strategy_lag8,0.0
+DE,Consulting Firms_innovation strategy_lag9,0.0
+DE,Government agencies_government grants_lag1,0.0
+DE,Government agencies_government grants_lag10,0.0
+DE,Government agencies_government grants_lag11,0.0
+DE,Government agencies_government grants_lag2,0.0
+DE,Government agencies_government grants_lag3,0.0
+DE,Government agencies_government grants_lag4,0.0
+DE,Government agencies_government grants_lag5,0.0
+DE,Government agencies_government grants_lag6,0.0
+DE,Government agencies_government grants_lag7,0.0
+DE,Government agencies_government grants_lag8,0.0
+DE,Government agencies_government grants_lag9,0.0
+DE,Government agencies_research funding_lag1,0.0
+DE,Government agencies_research funding_lag10,0.0
+DE,Government agencies_research funding_lag11,0.0
+DE,Government agencies_research funding_lag2,0.0
+DE,Government agencies_research funding_lag3,0.0
+DE,Government agencies_research funding_lag4,0.0
+DE,Government agencies_research funding_lag5,0.0
+DE,Government agencies_research funding_lag6,0.0
+DE,Government agencies_research funding_lag7,0.0
+DE,Government agencies_research funding_lag8,0.0
+DE,Government agencies_research funding_lag9,0.0
+DE,Innovation Hubs_startup incubation_lag1,0.0
+DE,Innovation Hubs_startup incubation_lag10,0.0
+DE,Innovation Hubs_startup incubation_lag11,0.0
+DE,Innovation Hubs_startup incubation_lag2,0.0
+DE,Innovation Hubs_startup incubation_lag3,0.0
+DE,Innovation Hubs_startup incubation_lag4,0.0
+DE,Innovation Hubs_startup incubation_lag5,0.0
+DE,Innovation Hubs_startup incubation_lag6,0.0
+DE,Innovation Hubs_startup incubation_lag7,0.0
+DE,Innovation Hubs_startup incubation_lag8,0.0
+DE,Innovation Hubs_startup incubation_lag9,0.0
+DE,Innovation Hubs_technology park_lag1,0.0
+DE,Innovation Hubs_technology park_lag10,0.0
+DE,Innovation Hubs_technology park_lag11,0.0
+DE,Innovation Hubs_technology park_lag2,0.0
+DE,Innovation Hubs_technology park_lag3,0.0
+DE,Innovation Hubs_technology park_lag4,0.0
+DE,Innovation Hubs_technology park_lag5,0.0
+DE,Innovation Hubs_technology park_lag6,0.0
+DE,Innovation Hubs_technology park_lag7,0.0
+DE,Innovation Hubs_technology park_lag8,0.0
+DE,Innovation Hubs_technology park_lag9,0.0
+DE,Month,-0.002685250611896415
+DE,Patent Attorneys_patent attorney_lag1,0.0
+DE,Patent Attorneys_patent attorney_lag10,0.0
+DE,Patent Attorneys_patent attorney_lag11,0.0
+DE,Patent Attorneys_patent attorney_lag2,0.0
+DE,Patent Attorneys_patent attorney_lag3,0.0
+DE,Patent Attorneys_patent attorney_lag4,0.0
+DE,Patent Attorneys_patent attorney_lag5,0.0
+DE,Patent Attorneys_patent attorney_lag6,0.0
+DE,Patent Attorneys_patent attorney_lag7,0.0
+DE,Patent Attorneys_patent attorney_lag8,0.0
+DE,Patent Attorneys_patent attorney_lag9,0.0
+DE,Patent Attorneys_patent registration_lag1,0.0
+DE,Patent Attorneys_patent registration_lag10,0.0
+DE,Patent Attorneys_patent registration_lag11,0.0
+DE,Patent Attorneys_patent registration_lag2,0.0
+DE,Patent Attorneys_patent registration_lag3,0.0
+DE,Patent Attorneys_patent registration_lag4,0.0
+DE,Patent Attorneys_patent registration_lag5,0.0
+DE,Patent Attorneys_patent registration_lag6,0.0
+DE,Patent Attorneys_patent registration_lag7,0.0
+DE,Patent Attorneys_patent registration_lag8,0.0
+DE,Patent Attorneys_patent registration_lag9,0.0
+DE,R&D Employees_R&D jobs_lag1,0.0
+DE,R&D Employees_R&D jobs_lag10,0.0
+DE,R&D Employees_R&D jobs_lag11,0.0
+DE,R&D Employees_R&D jobs_lag2,0.0
+DE,R&D Employees_R&D jobs_lag3,0.0
+DE,R&D Employees_R&D jobs_lag4,0.0
+DE,R&D Employees_R&D jobs_lag5,0.0
+DE,R&D Employees_R&D jobs_lag6,0.0
+DE,R&D Employees_R&D jobs_lag7,0.0
+DE,R&D Employees_R&D jobs_lag8,0.0
+DE,R&D Employees_R&D jobs_lag9,0.0
+DE,Research Institutions_collaboration with industry_lag1,0.0
+DE,Research Institutions_collaboration with industry_lag10,0.0
+DE,Research Institutions_collaboration with industry_lag11,0.0
+DE,Research Institutions_collaboration with industry_lag2,0.0
+DE,Research Institutions_collaboration with industry_lag3,0.0
+DE,Research Institutions_collaboration with industry_lag4,0.0
+DE,Research Institutions_collaboration with industry_lag5,0.0
+DE,Research Institutions_collaboration with industry_lag6,0.0
+DE,Research Institutions_collaboration with industry_lag7,0.0
+DE,Research Institutions_collaboration with industry_lag8,0.0
+DE,Research Institutions_collaboration with industry_lag9,0.0
+DE,Research Institutions_research grant_lag1,0.0
+DE,Research Institutions_research grant_lag10,0.0
+DE,Research Institutions_research grant_lag11,0.0
+DE,Research Institutions_research grant_lag2,0.0
+DE,Research Institutions_research grant_lag3,0.0
+DE,Research Institutions_research grant_lag4,0.0
+DE,Research Institutions_research grant_lag5,0.0
+DE,Research Institutions_research grant_lag6,0.0
+DE,Research Institutions_research grant_lag7,0.0
+DE,Research Institutions_research grant_lag8,0.0
+DE,Research Institutions_research grant_lag9,0.0
+DE,Tax Authorities_R&D tax credit_lag1,0.0
+DE,Tax Authorities_R&D tax credit_lag10,0.0
+DE,Tax Authorities_R&D tax credit_lag11,0.0
+DE,Tax Authorities_R&D tax credit_lag2,0.0
+DE,Tax Authorities_R&D tax credit_lag3,0.0
+DE,Tax Authorities_R&D tax credit_lag4,0.0
+DE,Tax Authorities_R&D tax credit_lag5,0.0
+DE,Tax Authorities_R&D tax credit_lag6,0.0
+DE,Tax Authorities_R&D tax credit_lag7,0.0
+DE,Tax Authorities_R&D tax credit_lag8,0.0
+DE,Tax Authorities_R&D tax credit_lag9,0.0
+DE,VCs_VC investment_lag1,0.0
+DE,VCs_VC investment_lag10,0.0
+DE,VCs_VC investment_lag11,0.0
+DE,VCs_VC investment_lag2,0.0
+DE,VCs_VC investment_lag3,0.0
+DE,VCs_VC investment_lag4,0.0
+DE,VCs_VC investment_lag5,0.0
+DE,VCs_VC investment_lag6,0.0
+DE,VCs_VC investment_lag7,0.0
+DE,VCs_VC investment_lag8,0.0
+DE,VCs_VC investment_lag9,0.0
+DE,VCs_startup funding_lag1,0.0
+DE,VCs_startup funding_lag10,0.0
+DE,VCs_startup funding_lag11,0.0
+DE,VCs_startup funding_lag2,0.0
+DE,VCs_startup funding_lag3,0.0
+DE,VCs_startup funding_lag4,0.0
+DE,VCs_startup funding_lag5,0.0
+DE,VCs_startup funding_lag6,0.0
+DE,VCs_startup funding_lag7,0.0
+DE,VCs_startup funding_lag8,0.0
+DE,VCs_startup funding_lag9,0.0
+DE,Year,-0.016059031787638862
+DE,export_vol_lag1,-2.9168067123574666e-05
+DE,export_vol_lag2,-0.0002085573941754278
+DE,gdpca_lag1,0.05621460456909104
+DE,gdpca_lag2,-0.058746876674845364
+DE,import_vol_lag1,0.0003499765585509136
+DE,import_vol_lag2,8.934336711153071e-05
+DE,inflation_lag1,-0.00038733022875297166
+DE,inflation_lag2,-0.000511281796648153
+DE,population_lag1,0.0005120903830781268
+DE,population_lag2,0.00045157196919634856
+DE,rd_expenditure_lag1,0.7697295681996779
+DE,rd_expenditure_lag2,0.2286387558913592
+DE,rd_expenditure_missing_lag1,0.0
+DE,rd_expenditure_missing_lag2,0.0
+DE,unemp_rate_lag1,-0.0004063550890295477
+DE,unemp_rate_lag2,-0.00037767762720856507
+GB,Businesses_R&D expenditure_lag1,0.0
+GB,Businesses_R&D expenditure_lag10,0.0
+GB,Businesses_R&D expenditure_lag11,0.0
+GB,Businesses_R&D expenditure_lag2,0.0
+GB,Businesses_R&D expenditure_lag3,0.0
+GB,Businesses_R&D expenditure_lag4,0.0
+GB,Businesses_R&D expenditure_lag5,0.0
+GB,Businesses_R&D expenditure_lag6,0.0
+GB,Businesses_R&D expenditure_lag7,0.0
+GB,Businesses_R&D expenditure_lag8,0.0
+GB,Businesses_R&D expenditure_lag9,0.0
+GB,Businesses_product development_lag1,0.0
+GB,Businesses_product development_lag10,0.0
+GB,Businesses_product development_lag11,0.0
+GB,Businesses_product development_lag2,0.0
+GB,Businesses_product development_lag3,0.0
+GB,Businesses_product development_lag4,0.0
+GB,Businesses_product development_lag5,0.0
+GB,Businesses_product development_lag6,0.0
+GB,Businesses_product development_lag7,0.0
+GB,Businesses_product development_lag8,0.0
+GB,Businesses_product development_lag9,0.0
+GB,Consulting Firms_innovation management_lag1,0.0
+GB,Consulting Firms_innovation management_lag10,0.0
+GB,Consulting Firms_innovation management_lag11,0.0
+GB,Consulting Firms_innovation management_lag2,0.0
+GB,Consulting Firms_innovation management_lag3,0.0
+GB,Consulting Firms_innovation management_lag4,0.0
+GB,Consulting Firms_innovation management_lag5,0.0
+GB,Consulting Firms_innovation management_lag6,0.0
+GB,Consulting Firms_innovation management_lag7,0.0
+GB,Consulting Firms_innovation management_lag8,0.0
+GB,Consulting Firms_innovation management_lag9,0.0
+GB,Consulting Firms_innovation strategy_lag1,0.0
+GB,Consulting Firms_innovation strategy_lag10,0.0
+GB,Consulting Firms_innovation strategy_lag11,0.0
+GB,Consulting Firms_innovation strategy_lag2,0.0
+GB,Consulting Firms_innovation strategy_lag3,0.0
+GB,Consulting Firms_innovation strategy_lag4,0.0
+GB,Consulting Firms_innovation strategy_lag5,0.0
+GB,Consulting Firms_innovation strategy_lag6,0.0
+GB,Consulting Firms_innovation strategy_lag7,0.0
+GB,Consulting Firms_innovation strategy_lag8,0.0
+GB,Consulting Firms_innovation strategy_lag9,0.0
+GB,Government agencies_government grants_lag1,0.0
+GB,Government agencies_government grants_lag10,0.0
+GB,Government agencies_government grants_lag11,0.0
+GB,Government agencies_government grants_lag2,0.0
+GB,Government agencies_government grants_lag3,0.0
+GB,Government agencies_government grants_lag4,0.0
+GB,Government agencies_government grants_lag5,0.0
+GB,Government agencies_government grants_lag6,0.0
+GB,Government agencies_government grants_lag7,0.0
+GB,Government agencies_government grants_lag8,0.0
+GB,Government agencies_government grants_lag9,0.0
+GB,Government agencies_research funding_lag1,0.0
+GB,Government agencies_research funding_lag10,0.0
+GB,Government agencies_research funding_lag11,0.0
+GB,Government agencies_research funding_lag2,0.0
+GB,Government agencies_research funding_lag3,0.0
+GB,Government agencies_research funding_lag4,0.0
+GB,Government agencies_research funding_lag5,0.0
+GB,Government agencies_research funding_lag6,0.0
+GB,Government agencies_research funding_lag7,0.0
+GB,Government agencies_research funding_lag8,0.0
+GB,Government agencies_research funding_lag9,0.0
+GB,Innovation Hubs_startup incubation_lag1,0.0
+GB,Innovation Hubs_startup incubation_lag10,0.0
+GB,Innovation Hubs_startup incubation_lag11,0.0
+GB,Innovation Hubs_startup incubation_lag2,0.0
+GB,Innovation Hubs_startup incubation_lag3,0.0
+GB,Innovation Hubs_startup incubation_lag4,0.0
+GB,Innovation Hubs_startup incubation_lag5,0.0
+GB,Innovation Hubs_startup incubation_lag6,0.0
+GB,Innovation Hubs_startup incubation_lag7,0.0
+GB,Innovation Hubs_startup incubation_lag8,0.0
+GB,Innovation Hubs_startup incubation_lag9,0.0
+GB,Innovation Hubs_technology park_lag1,0.0
+GB,Innovation Hubs_technology park_lag10,0.0
+GB,Innovation Hubs_technology park_lag11,0.0
+GB,Innovation Hubs_technology park_lag2,0.0
+GB,Innovation Hubs_technology park_lag3,0.0
+GB,Innovation Hubs_technology park_lag4,0.0
+GB,Innovation Hubs_technology park_lag5,0.0
+GB,Innovation Hubs_technology park_lag6,0.0
+GB,Innovation Hubs_technology park_lag7,0.0
+GB,Innovation Hubs_technology park_lag8,0.0
+GB,Innovation Hubs_technology park_lag9,0.0
+GB,Month,-0.005972906344270866
+GB,Patent Attorneys_patent attorney_lag1,0.0
+GB,Patent Attorneys_patent attorney_lag10,0.0
+GB,Patent Attorneys_patent attorney_lag11,0.0
+GB,Patent Attorneys_patent attorney_lag2,0.0
+GB,Patent Attorneys_patent attorney_lag3,0.0
+GB,Patent Attorneys_patent attorney_lag4,0.0
+GB,Patent Attorneys_patent attorney_lag5,0.0
+GB,Patent Attorneys_patent attorney_lag6,0.0
+GB,Patent Attorneys_patent attorney_lag7,0.0
+GB,Patent Attorneys_patent attorney_lag8,0.0
+GB,Patent Attorneys_patent attorney_lag9,0.0
+GB,Patent Attorneys_patent registration_lag1,0.0
+GB,Patent Attorneys_patent registration_lag10,0.0
+GB,Patent Attorneys_patent registration_lag11,0.0
+GB,Patent Attorneys_patent registration_lag2,0.0
+GB,Patent Attorneys_patent registration_lag3,0.0
+GB,Patent Attorneys_patent registration_lag4,0.0
+GB,Patent Attorneys_patent registration_lag5,0.0
+GB,Patent Attorneys_patent registration_lag6,0.0
+GB,Patent Attorneys_patent registration_lag7,0.0
+GB,Patent Attorneys_patent registration_lag8,0.0
+GB,Patent Attorneys_patent registration_lag9,0.0
+GB,R&D Employees_R&D jobs_lag1,0.0
+GB,R&D Employees_R&D jobs_lag10,0.0
+GB,R&D Employees_R&D jobs_lag11,0.0
+GB,R&D Employees_R&D jobs_lag2,0.0
+GB,R&D Employees_R&D jobs_lag3,0.0
+GB,R&D Employees_R&D jobs_lag4,0.0
+GB,R&D Employees_R&D jobs_lag5,0.0
+GB,R&D Employees_R&D jobs_lag6,0.0
+GB,R&D Employees_R&D jobs_lag7,0.0
+GB,R&D Employees_R&D jobs_lag8,0.0
+GB,R&D Employees_R&D jobs_lag9,0.0
+GB,Research Institutions_collaboration with industry_lag1,0.0
+GB,Research Institutions_collaboration with industry_lag10,0.0
+GB,Research Institutions_collaboration with industry_lag11,0.0
+GB,Research Institutions_collaboration with industry_lag2,0.0
+GB,Research Institutions_collaboration with industry_lag3,0.0
+GB,Research Institutions_collaboration with industry_lag4,0.0
+GB,Research Institutions_collaboration with industry_lag5,0.0
+GB,Research Institutions_collaboration with industry_lag6,0.0
+GB,Research Institutions_collaboration with industry_lag7,0.0
+GB,Research Institutions_collaboration with industry_lag8,0.0
+GB,Research Institutions_collaboration with industry_lag9,0.0
+GB,Research Institutions_research grant_lag1,0.0
+GB,Research Institutions_research grant_lag10,0.0
+GB,Research Institutions_research grant_lag11,0.0
+GB,Research Institutions_research grant_lag2,0.0
+GB,Research Institutions_research grant_lag3,0.0
+GB,Research Institutions_research grant_lag4,0.0
+GB,Research Institutions_research grant_lag5,0.0
+GB,Research Institutions_research grant_lag6,0.0
+GB,Research Institutions_research grant_lag7,0.0
+GB,Research Institutions_research grant_lag8,0.0
+GB,Research Institutions_research grant_lag9,0.0
+GB,Tax Authorities_R&D tax credit_lag1,0.0
+GB,Tax Authorities_R&D tax credit_lag10,0.0
+GB,Tax Authorities_R&D tax credit_lag11,0.0
+GB,Tax Authorities_R&D tax credit_lag2,0.0
+GB,Tax Authorities_R&D tax credit_lag3,0.0
+GB,Tax Authorities_R&D tax credit_lag4,0.0
+GB,Tax Authorities_R&D tax credit_lag5,0.0
+GB,Tax Authorities_R&D tax credit_lag6,0.0
+GB,Tax Authorities_R&D tax credit_lag7,0.0
+GB,Tax Authorities_R&D tax credit_lag8,0.0
+GB,Tax Authorities_R&D tax credit_lag9,0.0
+GB,VCs_VC investment_lag1,0.0
+GB,VCs_VC investment_lag10,0.0
+GB,VCs_VC investment_lag11,0.0
+GB,VCs_VC investment_lag2,0.0
+GB,VCs_VC investment_lag3,0.0
+GB,VCs_VC investment_lag4,0.0
+GB,VCs_VC investment_lag5,0.0
+GB,VCs_VC investment_lag6,0.0
+GB,VCs_VC investment_lag7,0.0
+GB,VCs_VC investment_lag8,0.0
+GB,VCs_VC investment_lag9,0.0
+GB,VCs_startup funding_lag1,0.0
+GB,VCs_startup funding_lag10,0.0
+GB,VCs_startup funding_lag11,0.0
+GB,VCs_startup funding_lag2,0.0
+GB,VCs_startup funding_lag3,0.0
+GB,VCs_startup funding_lag4,0.0
+GB,VCs_startup funding_lag5,0.0
+GB,VCs_startup funding_lag6,0.0
+GB,VCs_startup funding_lag7,0.0
+GB,VCs_startup funding_lag8,0.0
+GB,VCs_startup funding_lag9,0.0
+GB,Year,-0.03354012845539229
+GB,export_vol_lag1,-2.81500128675587e-05
+GB,export_vol_lag2,-0.00024796816645752723
+GB,gdpca_lag1,0.09887884768720408
+GB,gdpca_lag2,-0.10560099165746592
+GB,import_vol_lag1,0.00047214190616566494
+GB,import_vol_lag2,0.0001309205687349256
+GB,inflation_lag1,-0.0007830575903741069
+GB,inflation_lag2,-0.0010249373246784344
+GB,population_lag1,0.0007322802181776676
+GB,population_lag2,0.000634210825430779
+GB,rd_expenditure_lag1,0.7778993535758858
+GB,rd_expenditure_lag2,0.22579928302675262
+GB,rd_expenditure_missing_lag1,0.0
+GB,rd_expenditure_missing_lag2,0.0
+GB,unemp_rate_lag1,-0.0007892507149205942
+GB,unemp_rate_lag2,-0.0007338071843964587
+JP,Businesses_R&D expenditure_lag1,0.0
+JP,Businesses_R&D expenditure_lag10,0.0
+JP,Businesses_R&D expenditure_lag11,0.0
+JP,Businesses_R&D expenditure_lag2,0.0
+JP,Businesses_R&D expenditure_lag3,0.0
+JP,Businesses_R&D expenditure_lag4,0.0
+JP,Businesses_R&D expenditure_lag5,0.0
+JP,Businesses_R&D expenditure_lag6,0.0
+JP,Businesses_R&D expenditure_lag7,0.0
+JP,Businesses_R&D expenditure_lag8,0.0
+JP,Businesses_R&D expenditure_lag9,0.0
+JP,Businesses_product development_lag1,0.0
+JP,Businesses_product development_lag10,0.0
+JP,Businesses_product development_lag11,0.0
+JP,Businesses_product development_lag2,0.0
+JP,Businesses_product development_lag3,0.0
+JP,Businesses_product development_lag4,0.0
+JP,Businesses_product development_lag5,0.0
+JP,Businesses_product development_lag6,0.0
+JP,Businesses_product development_lag7,0.0
+JP,Businesses_product development_lag8,0.0
+JP,Businesses_product development_lag9,0.0
+JP,Consulting Firms_innovation management_lag1,0.0
+JP,Consulting Firms_innovation management_lag10,0.0
+JP,Consulting Firms_innovation management_lag11,0.0
+JP,Consulting Firms_innovation management_lag2,0.0
+JP,Consulting Firms_innovation management_lag3,0.0
+JP,Consulting Firms_innovation management_lag4,0.0
+JP,Consulting Firms_innovation management_lag5,0.0
+JP,Consulting Firms_innovation management_lag6,0.0
+JP,Consulting Firms_innovation management_lag7,0.0
+JP,Consulting Firms_innovation management_lag8,0.0
+JP,Consulting Firms_innovation management_lag9,0.0
+JP,Consulting Firms_innovation strategy_lag1,0.0
+JP,Consulting Firms_innovation strategy_lag10,0.0
+JP,Consulting Firms_innovation strategy_lag11,0.0
+JP,Consulting Firms_innovation strategy_lag2,0.0
+JP,Consulting Firms_innovation strategy_lag3,0.0
+JP,Consulting Firms_innovation strategy_lag4,0.0
+JP,Consulting Firms_innovation strategy_lag5,0.0
+JP,Consulting Firms_innovation strategy_lag6,0.0
+JP,Consulting Firms_innovation strategy_lag7,0.0
+JP,Consulting Firms_innovation strategy_lag8,0.0
+JP,Consulting Firms_innovation strategy_lag9,0.0
+JP,Government agencies_government grants_lag1,0.0
+JP,Government agencies_government grants_lag10,0.0
+JP,Government agencies_government grants_lag11,0.0
+JP,Government agencies_government grants_lag2,0.0
+JP,Government agencies_government grants_lag3,0.0
+JP,Government agencies_government grants_lag4,0.0
+JP,Government agencies_government grants_lag5,0.0
+JP,Government agencies_government grants_lag6,0.0
+JP,Government agencies_government grants_lag7,0.0
+JP,Government agencies_government grants_lag8,0.0
+JP,Government agencies_government grants_lag9,0.0
+JP,Government agencies_research funding_lag1,0.0
+JP,Government agencies_research funding_lag10,0.0
+JP,Government agencies_research funding_lag11,0.0
+JP,Government agencies_research funding_lag2,0.0
+JP,Government agencies_research funding_lag3,0.0
+JP,Government agencies_research funding_lag4,0.0
+JP,Government agencies_research funding_lag5,0.0
+JP,Government agencies_research funding_lag6,0.0
+JP,Government agencies_research funding_lag7,0.0
+JP,Government agencies_research funding_lag8,0.0
+JP,Government agencies_research funding_lag9,0.0
+JP,Innovation Hubs_startup incubation_lag1,0.0
+JP,Innovation Hubs_startup incubation_lag10,0.0
+JP,Innovation Hubs_startup incubation_lag11,0.0
+JP,Innovation Hubs_startup incubation_lag2,0.0
+JP,Innovation Hubs_startup incubation_lag3,0.0
+JP,Innovation Hubs_startup incubation_lag4,0.0
+JP,Innovation Hubs_startup incubation_lag5,0.0
+JP,Innovation Hubs_startup incubation_lag6,0.0
+JP,Innovation Hubs_startup incubation_lag7,0.0
+JP,Innovation Hubs_startup incubation_lag8,0.0
+JP,Innovation Hubs_startup incubation_lag9,0.0
+JP,Innovation Hubs_technology park_lag1,0.0
+JP,Innovation Hubs_technology park_lag10,0.0
+JP,Innovation Hubs_technology park_lag11,0.0
+JP,Innovation Hubs_technology park_lag2,0.0
+JP,Innovation Hubs_technology park_lag3,0.0
+JP,Innovation Hubs_technology park_lag4,0.0
+JP,Innovation Hubs_technology park_lag5,0.0
+JP,Innovation Hubs_technology park_lag6,0.0
+JP,Innovation Hubs_technology park_lag7,0.0
+JP,Innovation Hubs_technology park_lag8,0.0
+JP,Innovation Hubs_technology park_lag9,0.0
+JP,Month,-0.001739927425714724
+JP,Patent Attorneys_patent attorney_lag1,0.0
+JP,Patent Attorneys_patent attorney_lag10,0.0
+JP,Patent Attorneys_patent attorney_lag11,0.0
+JP,Patent Attorneys_patent attorney_lag2,0.0
+JP,Patent Attorneys_patent attorney_lag3,0.0
+JP,Patent Attorneys_patent attorney_lag4,0.0
+JP,Patent Attorneys_patent attorney_lag5,0.0
+JP,Patent Attorneys_patent attorney_lag6,0.0
+JP,Patent Attorneys_patent attorney_lag7,0.0
+JP,Patent Attorneys_patent attorney_lag8,0.0
+JP,Patent Attorneys_patent attorney_lag9,0.0
+JP,Patent Attorneys_patent registration_lag1,0.0
+JP,Patent Attorneys_patent registration_lag10,0.0
+JP,Patent Attorneys_patent registration_lag11,0.0
+JP,Patent Attorneys_patent registration_lag2,0.0
+JP,Patent Attorneys_patent registration_lag3,0.0
+JP,Patent Attorneys_patent registration_lag4,0.0
+JP,Patent Attorneys_patent registration_lag5,0.0
+JP,Patent Attorneys_patent registration_lag6,0.0
+JP,Patent Attorneys_patent registration_lag7,0.0
+JP,Patent Attorneys_patent registration_lag8,0.0
+JP,Patent Attorneys_patent registration_lag9,0.0
+JP,R&D Employees_R&D jobs_lag1,0.0
+JP,R&D Employees_R&D jobs_lag10,0.0
+JP,R&D Employees_R&D jobs_lag11,0.0
+JP,R&D Employees_R&D jobs_lag2,0.0
+JP,R&D Employees_R&D jobs_lag3,0.0
+JP,R&D Employees_R&D jobs_lag4,0.0
+JP,R&D Employees_R&D jobs_lag5,0.0
+JP,R&D Employees_R&D jobs_lag6,0.0
+JP,R&D Employees_R&D jobs_lag7,0.0
+JP,R&D Employees_R&D jobs_lag8,0.0
+JP,R&D Employees_R&D jobs_lag9,0.0
+JP,Research Institutions_collaboration with industry_lag1,0.0
+JP,Research Institutions_collaboration with industry_lag10,0.0
+JP,Research Institutions_collaboration with industry_lag11,0.0
+JP,Research Institutions_collaboration with industry_lag2,0.0
+JP,Research Institutions_collaboration with industry_lag3,0.0
+JP,Research Institutions_collaboration with industry_lag4,0.0
+JP,Research Institutions_collaboration with industry_lag5,0.0
+JP,Research Institutions_collaboration with industry_lag6,0.0
+JP,Research Institutions_collaboration with industry_lag7,0.0
+JP,Research Institutions_collaboration with industry_lag8,0.0
+JP,Research Institutions_collaboration with industry_lag9,0.0
+JP,Research Institutions_research grant_lag1,0.0
+JP,Research Institutions_research grant_lag10,0.0
+JP,Research Institutions_research grant_lag11,0.0
+JP,Research Institutions_research grant_lag2,0.0
+JP,Research Institutions_research grant_lag3,0.0
+JP,Research Institutions_research grant_lag4,0.0
+JP,Research Institutions_research grant_lag5,0.0
+JP,Research Institutions_research grant_lag6,0.0
+JP,Research Institutions_research grant_lag7,0.0
+JP,Research Institutions_research grant_lag8,0.0
+JP,Research Institutions_research grant_lag9,0.0
+JP,Tax Authorities_R&D tax credit_lag1,0.0
+JP,Tax Authorities_R&D tax credit_lag10,0.0
+JP,Tax Authorities_R&D tax credit_lag11,0.0
+JP,Tax Authorities_R&D tax credit_lag2,0.0
+JP,Tax Authorities_R&D tax credit_lag3,0.0
+JP,Tax Authorities_R&D tax credit_lag4,0.0
+JP,Tax Authorities_R&D tax credit_lag5,0.0
+JP,Tax Authorities_R&D tax credit_lag6,0.0
+JP,Tax Authorities_R&D tax credit_lag7,0.0
+JP,Tax Authorities_R&D tax credit_lag8,0.0
+JP,Tax Authorities_R&D tax credit_lag9,0.0
+JP,VCs_VC investment_lag1,0.0
+JP,VCs_VC investment_lag10,0.0
+JP,VCs_VC investment_lag11,0.0
+JP,VCs_VC investment_lag2,0.0
+JP,VCs_VC investment_lag3,0.0
+JP,VCs_VC investment_lag4,0.0
+JP,VCs_VC investment_lag5,0.0
+JP,VCs_VC investment_lag6,0.0
+JP,VCs_VC investment_lag7,0.0
+JP,VCs_VC investment_lag8,0.0
+JP,VCs_VC investment_lag9,0.0
+JP,VCs_startup funding_lag1,0.0
+JP,VCs_startup funding_lag10,0.0
+JP,VCs_startup funding_lag11,0.0
+JP,VCs_startup funding_lag2,0.0
+JP,VCs_startup funding_lag3,0.0
+JP,VCs_startup funding_lag4,0.0
+JP,VCs_startup funding_lag5,0.0
+JP,VCs_startup funding_lag6,0.0
+JP,VCs_startup funding_lag7,0.0
+JP,VCs_startup funding_lag8,0.0
+JP,VCs_startup funding_lag9,0.0
+JP,Year,-0.010452187339490307
+JP,export_vol_lag1,-1.1929475836516201e-05
+JP,export_vol_lag2,-8.642673589150294e-05
+JP,gdpca_lag1,0.03055473825018575
+JP,gdpca_lag2,-0.033377577953819015
+JP,import_vol_lag1,0.00010435210181151603
+JP,import_vol_lag2,2.8448638709933358e-05
+JP,inflation_lag1,-0.00025558601732000034
+JP,inflation_lag2,-0.0003392463565718056
+JP,population_lag1,0.0005172204109840095
+JP,population_lag2,0.00045584372573605143
+JP,rd_expenditure_lag1,0.7718479760102371
+JP,rd_expenditure_lag2,0.23070466295996708
+JP,rd_expenditure_missing_lag1,0.0
+JP,rd_expenditure_missing_lag2,0.0
+JP,unemp_rate_lag1,-0.00015935148920432957
+JP,unemp_rate_lag2,-0.00014897509796600077
+KR,Businesses_R&D expenditure_lag1,0.0
+KR,Businesses_R&D expenditure_lag10,0.0
+KR,Businesses_R&D expenditure_lag11,0.0
+KR,Businesses_R&D expenditure_lag2,0.0
+KR,Businesses_R&D expenditure_lag3,0.0
+KR,Businesses_R&D expenditure_lag4,0.0
+KR,Businesses_R&D expenditure_lag5,0.0
+KR,Businesses_R&D expenditure_lag6,0.0
+KR,Businesses_R&D expenditure_lag7,0.0
+KR,Businesses_R&D expenditure_lag8,0.0
+KR,Businesses_R&D expenditure_lag9,0.0
+KR,Businesses_product development_lag1,0.0
+KR,Businesses_product development_lag10,0.0
+KR,Businesses_product development_lag11,0.0
+KR,Businesses_product development_lag2,0.0
+KR,Businesses_product development_lag3,0.0
+KR,Businesses_product development_lag4,0.0
+KR,Businesses_product development_lag5,0.0
+KR,Businesses_product development_lag6,0.0
+KR,Businesses_product development_lag7,0.0
+KR,Businesses_product development_lag8,0.0
+KR,Businesses_product development_lag9,0.0
+KR,Consulting Firms_innovation management_lag1,0.0
+KR,Consulting Firms_innovation management_lag10,0.0
+KR,Consulting Firms_innovation management_lag11,0.0
+KR,Consulting Firms_innovation management_lag2,0.0
+KR,Consulting Firms_innovation management_lag3,0.0
+KR,Consulting Firms_innovation management_lag4,0.0
+KR,Consulting Firms_innovation management_lag5,0.0
+KR,Consulting Firms_innovation management_lag6,0.0
+KR,Consulting Firms_innovation management_lag7,0.0
+KR,Consulting Firms_innovation management_lag8,0.0
+KR,Consulting Firms_innovation management_lag9,0.0
+KR,Consulting Firms_innovation strategy_lag1,0.0
+KR,Consulting Firms_innovation strategy_lag10,0.0
+KR,Consulting Firms_innovation strategy_lag11,0.0
+KR,Consulting Firms_innovation strategy_lag2,0.0
+KR,Consulting Firms_innovation strategy_lag3,0.0
+KR,Consulting Firms_innovation strategy_lag4,0.0
+KR,Consulting Firms_innovation strategy_lag5,0.0
+KR,Consulting Firms_innovation strategy_lag6,0.0
+KR,Consulting Firms_innovation strategy_lag7,0.0
+KR,Consulting Firms_innovation strategy_lag8,0.0
+KR,Consulting Firms_innovation strategy_lag9,0.0
+KR,Government agencies_government grants_lag1,0.0
+KR,Government agencies_government grants_lag10,0.0
+KR,Government agencies_government grants_lag11,0.0
+KR,Government agencies_government grants_lag2,0.0
+KR,Government agencies_government grants_lag3,0.0
+KR,Government agencies_government grants_lag4,0.0
+KR,Government agencies_government grants_lag5,0.0
+KR,Government agencies_government grants_lag6,0.0
+KR,Government agencies_government grants_lag7,0.0
+KR,Government agencies_government grants_lag8,0.0
+KR,Government agencies_government grants_lag9,0.0
+KR,Government agencies_research funding_lag1,0.0
+KR,Government agencies_research funding_lag10,0.0
+KR,Government agencies_research funding_lag11,0.0
+KR,Government agencies_research funding_lag2,0.0
+KR,Government agencies_research funding_lag3,0.0
+KR,Government agencies_research funding_lag4,0.0
+KR,Government agencies_research funding_lag5,0.0
+KR,Government agencies_research funding_lag6,0.0
+KR,Government agencies_research funding_lag7,0.0
+KR,Government agencies_research funding_lag8,0.0
+KR,Government agencies_research funding_lag9,0.0
+KR,Innovation Hubs_startup incubation_lag1,0.0
+KR,Innovation Hubs_startup incubation_lag10,0.0
+KR,Innovation Hubs_startup incubation_lag11,0.0
+KR,Innovation Hubs_startup incubation_lag2,0.0
+KR,Innovation Hubs_startup incubation_lag3,0.0
+KR,Innovation Hubs_startup incubation_lag4,0.0
+KR,Innovation Hubs_startup incubation_lag5,0.0
+KR,Innovation Hubs_startup incubation_lag6,0.0
+KR,Innovation Hubs_startup incubation_lag7,0.0
+KR,Innovation Hubs_startup incubation_lag8,0.0
+KR,Innovation Hubs_startup incubation_lag9,0.0
+KR,Innovation Hubs_technology park_lag1,0.0
+KR,Innovation Hubs_technology park_lag10,0.0
+KR,Innovation Hubs_technology park_lag11,0.0
+KR,Innovation Hubs_technology park_lag2,0.0
+KR,Innovation Hubs_technology park_lag3,0.0
+KR,Innovation Hubs_technology park_lag4,0.0
+KR,Innovation Hubs_technology park_lag5,0.0
+KR,Innovation Hubs_technology park_lag6,0.0
+KR,Innovation Hubs_technology park_lag7,0.0
+KR,Innovation Hubs_technology park_lag8,0.0
+KR,Innovation Hubs_technology park_lag9,0.0
+KR,Month,-0.004916630662068421
+KR,Patent Attorneys_patent attorney_lag1,0.0
+KR,Patent Attorneys_patent attorney_lag10,0.0
+KR,Patent Attorneys_patent attorney_lag11,0.0
+KR,Patent Attorneys_patent attorney_lag2,0.0
+KR,Patent Attorneys_patent attorney_lag3,0.0
+KR,Patent Attorneys_patent attorney_lag4,0.0
+KR,Patent Attorneys_patent attorney_lag5,0.0
+KR,Patent Attorneys_patent attorney_lag6,0.0
+KR,Patent Attorneys_patent attorney_lag7,0.0
+KR,Patent Attorneys_patent attorney_lag8,0.0
+KR,Patent Attorneys_patent attorney_lag9,0.0
+KR,Patent Attorneys_patent registration_lag1,0.0
+KR,Patent Attorneys_patent registration_lag10,0.0
+KR,Patent Attorneys_patent registration_lag11,0.0
+KR,Patent Attorneys_patent registration_lag2,0.0
+KR,Patent Attorneys_patent registration_lag3,0.0
+KR,Patent Attorneys_patent registration_lag4,0.0
+KR,Patent Attorneys_patent registration_lag5,0.0
+KR,Patent Attorneys_patent registration_lag6,0.0
+KR,Patent Attorneys_patent registration_lag7,0.0
+KR,Patent Attorneys_patent registration_lag8,0.0
+KR,Patent Attorneys_patent registration_lag9,0.0
+KR,R&D Employees_R&D jobs_lag1,0.0
+KR,R&D Employees_R&D jobs_lag10,0.0
+KR,R&D Employees_R&D jobs_lag11,0.0
+KR,R&D Employees_R&D jobs_lag2,0.0
+KR,R&D Employees_R&D jobs_lag3,0.0
+KR,R&D Employees_R&D jobs_lag4,0.0
+KR,R&D Employees_R&D jobs_lag5,0.0
+KR,R&D Employees_R&D jobs_lag6,0.0
+KR,R&D Employees_R&D jobs_lag7,0.0
+KR,R&D Employees_R&D jobs_lag8,0.0
+KR,R&D Employees_R&D jobs_lag9,0.0
+KR,Research Institutions_collaboration with industry_lag1,0.0
+KR,Research Institutions_collaboration with industry_lag10,0.0
+KR,Research Institutions_collaboration with industry_lag11,0.0
+KR,Research Institutions_collaboration with industry_lag2,0.0
+KR,Research Institutions_collaboration with industry_lag3,0.0
+KR,Research Institutions_collaboration with industry_lag4,0.0
+KR,Research Institutions_collaboration with industry_lag5,0.0
+KR,Research Institutions_collaboration with industry_lag6,0.0
+KR,Research Institutions_collaboration with industry_lag7,0.0
+KR,Research Institutions_collaboration with industry_lag8,0.0
+KR,Research Institutions_collaboration with industry_lag9,0.0
+KR,Research Institutions_research grant_lag1,0.0
+KR,Research Institutions_research grant_lag10,0.0
+KR,Research Institutions_research grant_lag11,0.0
+KR,Research Institutions_research grant_lag2,0.0
+KR,Research Institutions_research grant_lag3,0.0
+KR,Research Institutions_research grant_lag4,0.0
+KR,Research Institutions_research grant_lag5,0.0
+KR,Research Institutions_research grant_lag6,0.0
+KR,Research Institutions_research grant_lag7,0.0
+KR,Research Institutions_research grant_lag8,0.0
+KR,Research Institutions_research grant_lag9,0.0
+KR,Tax Authorities_R&D tax credit_lag1,0.0
+KR,Tax Authorities_R&D tax credit_lag10,0.0
+KR,Tax Authorities_R&D tax credit_lag11,0.0
+KR,Tax Authorities_R&D tax credit_lag2,0.0
+KR,Tax Authorities_R&D tax credit_lag3,0.0
+KR,Tax Authorities_R&D tax credit_lag4,0.0
+KR,Tax Authorities_R&D tax credit_lag5,0.0
+KR,Tax Authorities_R&D tax credit_lag6,0.0
+KR,Tax Authorities_R&D tax credit_lag7,0.0
+KR,Tax Authorities_R&D tax credit_lag8,0.0
+KR,Tax Authorities_R&D tax credit_lag9,0.0
+KR,VCs_VC investment_lag1,0.0
+KR,VCs_VC investment_lag10,0.0
+KR,VCs_VC investment_lag11,0.0
+KR,VCs_VC investment_lag2,0.0
+KR,VCs_VC investment_lag3,0.0
+KR,VCs_VC investment_lag4,0.0
+KR,VCs_VC investment_lag5,0.0
+KR,VCs_VC investment_lag6,0.0
+KR,VCs_VC investment_lag7,0.0
+KR,VCs_VC investment_lag8,0.0
+KR,VCs_VC investment_lag9,0.0
+KR,VCs_startup funding_lag1,0.0
+KR,VCs_startup funding_lag10,0.0
+KR,VCs_startup funding_lag11,0.0
+KR,VCs_startup funding_lag2,0.0
+KR,VCs_startup funding_lag3,0.0
+KR,VCs_startup funding_lag4,0.0
+KR,VCs_startup funding_lag5,0.0
+KR,VCs_startup funding_lag6,0.0
+KR,VCs_startup funding_lag7,0.0
+KR,VCs_startup funding_lag8,0.0
+KR,VCs_startup funding_lag9,0.0
+KR,Year,-0.028906612681704715
+KR,export_vol_lag1,-8.173144485715855e-05
+KR,export_vol_lag2,-0.0006708355513527556
+KR,gdpca_lag1,0.06827692814509977
+KR,gdpca_lag2,-0.07706049896042907
+KR,import_vol_lag1,0.0009373777240232977
+KR,import_vol_lag2,0.0002546922502612385
+KR,inflation_lag1,-0.0006324326636372875
+KR,inflation_lag2,-0.0008292082976285284
+KR,population_lag1,0.0005361973784822497
+KR,population_lag2,0.000470435149316362
+KR,rd_expenditure_lag1,0.7717810090292584
+KR,rd_expenditure_lag2,0.22631965950131416
+KR,rd_expenditure_missing_lag1,0.0
+KR,rd_expenditure_missing_lag2,0.0
+KR,unemp_rate_lag1,-0.00040738102970036295
+KR,unemp_rate_lag2,-0.0003793077378786896
+US,Businesses_R&D expenditure_lag1,0.0
+US,Businesses_R&D expenditure_lag10,0.0
+US,Businesses_R&D expenditure_lag11,0.0
+US,Businesses_R&D expenditure_lag2,0.0
+US,Businesses_R&D expenditure_lag3,0.0
+US,Businesses_R&D expenditure_lag4,0.0
+US,Businesses_R&D expenditure_lag5,0.0
+US,Businesses_R&D expenditure_lag6,0.0
+US,Businesses_R&D expenditure_lag7,0.0
+US,Businesses_R&D expenditure_lag8,0.0
+US,Businesses_R&D expenditure_lag9,0.0
+US,Businesses_product development_lag1,0.0
+US,Businesses_product development_lag10,0.0
+US,Businesses_product development_lag11,0.0
+US,Businesses_product development_lag2,0.0
+US,Businesses_product development_lag3,0.0
+US,Businesses_product development_lag4,0.0
+US,Businesses_product development_lag5,0.0
+US,Businesses_product development_lag6,0.0
+US,Businesses_product development_lag7,0.0
+US,Businesses_product development_lag8,0.0
+US,Businesses_product development_lag9,0.0
+US,Consulting Firms_innovation management_lag1,0.0
+US,Consulting Firms_innovation management_lag10,0.0
+US,Consulting Firms_innovation management_lag11,0.0
+US,Consulting Firms_innovation management_lag2,0.0
+US,Consulting Firms_innovation management_lag3,0.0
+US,Consulting Firms_innovation management_lag4,0.0
+US,Consulting Firms_innovation management_lag5,0.0
+US,Consulting Firms_innovation management_lag6,0.0
+US,Consulting Firms_innovation management_lag7,0.0
+US,Consulting Firms_innovation management_lag8,0.0
+US,Consulting Firms_innovation management_lag9,0.0
+US,Consulting Firms_innovation strategy_lag1,0.0
+US,Consulting Firms_innovation strategy_lag10,0.0
+US,Consulting Firms_innovation strategy_lag11,0.0
+US,Consulting Firms_innovation strategy_lag2,0.0
+US,Consulting Firms_innovation strategy_lag3,0.0
+US,Consulting Firms_innovation strategy_lag4,0.0
+US,Consulting Firms_innovation strategy_lag5,0.0
+US,Consulting Firms_innovation strategy_lag6,0.0
+US,Consulting Firms_innovation strategy_lag7,0.0
+US,Consulting Firms_innovation strategy_lag8,0.0
+US,Consulting Firms_innovation strategy_lag9,0.0
+US,Government agencies_government grants_lag1,0.0
+US,Government agencies_government grants_lag10,0.0
+US,Government agencies_government grants_lag11,0.0
+US,Government agencies_government grants_lag2,0.0
+US,Government agencies_government grants_lag3,0.0
+US,Government agencies_government grants_lag4,0.0
+US,Government agencies_government grants_lag5,0.0
+US,Government agencies_government grants_lag6,0.0
+US,Government agencies_government grants_lag7,0.0
+US,Government agencies_government grants_lag8,0.0
+US,Government agencies_government grants_lag9,0.0
+US,Government agencies_research funding_lag1,0.0
+US,Government agencies_research funding_lag10,0.0
+US,Government agencies_research funding_lag11,0.0
+US,Government agencies_research funding_lag2,0.0
+US,Government agencies_research funding_lag3,0.0
+US,Government agencies_research funding_lag4,0.0
+US,Government agencies_research funding_lag5,0.0
+US,Government agencies_research funding_lag6,0.0
+US,Government agencies_research funding_lag7,0.0
+US,Government agencies_research funding_lag8,0.0
+US,Government agencies_research funding_lag9,0.0
+US,Innovation Hubs_startup incubation_lag1,0.0
+US,Innovation Hubs_startup incubation_lag10,0.0
+US,Innovation Hubs_startup incubation_lag11,0.0
+US,Innovation Hubs_startup incubation_lag2,0.0
+US,Innovation Hubs_startup incubation_lag3,0.0
+US,Innovation Hubs_startup incubation_lag4,0.0
+US,Innovation Hubs_startup incubation_lag5,0.0
+US,Innovation Hubs_startup incubation_lag6,0.0
+US,Innovation Hubs_startup incubation_lag7,0.0
+US,Innovation Hubs_startup incubation_lag8,0.0
+US,Innovation Hubs_startup incubation_lag9,0.0
+US,Innovation Hubs_technology park_lag1,0.0
+US,Innovation Hubs_technology park_lag10,0.0
+US,Innovation Hubs_technology park_lag11,0.0
+US,Innovation Hubs_technology park_lag2,0.0
+US,Innovation Hubs_technology park_lag3,0.0
+US,Innovation Hubs_technology park_lag4,0.0
+US,Innovation Hubs_technology park_lag5,0.0
+US,Innovation Hubs_technology park_lag6,0.0
+US,Innovation Hubs_technology park_lag7,0.0
+US,Innovation Hubs_technology park_lag8,0.0
+US,Innovation Hubs_technology park_lag9,0.0
+US,Month,-0.0005811406956552248
+US,Patent Attorneys_patent attorney_lag1,0.0
+US,Patent Attorneys_patent attorney_lag10,0.0
+US,Patent Attorneys_patent attorney_lag11,0.0
+US,Patent Attorneys_patent attorney_lag2,0.0
+US,Patent Attorneys_patent attorney_lag3,0.0
+US,Patent Attorneys_patent attorney_lag4,0.0
+US,Patent Attorneys_patent attorney_lag5,0.0
+US,Patent Attorneys_patent attorney_lag6,0.0
+US,Patent Attorneys_patent attorney_lag7,0.0
+US,Patent Attorneys_patent attorney_lag8,0.0
+US,Patent Attorneys_patent attorney_lag9,0.0
+US,Patent Attorneys_patent registration_lag1,0.0
+US,Patent Attorneys_patent registration_lag10,0.0
+US,Patent Attorneys_patent registration_lag11,0.0
+US,Patent Attorneys_patent registration_lag2,0.0
+US,Patent Attorneys_patent registration_lag3,0.0
+US,Patent Attorneys_patent registration_lag4,0.0
+US,Patent Attorneys_patent registration_lag5,0.0
+US,Patent Attorneys_patent registration_lag6,0.0
+US,Patent Attorneys_patent registration_lag7,0.0
+US,Patent Attorneys_patent registration_lag8,0.0
+US,Patent Attorneys_patent registration_lag9,0.0
+US,R&D Employees_R&D jobs_lag1,0.0
+US,R&D Employees_R&D jobs_lag10,0.0
+US,R&D Employees_R&D jobs_lag11,0.0
+US,R&D Employees_R&D jobs_lag2,0.0
+US,R&D Employees_R&D jobs_lag3,0.0
+US,R&D Employees_R&D jobs_lag4,0.0
+US,R&D Employees_R&D jobs_lag5,0.0
+US,R&D Employees_R&D jobs_lag6,0.0
+US,R&D Employees_R&D jobs_lag7,0.0
+US,R&D Employees_R&D jobs_lag8,0.0
+US,R&D Employees_R&D jobs_lag9,0.0
+US,Research Institutions_collaboration with industry_lag1,0.0
+US,Research Institutions_collaboration with industry_lag10,0.0
+US,Research Institutions_collaboration with industry_lag11,0.0
+US,Research Institutions_collaboration with industry_lag2,0.0
+US,Research Institutions_collaboration with industry_lag3,0.0
+US,Research Institutions_collaboration with industry_lag4,0.0
+US,Research Institutions_collaboration with industry_lag5,0.0
+US,Research Institutions_collaboration with industry_lag6,0.0
+US,Research Institutions_collaboration with industry_lag7,0.0
+US,Research Institutions_collaboration with industry_lag8,0.0
+US,Research Institutions_collaboration with industry_lag9,0.0
+US,Research Institutions_research grant_lag1,0.0
+US,Research Institutions_research grant_lag10,0.0
+US,Research Institutions_research grant_lag11,0.0
+US,Research Institutions_research grant_lag2,0.0
+US,Research Institutions_research grant_lag3,0.0
+US,Research Institutions_research grant_lag4,0.0
+US,Research Institutions_research grant_lag5,0.0
+US,Research Institutions_research grant_lag6,0.0
+US,Research Institutions_research grant_lag7,0.0
+US,Research Institutions_research grant_lag8,0.0
+US,Research Institutions_research grant_lag9,0.0
+US,Tax Authorities_R&D tax credit_lag1,0.0
+US,Tax Authorities_R&D tax credit_lag10,0.0
+US,Tax Authorities_R&D tax credit_lag11,0.0
+US,Tax Authorities_R&D tax credit_lag2,0.0
+US,Tax Authorities_R&D tax credit_lag3,0.0
+US,Tax Authorities_R&D tax credit_lag4,0.0
+US,Tax Authorities_R&D tax credit_lag5,0.0
+US,Tax Authorities_R&D tax credit_lag6,0.0
+US,Tax Authorities_R&D tax credit_lag7,0.0
+US,Tax Authorities_R&D tax credit_lag8,0.0
+US,Tax Authorities_R&D tax credit_lag9,0.0
+US,VCs_VC investment_lag1,0.0
+US,VCs_VC investment_lag10,0.0
+US,VCs_VC investment_lag11,0.0
+US,VCs_VC investment_lag2,0.0
+US,VCs_VC investment_lag3,0.0
+US,VCs_VC investment_lag4,0.0
+US,VCs_VC investment_lag5,0.0
+US,VCs_VC investment_lag6,0.0
+US,VCs_VC investment_lag7,0.0
+US,VCs_VC investment_lag8,0.0
+US,VCs_VC investment_lag9,0.0
+US,VCs_startup funding_lag1,0.0
+US,VCs_startup funding_lag10,0.0
+US,VCs_startup funding_lag11,0.0
+US,VCs_startup funding_lag2,0.0
+US,VCs_startup funding_lag3,0.0
+US,VCs_startup funding_lag4,0.0
+US,VCs_startup funding_lag5,0.0
+US,VCs_startup funding_lag6,0.0
+US,VCs_startup funding_lag7,0.0
+US,VCs_startup funding_lag8,0.0
+US,VCs_startup funding_lag9,0.0
+US,Year,-0.003533440198319928
+US,export_vol_lag1,-6.403320226540514e-06
+US,export_vol_lag2,-4.0325429697443355e-05
+US,gdpca_lag1,0.013403900868755269
+US,gdpca_lag2,-0.016275773526399168
+US,import_vol_lag1,5.519565619484732e-05
+US,import_vol_lag2,1.536135498140952e-05
+US,inflation_lag1,-0.0002050307056934243
+US,inflation_lag2,-0.00026821989861189224
+US,population_lag1,0.0004196938159123408
+US,population_lag2,0.000370504439597898
+US,rd_expenditure_lag1,0.7683128058523326
+US,rd_expenditure_lag2,0.23369312629877748
+US,rd_expenditure_missing_lag1,0.0
+US,rd_expenditure_missing_lag2,0.0
+US,unemp_rate_lag1,-8.655204469682581e-05
+US,unemp_rate_lag2,-8.074965183356665e-05

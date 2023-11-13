@@ -1,0 +1,577 @@
+Country,Feature,Elasticity
+CA,Businesses_R&D expenditure_mean_YTD,0.0
+CA,Businesses_R&D expenditure_yearly_avg_lag1,0.0
+CA,Businesses_R&D expenditure_yearly_avg_lag2,0.0
+CA,Businesses_R&D expenditure_yearly_avg_lag3,0.0
+CA,Businesses_product development_mean_YTD,0.0
+CA,Businesses_product development_yearly_avg_lag1,0.0
+CA,Businesses_product development_yearly_avg_lag2,0.0
+CA,Businesses_product development_yearly_avg_lag3,0.0
+CA,Consulting Firms_innovation management_mean_YTD,0.0
+CA,Consulting Firms_innovation management_yearly_avg_lag1,0.0
+CA,Consulting Firms_innovation management_yearly_avg_lag2,0.0
+CA,Consulting Firms_innovation management_yearly_avg_lag3,0.0
+CA,Consulting Firms_innovation strategy_mean_YTD,0.0
+CA,Consulting Firms_innovation strategy_yearly_avg_lag1,0.0
+CA,Consulting Firms_innovation strategy_yearly_avg_lag2,0.0
+CA,Consulting Firms_innovation strategy_yearly_avg_lag3,0.0
+CA,Government agencies_government grants_mean_YTD,0.035348599386071
+CA,Government agencies_government grants_yearly_avg_lag1,-0.008110148938853414
+CA,Government agencies_government grants_yearly_avg_lag2,-0.011583649699065474
+CA,Government agencies_government grants_yearly_avg_lag3,-0.012006262270733713
+CA,Government agencies_research funding_mean_YTD,-0.0013975824285749226
+CA,Government agencies_research funding_yearly_avg_lag1,0.011337312079605557
+CA,Government agencies_research funding_yearly_avg_lag2,-0.010251832317801253
+CA,Government agencies_research funding_yearly_avg_lag3,-0.00016394936833568217
+CA,Innovation Hubs_startup incubation_mean_YTD,0.0
+CA,Innovation Hubs_startup incubation_yearly_avg_lag1,0.0
+CA,Innovation Hubs_startup incubation_yearly_avg_lag2,0.0
+CA,Innovation Hubs_startup incubation_yearly_avg_lag3,0.0
+CA,Innovation Hubs_technology park_mean_YTD,-0.00037889212187785175
+CA,Innovation Hubs_technology park_yearly_avg_lag1,0.0027171436246604687
+CA,Innovation Hubs_technology park_yearly_avg_lag2,-0.001385552586326676
+CA,Innovation Hubs_technology park_yearly_avg_lag3,-0.0026435196129304746
+CA,Month,-0.05453564457805647
+CA,Patent Attorneys_patent attorney_mean_YTD,-0.004774080575894444
+CA,Patent Attorneys_patent attorney_yearly_avg_lag1,0.003178235426575186
+CA,Patent Attorneys_patent attorney_yearly_avg_lag2,-0.00022656295698271283
+CA,Patent Attorneys_patent attorney_yearly_avg_lag3,-0.0004134506604919631
+CA,Patent Attorneys_patent registration_mean_YTD,-0.002246454824137712
+CA,Patent Attorneys_patent registration_yearly_avg_lag1,0.0044649222430082096
+CA,Patent Attorneys_patent registration_yearly_avg_lag2,0.0014781629090242449
+CA,Patent Attorneys_patent registration_yearly_avg_lag3,0.002074269011744388
+CA,R&D Employees_R&D jobs_mean_YTD,-0.005794298322871328
+CA,R&D Employees_R&D jobs_yearly_avg_lag1,0.0008158625555112057
+CA,R&D Employees_R&D jobs_yearly_avg_lag2,0.0010613218101958232
+CA,R&D Employees_R&D jobs_yearly_avg_lag3,0.0012020981542000006
+CA,Research Institutions_collaboration with industry_mean_YTD,0.0
+CA,Research Institutions_collaboration with industry_yearly_avg_lag1,0.0
+CA,Research Institutions_collaboration with industry_yearly_avg_lag2,0.0
+CA,Research Institutions_collaboration with industry_yearly_avg_lag3,0.0
+CA,Research Institutions_research grant_mean_YTD,0.0
+CA,Research Institutions_research grant_yearly_avg_lag1,0.0
+CA,Research Institutions_research grant_yearly_avg_lag2,0.0
+CA,Research Institutions_research grant_yearly_avg_lag3,0.0
+CA,Tax Authorities_R&D tax credit_mean_YTD,0.00014170614781065642
+CA,Tax Authorities_R&D tax credit_yearly_avg_lag1,0.0002562915827682798
+CA,Tax Authorities_R&D tax credit_yearly_avg_lag2,-0.0009389907269055144
+CA,Tax Authorities_R&D tax credit_yearly_avg_lag3,-0.000670140303930478
+CA,VCs_VC investment_mean_YTD,0.002823692736321039
+CA,VCs_VC investment_yearly_avg_lag1,-0.00037512376532709645
+CA,VCs_VC investment_yearly_avg_lag2,0.00017790776065310402
+CA,VCs_VC investment_yearly_avg_lag3,-0.0013247914281823943
+CA,VCs_startup funding_mean_YTD,-0.00622213680011731
+CA,VCs_startup funding_yearly_avg_lag1,0.002903273564973666
+CA,VCs_startup funding_yearly_avg_lag2,0.003360744081662908
+CA,VCs_startup funding_yearly_avg_lag3,0.003353721194622678
+CA,Year,0.06177627666582984
+CA,rd_expenditure_lag1,0.9144654431650715
+CA,rd_expenditure_lag2,-0.019695851218796547
+CA,rd_expenditure_lag3,0.1066622034436272
+CA,rd_expenditure_missing_lag1,0.0
+CA,rd_expenditure_missing_lag2,0.0
+CA,rd_expenditure_missing_lag3,0.0
+CH,Businesses_R&D expenditure_mean_YTD,0.0
+CH,Businesses_R&D expenditure_yearly_avg_lag1,0.0
+CH,Businesses_R&D expenditure_yearly_avg_lag2,0.0
+CH,Businesses_R&D expenditure_yearly_avg_lag3,0.0
+CH,Businesses_product development_mean_YTD,-0.031120530373993375
+CH,Businesses_product development_yearly_avg_lag1,0.012201827729032153
+CH,Businesses_product development_yearly_avg_lag2,0.007114745255204893
+CH,Businesses_product development_yearly_avg_lag3,0.010577745159112271
+CH,Consulting Firms_innovation management_mean_YTD,0.0
+CH,Consulting Firms_innovation management_yearly_avg_lag1,0.0
+CH,Consulting Firms_innovation management_yearly_avg_lag2,0.0
+CH,Consulting Firms_innovation management_yearly_avg_lag3,0.0
+CH,Consulting Firms_innovation strategy_mean_YTD,-0.00689480546861887
+CH,Consulting Firms_innovation strategy_yearly_avg_lag1,0.0036317966518081015
+CH,Consulting Firms_innovation strategy_yearly_avg_lag2,0.002112613521083923
+CH,Consulting Firms_innovation strategy_yearly_avg_lag3,0.002958127710458246
+CH,Government agencies_government grants_mean_YTD,0.0
+CH,Government agencies_government grants_yearly_avg_lag1,0.0
+CH,Government agencies_government grants_yearly_avg_lag2,0.0
+CH,Government agencies_government grants_yearly_avg_lag3,0.0
+CH,Government agencies_research funding_mean_YTD,0.0
+CH,Government agencies_research funding_yearly_avg_lag1,0.0
+CH,Government agencies_research funding_yearly_avg_lag2,0.0
+CH,Government agencies_research funding_yearly_avg_lag3,0.0
+CH,Innovation Hubs_startup incubation_mean_YTD,0.0
+CH,Innovation Hubs_startup incubation_yearly_avg_lag1,0.0
+CH,Innovation Hubs_startup incubation_yearly_avg_lag2,0.0
+CH,Innovation Hubs_startup incubation_yearly_avg_lag3,0.0
+CH,Innovation Hubs_technology park_mean_YTD,0.0
+CH,Innovation Hubs_technology park_yearly_avg_lag1,0.0
+CH,Innovation Hubs_technology park_yearly_avg_lag2,0.0
+CH,Innovation Hubs_technology park_yearly_avg_lag3,0.0
+CH,Month,-0.1109271562835645
+CH,Patent Attorneys_patent attorney_mean_YTD,-0.011912195488721841
+CH,Patent Attorneys_patent attorney_yearly_avg_lag1,0.00917967140863073
+CH,Patent Attorneys_patent attorney_yearly_avg_lag2,-0.0007342419275595429
+CH,Patent Attorneys_patent attorney_yearly_avg_lag3,-0.0013114879128850242
+CH,Patent Attorneys_patent registration_mean_YTD,0.0
+CH,Patent Attorneys_patent registration_yearly_avg_lag1,0.0
+CH,Patent Attorneys_patent registration_yearly_avg_lag2,0.0
+CH,Patent Attorneys_patent registration_yearly_avg_lag3,0.0
+CH,R&D Employees_R&D jobs_mean_YTD,0.0
+CH,R&D Employees_R&D jobs_yearly_avg_lag1,0.0
+CH,R&D Employees_R&D jobs_yearly_avg_lag2,0.0
+CH,R&D Employees_R&D jobs_yearly_avg_lag3,0.0
+CH,Research Institutions_collaboration with industry_mean_YTD,0.0
+CH,Research Institutions_collaboration with industry_yearly_avg_lag1,0.0
+CH,Research Institutions_collaboration with industry_yearly_avg_lag2,0.0
+CH,Research Institutions_collaboration with industry_yearly_avg_lag3,0.0
+CH,Research Institutions_research grant_mean_YTD,-0.003378144088422968
+CH,Research Institutions_research grant_yearly_avg_lag1,0.006905578840468522
+CH,Research Institutions_research grant_yearly_avg_lag2,0.001195672650716179
+CH,Research Institutions_research grant_yearly_avg_lag3,0.00204053592322106
+CH,Tax Authorities_R&D tax credit_mean_YTD,0.0
+CH,Tax Authorities_R&D tax credit_yearly_avg_lag1,0.0
+CH,Tax Authorities_R&D tax credit_yearly_avg_lag2,0.0
+CH,Tax Authorities_R&D tax credit_yearly_avg_lag3,0.0
+CH,VCs_VC investment_mean_YTD,0.0
+CH,VCs_VC investment_yearly_avg_lag1,0.0
+CH,VCs_VC investment_yearly_avg_lag2,0.0
+CH,VCs_VC investment_yearly_avg_lag3,0.0
+CH,VCs_startup funding_mean_YTD,0.0
+CH,VCs_startup funding_yearly_avg_lag1,0.0
+CH,VCs_startup funding_yearly_avg_lag2,0.0
+CH,VCs_startup funding_yearly_avg_lag3,0.0
+CH,Year,0.11399025975593499
+CH,rd_expenditure_lag1,0.9130245071081888
+CH,rd_expenditure_lag2,-0.019478131928259416
+CH,rd_expenditure_lag3,0.10539732837960833
+CH,rd_expenditure_missing_lag1,0.0
+CH,rd_expenditure_missing_lag2,0.0
+CH,rd_expenditure_missing_lag3,0.0
+CN,Businesses_R&D expenditure_mean_YTD,0.0
+CN,Businesses_R&D expenditure_yearly_avg_lag1,0.0
+CN,Businesses_R&D expenditure_yearly_avg_lag2,0.0
+CN,Businesses_R&D expenditure_yearly_avg_lag3,0.0
+CN,Businesses_product development_mean_YTD,-0.0012280016113072633
+CN,Businesses_product development_yearly_avg_lag1,0.0005786695783026516
+CN,Businesses_product development_yearly_avg_lag2,0.00030623333330731837
+CN,Businesses_product development_yearly_avg_lag3,0.0004186773392721079
+CN,Consulting Firms_innovation management_mean_YTD,-0.00027613064367324115
+CN,Consulting Firms_innovation management_yearly_avg_lag1,7.446295200134045e-05
+CN,Consulting Firms_innovation management_yearly_avg_lag2,8.584161906401277e-05
+CN,Consulting Firms_innovation management_yearly_avg_lag3,0.00016973886723280885
+CN,Consulting Firms_innovation strategy_mean_YTD,-4.878324526362121e-05
+CN,Consulting Firms_innovation strategy_yearly_avg_lag1,4.5548910973593596e-05
+CN,Consulting Firms_innovation strategy_yearly_avg_lag2,2.3150994209572674e-05
+CN,Consulting Firms_innovation strategy_yearly_avg_lag3,2.910975308623165e-05
+CN,Government agencies_government grants_mean_YTD,0.0
+CN,Government agencies_government grants_yearly_avg_lag1,0.0
+CN,Government agencies_government grants_yearly_avg_lag2,0.0
+CN,Government agencies_government grants_yearly_avg_lag3,0.0
+CN,Government agencies_research funding_mean_YTD,0.0
+CN,Government agencies_research funding_yearly_avg_lag1,0.0
+CN,Government agencies_research funding_yearly_avg_lag2,0.0
+CN,Government agencies_research funding_yearly_avg_lag3,0.0
+CN,Innovation Hubs_startup incubation_mean_YTD,0.0
+CN,Innovation Hubs_startup incubation_yearly_avg_lag1,0.0
+CN,Innovation Hubs_startup incubation_yearly_avg_lag2,0.0
+CN,Innovation Hubs_startup incubation_yearly_avg_lag3,0.0
+CN,Innovation Hubs_technology park_mean_YTD,0.0
+CN,Innovation Hubs_technology park_yearly_avg_lag1,0.0
+CN,Innovation Hubs_technology park_yearly_avg_lag2,0.0
+CN,Innovation Hubs_technology park_yearly_avg_lag3,0.0
+CN,Month,-0.008579399077687412
+CN,Patent Attorneys_patent attorney_mean_YTD,0.0
+CN,Patent Attorneys_patent attorney_yearly_avg_lag1,0.0
+CN,Patent Attorneys_patent attorney_yearly_avg_lag2,0.0
+CN,Patent Attorneys_patent attorney_yearly_avg_lag3,0.0
+CN,Patent Attorneys_patent registration_mean_YTD,0.0
+CN,Patent Attorneys_patent registration_yearly_avg_lag1,0.0
+CN,Patent Attorneys_patent registration_yearly_avg_lag2,0.0
+CN,Patent Attorneys_patent registration_yearly_avg_lag3,0.0
+CN,R&D Employees_R&D jobs_mean_YTD,0.0
+CN,R&D Employees_R&D jobs_yearly_avg_lag1,0.0
+CN,R&D Employees_R&D jobs_yearly_avg_lag2,0.0
+CN,R&D Employees_R&D jobs_yearly_avg_lag3,0.0
+CN,Research Institutions_collaboration with industry_mean_YTD,0.0
+CN,Research Institutions_collaboration with industry_yearly_avg_lag1,0.0
+CN,Research Institutions_collaboration with industry_yearly_avg_lag2,0.0
+CN,Research Institutions_collaboration with industry_yearly_avg_lag3,0.0
+CN,Research Institutions_research grant_mean_YTD,0.0
+CN,Research Institutions_research grant_yearly_avg_lag1,0.0
+CN,Research Institutions_research grant_yearly_avg_lag2,0.0
+CN,Research Institutions_research grant_yearly_avg_lag3,0.0
+CN,Tax Authorities_R&D tax credit_mean_YTD,0.0
+CN,Tax Authorities_R&D tax credit_yearly_avg_lag1,0.0
+CN,Tax Authorities_R&D tax credit_yearly_avg_lag2,0.0
+CN,Tax Authorities_R&D tax credit_yearly_avg_lag3,0.0
+CN,VCs_VC investment_mean_YTD,0.0
+CN,VCs_VC investment_yearly_avg_lag1,0.0
+CN,VCs_VC investment_yearly_avg_lag2,0.0
+CN,VCs_VC investment_yearly_avg_lag3,0.0
+CN,VCs_startup funding_mean_YTD,0.0
+CN,VCs_startup funding_yearly_avg_lag1,0.0
+CN,VCs_startup funding_yearly_avg_lag2,0.0
+CN,VCs_startup funding_yearly_avg_lag3,0.0
+CN,Year,0.009845949149690569
+CN,rd_expenditure_lag1,0.905735459804535
+CN,rd_expenditure_lag2,-0.019243190467357636
+CN,rd_expenditure_lag3,0.10284194669127464
+CN,rd_expenditure_missing_lag1,0.0
+CN,rd_expenditure_missing_lag2,0.0
+CN,rd_expenditure_missing_lag3,0.0
+DE,Businesses_R&D expenditure_mean_YTD,0.0
+DE,Businesses_R&D expenditure_yearly_avg_lag1,0.0
+DE,Businesses_R&D expenditure_yearly_avg_lag2,0.0
+DE,Businesses_R&D expenditure_yearly_avg_lag3,0.0
+DE,Businesses_product development_mean_YTD,-0.010075986038985824
+DE,Businesses_product development_yearly_avg_lag1,0.004286979101906138
+DE,Businesses_product development_yearly_avg_lag2,0.0022597681396171326
+DE,Businesses_product development_yearly_avg_lag3,0.003062599311652016
+DE,Consulting Firms_innovation management_mean_YTD,-0.0057581026368766774
+DE,Consulting Firms_innovation management_yearly_avg_lag1,0.0014671039890713435
+DE,Consulting Firms_innovation management_yearly_avg_lag2,0.001722594530202356
+DE,Consulting Firms_innovation management_yearly_avg_lag3,0.003455287403588699
+DE,Consulting Firms_innovation strategy_mean_YTD,-0.0032805243467581113
+DE,Consulting Firms_innovation strategy_yearly_avg_lag1,0.001896687275306745
+DE,Consulting Firms_innovation strategy_yearly_avg_lag2,0.0009457218777753937
+DE,Consulting Firms_innovation strategy_yearly_avg_lag3,0.0012838104369372807
+DE,Government agencies_government grants_mean_YTD,0.001809577118462983
+DE,Government agencies_government grants_yearly_avg_lag1,-0.0003651629990036022
+DE,Government agencies_government grants_yearly_avg_lag2,-0.0005074058089805536
+DE,Government agencies_government grants_yearly_avg_lag3,-0.0005102551872707318
+DE,Government agencies_research funding_mean_YTD,-0.00012964541606041256
+DE,Government agencies_research funding_yearly_avg_lag1,0.0009459878955650228
+DE,Government agencies_research funding_yearly_avg_lag2,-0.0008224897128832912
+DE,Government agencies_research funding_yearly_avg_lag3,-1.2485762315106911e-05
+DE,Innovation Hubs_startup incubation_mean_YTD,0.0
+DE,Innovation Hubs_startup incubation_yearly_avg_lag1,0.0
+DE,Innovation Hubs_startup incubation_yearly_avg_lag2,0.0
+DE,Innovation Hubs_startup incubation_yearly_avg_lag3,0.0
+DE,Innovation Hubs_technology park_mean_YTD,-0.0001539805373397015
+DE,Innovation Hubs_technology park_yearly_avg_lag1,0.0010756695814322958
+DE,Innovation Hubs_technology park_yearly_avg_lag2,-0.0005614650006404085
+DE,Innovation Hubs_technology park_yearly_avg_lag3,-0.0010745117908886302
+DE,Month,-0.014281423932734169
+DE,Patent Attorneys_patent attorney_mean_YTD,-0.0014854593297239577
+DE,Patent Attorneys_patent attorney_yearly_avg_lag1,0.0012461405181545334
+DE,Patent Attorneys_patent attorney_yearly_avg_lag2,-9.123305174526191e-05
+DE,Patent Attorneys_patent attorney_yearly_avg_lag3,-0.00015950550071217796
+DE,Patent Attorneys_patent registration_mean_YTD,0.0
+DE,Patent Attorneys_patent registration_yearly_avg_lag1,0.0
+DE,Patent Attorneys_patent registration_yearly_avg_lag2,0.0
+DE,Patent Attorneys_patent registration_yearly_avg_lag3,0.0
+DE,R&D Employees_R&D jobs_mean_YTD,-0.0024125890131397095
+DE,R&D Employees_R&D jobs_yearly_avg_lag1,0.0003280204558198548
+DE,R&D Employees_R&D jobs_yearly_avg_lag2,0.0004274661496761717
+DE,R&D Employees_R&D jobs_yearly_avg_lag3,0.0004850757717321365
+DE,Research Institutions_collaboration with industry_mean_YTD,0.0
+DE,Research Institutions_collaboration with industry_yearly_avg_lag1,0.0
+DE,Research Institutions_collaboration with industry_yearly_avg_lag2,0.0
+DE,Research Institutions_collaboration with industry_yearly_avg_lag3,0.0
+DE,Research Institutions_research grant_mean_YTD,-0.0013619300043200765
+DE,Research Institutions_research grant_yearly_avg_lag1,0.0009984224570495624
+DE,Research Institutions_research grant_yearly_avg_lag2,0.00015718368638411727
+DE,Research Institutions_research grant_yearly_avg_lag3,0.00026173489381153185
+DE,Tax Authorities_R&D tax credit_mean_YTD,0.0
+DE,Tax Authorities_R&D tax credit_yearly_avg_lag1,0.0
+DE,Tax Authorities_R&D tax credit_yearly_avg_lag2,0.0
+DE,Tax Authorities_R&D tax credit_yearly_avg_lag3,0.0
+DE,VCs_VC investment_mean_YTD,0.0002976789034341177
+DE,VCs_VC investment_yearly_avg_lag1,-4.2320954078093576e-05
+DE,VCs_VC investment_yearly_avg_lag2,1.9383508895184944e-05
+DE,VCs_VC investment_yearly_avg_lag3,-0.00014906156905431276
+DE,VCs_startup funding_mean_YTD,-0.002632620647715112
+DE,VCs_startup funding_yearly_avg_lag1,0.0012136169537047524
+DE,VCs_startup funding_yearly_avg_lag2,0.0013955111118910972
+DE,VCs_startup funding_yearly_avg_lag3,0.001381989418021942
+DE,Year,0.016570978459309448
+DE,rd_expenditure_lag1,0.9121390288033762
+DE,rd_expenditure_lag2,-0.019640333996700846
+DE,rd_expenditure_lag3,0.10622946893380693
+DE,rd_expenditure_missing_lag1,0.0
+DE,rd_expenditure_missing_lag2,0.0
+DE,rd_expenditure_missing_lag3,0.0
+GB,Businesses_R&D expenditure_mean_YTD,0.02155905686474095
+GB,Businesses_R&D expenditure_yearly_avg_lag1,-0.006058141051184837
+GB,Businesses_R&D expenditure_yearly_avg_lag2,-0.009205558378722124
+GB,Businesses_R&D expenditure_yearly_avg_lag3,-0.008661641342438419
+GB,Businesses_product development_mean_YTD,-0.04987413631611024
+GB,Businesses_product development_yearly_avg_lag1,0.019822631324076967
+GB,Businesses_product development_yearly_avg_lag2,0.01085290074292006
+GB,Businesses_product development_yearly_avg_lag3,0.014999456957659939
+GB,Consulting Firms_innovation management_mean_YTD,-0.011986990921396875
+GB,Consulting Firms_innovation management_yearly_avg_lag1,0.0031891887933439152
+GB,Consulting Firms_innovation management_yearly_avg_lag2,0.0037428322786140734
+GB,Consulting Firms_innovation management_yearly_avg_lag3,0.007437807165622486
+GB,Consulting Firms_innovation strategy_mean_YTD,-0.0043313833814340105
+GB,Consulting Firms_innovation strategy_yearly_avg_lag1,0.0030415329313131442
+GB,Consulting Firms_innovation strategy_yearly_avg_lag2,0.0015459020452743227
+GB,Consulting Firms_innovation strategy_yearly_avg_lag3,0.0020456802749046774
+GB,Government agencies_government grants_mean_YTD,0.038723055031644464
+GB,Government agencies_government grants_yearly_avg_lag1,-0.00891587211464701
+GB,Government agencies_government grants_yearly_avg_lag2,-0.012810540098915666
+GB,Government agencies_government grants_yearly_avg_lag3,-0.013247385251099442
+GB,Government agencies_research funding_mean_YTD,-0.0008204840232241568
+GB,Government agencies_research funding_yearly_avg_lag1,0.0066587695504439935
+GB,Government agencies_research funding_yearly_avg_lag2,-0.005890598988061714
+GB,Government agencies_research funding_yearly_avg_lag3,-9.383445269301747e-05
+GB,Innovation Hubs_startup incubation_mean_YTD,0.0
+GB,Innovation Hubs_startup incubation_yearly_avg_lag1,0.0
+GB,Innovation Hubs_startup incubation_yearly_avg_lag2,0.0
+GB,Innovation Hubs_startup incubation_yearly_avg_lag3,0.0
+GB,Innovation Hubs_technology park_mean_YTD,-0.0012611677364365085
+GB,Innovation Hubs_technology park_yearly_avg_lag1,0.008964150757740506
+GB,Innovation Hubs_technology park_yearly_avg_lag2,-0.004650942934500618
+GB,Innovation Hubs_technology park_yearly_avg_lag3,-0.0087549824895563
+GB,Month,-0.032174149364106015
+GB,Patent Attorneys_patent attorney_mean_YTD,-0.008134322878587145
+GB,Patent Attorneys_patent attorney_yearly_avg_lag1,0.0057823110431799605
+GB,Patent Attorneys_patent attorney_yearly_avg_lag2,-0.0004384653412037578
+GB,Patent Attorneys_patent attorney_yearly_avg_lag3,-0.0007683730243915113
+GB,Patent Attorneys_patent registration_mean_YTD,-0.00203991948486267
+GB,Patent Attorneys_patent registration_yearly_avg_lag1,0.004895415389028406
+GB,Patent Attorneys_patent registration_yearly_avg_lag2,0.0016576782268891816
+GB,Patent Attorneys_patent registration_yearly_avg_lag3,0.0023608558432456584
+GB,R&D Employees_R&D jobs_mean_YTD,0.0
+GB,R&D Employees_R&D jobs_yearly_avg_lag1,0.0
+GB,R&D Employees_R&D jobs_yearly_avg_lag2,0.0
+GB,R&D Employees_R&D jobs_yearly_avg_lag3,0.0
+GB,Research Institutions_collaboration with industry_mean_YTD,0.0
+GB,Research Institutions_collaboration with industry_yearly_avg_lag1,0.0
+GB,Research Institutions_collaboration with industry_yearly_avg_lag2,0.0
+GB,Research Institutions_collaboration with industry_yearly_avg_lag3,0.0
+GB,Research Institutions_research grant_mean_YTD,-0.011453676866067602
+GB,Research Institutions_research grant_yearly_avg_lag1,0.012535055642012705
+GB,Research Institutions_research grant_yearly_avg_lag2,0.002030772381741289
+GB,Research Institutions_research grant_yearly_avg_lag3,0.0034167240272367826
+GB,Tax Authorities_R&D tax credit_mean_YTD,0.0006035745996500323
+GB,Tax Authorities_R&D tax credit_yearly_avg_lag1,0.0010675316260665459
+GB,Tax Authorities_R&D tax credit_yearly_avg_lag2,-0.003936900624081098
+GB,Tax Authorities_R&D tax credit_yearly_avg_lag3,-0.002837775407842304
+GB,VCs_VC investment_mean_YTD,0.0018134373115599649
+GB,VCs_VC investment_yearly_avg_lag1,-0.0002245931249021713
+GB,VCs_VC investment_yearly_avg_lag2,0.00011026525996357756
+GB,VCs_VC investment_yearly_avg_lag3,-0.0008361746925705423
+GB,VCs_startup funding_mean_YTD,-0.009232294104577071
+GB,VCs_startup funding_yearly_avg_lag1,0.004976510440676727
+GB,VCs_startup funding_yearly_avg_lag2,0.005777200903553007
+GB,VCs_startup funding_yearly_avg_lag3,0.005786085807344396
+GB,Year,0.03520965310180503
+GB,rd_expenditure_lag1,0.9132325437032816
+GB,rd_expenditure_lag2,-0.019669908458705653
+GB,rd_expenditure_lag3,0.10616023827231291
+GB,rd_expenditure_missing_lag1,0.0
+GB,rd_expenditure_missing_lag2,0.0
+GB,rd_expenditure_missing_lag3,0.0
+JP,Businesses_R&D expenditure_mean_YTD,0.0
+JP,Businesses_R&D expenditure_yearly_avg_lag1,0.0
+JP,Businesses_R&D expenditure_yearly_avg_lag2,0.0
+JP,Businesses_R&D expenditure_yearly_avg_lag3,0.0
+JP,Businesses_product development_mean_YTD,0.0
+JP,Businesses_product development_yearly_avg_lag1,0.0
+JP,Businesses_product development_yearly_avg_lag2,0.0
+JP,Businesses_product development_yearly_avg_lag3,0.0
+JP,Consulting Firms_innovation management_mean_YTD,-0.0010939098311886798
+JP,Consulting Firms_innovation management_yearly_avg_lag1,0.00028625081256615124
+JP,Consulting Firms_innovation management_yearly_avg_lag2,0.00033889526248722046
+JP,Consulting Firms_innovation management_yearly_avg_lag3,0.0006722869990577843
+JP,Consulting Firms_innovation strategy_mean_YTD,-0.0008131224291729808
+JP,Consulting Firms_innovation strategy_yearly_avg_lag1,0.00038540510929348216
+JP,Consulting Firms_innovation strategy_yearly_avg_lag2,0.0001909828445249055
+JP,Consulting Firms_innovation strategy_yearly_avg_lag3,0.0002520774302167305
+JP,Government agencies_government grants_mean_YTD,0.0
+JP,Government agencies_government grants_yearly_avg_lag1,0.0
+JP,Government agencies_government grants_yearly_avg_lag2,0.0
+JP,Government agencies_government grants_yearly_avg_lag3,0.0
+JP,Government agencies_research funding_mean_YTD,-4.810445566165625e-05
+JP,Government agencies_research funding_yearly_avg_lag1,0.00039490578363757527
+JP,Government agencies_research funding_yearly_avg_lag2,-0.0003612154626128925
+JP,Government agencies_research funding_yearly_avg_lag3,-5.7677865684588365e-06
+JP,Innovation Hubs_startup incubation_mean_YTD,0.0
+JP,Innovation Hubs_startup incubation_yearly_avg_lag1,0.0
+JP,Innovation Hubs_startup incubation_yearly_avg_lag2,0.0
+JP,Innovation Hubs_startup incubation_yearly_avg_lag3,0.0
+JP,Innovation Hubs_technology park_mean_YTD,-8.424072285524217e-05
+JP,Innovation Hubs_technology park_yearly_avg_lag1,0.0005903616707866498
+JP,Innovation Hubs_technology park_yearly_avg_lag2,-0.0003091091146389785
+JP,Innovation Hubs_technology park_yearly_avg_lag3,-0.0005807577122206989
+JP,Month,-0.009655046109295707
+JP,Patent Attorneys_patent attorney_mean_YTD,-0.0006835937702566878
+JP,Patent Attorneys_patent attorney_yearly_avg_lag1,0.0005595144363684559
+JP,Patent Attorneys_patent attorney_yearly_avg_lag2,-4.079433964748666e-05
+JP,Patent Attorneys_patent attorney_yearly_avg_lag3,-7.181727460851687e-05
+JP,Patent Attorneys_patent registration_mean_YTD,0.0
+JP,Patent Attorneys_patent registration_yearly_avg_lag1,0.0
+JP,Patent Attorneys_patent registration_yearly_avg_lag2,0.0
+JP,Patent Attorneys_patent registration_yearly_avg_lag3,0.0
+JP,R&D Employees_R&D jobs_mean_YTD,0.0
+JP,R&D Employees_R&D jobs_yearly_avg_lag1,0.0
+JP,R&D Employees_R&D jobs_yearly_avg_lag2,0.0
+JP,R&D Employees_R&D jobs_yearly_avg_lag3,0.0
+JP,Research Institutions_collaboration with industry_mean_YTD,0.0
+JP,Research Institutions_collaboration with industry_yearly_avg_lag1,0.0
+JP,Research Institutions_collaboration with industry_yearly_avg_lag2,0.0
+JP,Research Institutions_collaboration with industry_yearly_avg_lag3,0.0
+JP,Research Institutions_research grant_mean_YTD,-0.000880594170693244
+JP,Research Institutions_research grant_yearly_avg_lag1,0.0007682489766644405
+JP,Research Institutions_research grant_yearly_avg_lag2,0.0001229373345571124
+JP,Research Institutions_research grant_yearly_avg_lag3,0.0002037476113044882
+JP,Tax Authorities_R&D tax credit_mean_YTD,0.0
+JP,Tax Authorities_R&D tax credit_yearly_avg_lag1,0.0
+JP,Tax Authorities_R&D tax credit_yearly_avg_lag2,0.0
+JP,Tax Authorities_R&D tax credit_yearly_avg_lag3,0.0
+JP,VCs_VC investment_mean_YTD,0.0
+JP,VCs_VC investment_yearly_avg_lag1,0.0
+JP,VCs_VC investment_yearly_avg_lag2,0.0
+JP,VCs_VC investment_yearly_avg_lag3,0.0
+JP,VCs_startup funding_mean_YTD,-0.0006387144493456235
+JP,VCs_startup funding_yearly_avg_lag1,0.0003279041281029345
+JP,VCs_startup funding_yearly_avg_lag2,0.0003692485364334298
+JP,VCs_startup funding_yearly_avg_lag3,0.00038018525449750587
+JP,Year,0.0106464554015817
+JP,rd_expenditure_lag1,0.9136034880859264
+JP,rd_expenditure_lag2,-0.019691586366220228
+JP,rd_expenditure_lag3,0.10676869652841402
+JP,rd_expenditure_missing_lag1,0.0
+JP,rd_expenditure_missing_lag2,0.0
+JP,rd_expenditure_missing_lag3,0.0
+KR,Businesses_R&D expenditure_mean_YTD,0.0
+KR,Businesses_R&D expenditure_yearly_avg_lag1,0.0
+KR,Businesses_R&D expenditure_yearly_avg_lag2,0.0
+KR,Businesses_R&D expenditure_yearly_avg_lag3,0.0
+KR,Businesses_product development_mean_YTD,-0.012963064061477781
+KR,Businesses_product development_yearly_avg_lag1,0.004432718018298536
+KR,Businesses_product development_yearly_avg_lag2,0.0023569087241672344
+KR,Businesses_product development_yearly_avg_lag3,0.0032751206063299575
+KR,Consulting Firms_innovation management_mean_YTD,0.0
+KR,Consulting Firms_innovation management_yearly_avg_lag1,0.0
+KR,Consulting Firms_innovation management_yearly_avg_lag2,0.0
+KR,Consulting Firms_innovation management_yearly_avg_lag3,0.0
+KR,Consulting Firms_innovation strategy_mean_YTD,-0.0014163228710523462
+KR,Consulting Firms_innovation strategy_yearly_avg_lag1,0.0008819211072412665
+KR,Consulting Firms_innovation strategy_yearly_avg_lag2,0.0004535534501688484
+KR,Consulting Firms_innovation strategy_yearly_avg_lag3,0.0006204152511307777
+KR,Government agencies_government grants_mean_YTD,0.0
+KR,Government agencies_government grants_yearly_avg_lag1,0.0
+KR,Government agencies_government grants_yearly_avg_lag2,0.0
+KR,Government agencies_government grants_yearly_avg_lag3,0.0
+KR,Government agencies_research funding_mean_YTD,-9.214734827115276e-05
+KR,Government agencies_research funding_yearly_avg_lag1,0.001138913170871092
+KR,Government agencies_research funding_yearly_avg_lag2,-0.001018521400692407
+KR,Government agencies_research funding_yearly_avg_lag3,-1.606431764165401e-05
+KR,Innovation Hubs_startup incubation_mean_YTD,0.0
+KR,Innovation Hubs_startup incubation_yearly_avg_lag1,0.0
+KR,Innovation Hubs_startup incubation_yearly_avg_lag2,0.0
+KR,Innovation Hubs_startup incubation_yearly_avg_lag3,0.0
+KR,Innovation Hubs_technology park_mean_YTD,-9.222954504366499e-05
+KR,Innovation Hubs_technology park_yearly_avg_lag1,0.0008485511947323435
+KR,Innovation Hubs_technology park_yearly_avg_lag2,-0.0004366550228691527
+KR,Innovation Hubs_technology park_yearly_avg_lag3,-0.0008113284961187414
+KR,Month,-0.023751318260994074
+KR,Patent Attorneys_patent attorney_mean_YTD,0.0
+KR,Patent Attorneys_patent attorney_yearly_avg_lag1,0.0
+KR,Patent Attorneys_patent attorney_yearly_avg_lag2,0.0
+KR,Patent Attorneys_patent attorney_yearly_avg_lag3,0.0
+KR,Patent Attorneys_patent registration_mean_YTD,-0.0002608203514163116
+KR,Patent Attorneys_patent registration_yearly_avg_lag1,0.0009339545387774706
+KR,Patent Attorneys_patent registration_yearly_avg_lag2,0.00032718377957020753
+KR,Patent Attorneys_patent registration_yearly_avg_lag3,0.0004317693670080709
+KR,R&D Employees_R&D jobs_mean_YTD,0.0
+KR,R&D Employees_R&D jobs_yearly_avg_lag1,0.0
+KR,R&D Employees_R&D jobs_yearly_avg_lag2,0.0
+KR,R&D Employees_R&D jobs_yearly_avg_lag3,0.0
+KR,Research Institutions_collaboration with industry_mean_YTD,0.0
+KR,Research Institutions_collaboration with industry_yearly_avg_lag1,0.0
+KR,Research Institutions_collaboration with industry_yearly_avg_lag2,0.0
+KR,Research Institutions_collaboration with industry_yearly_avg_lag3,0.0
+KR,Research Institutions_research grant_mean_YTD,-0.0016289577191076075
+KR,Research Institutions_research grant_yearly_avg_lag1,0.0018517529609068464
+KR,Research Institutions_research grant_yearly_avg_lag2,0.00029621880811581445
+KR,Research Institutions_research grant_yearly_avg_lag3,0.0005044069224952961
+KR,Tax Authorities_R&D tax credit_mean_YTD,3.4064072042383484e-05
+KR,Tax Authorities_R&D tax credit_yearly_avg_lag1,5.241648479048828e-05
+KR,Tax Authorities_R&D tax credit_yearly_avg_lag2,-0.0001926556347046114
+KR,Tax Authorities_R&D tax credit_yearly_avg_lag3,-0.00013705645841192952
+KR,VCs_VC investment_mean_YTD,0.0005056582926044939
+KR,VCs_VC investment_yearly_avg_lag1,-6.104972861261817e-05
+KR,VCs_VC investment_yearly_avg_lag2,3.123550582943478e-05
+KR,VCs_VC investment_yearly_avg_lag3,-0.00023303990914687997
+KR,VCs_startup funding_mean_YTD,-0.001008247972017021
+KR,VCs_startup funding_yearly_avg_lag1,0.0005728929765090081
+KR,VCs_startup funding_yearly_avg_lag2,0.0006600612267253122
+KR,VCs_startup funding_yearly_avg_lag3,0.0006458312460121565
+KR,Year,0.027860661622669015
+KR,rd_expenditure_lag1,0.9081075474619865
+KR,rd_expenditure_lag2,-0.019424764452768223
+KR,rd_expenditure_lag3,0.10454750790127686
+KR,rd_expenditure_missing_lag1,0.0
+KR,rd_expenditure_missing_lag2,0.0
+KR,rd_expenditure_missing_lag3,0.0
+US,Businesses_R&D expenditure_mean_YTD,0.0007599762269982516
+US,Businesses_R&D expenditure_yearly_avg_lag1,-0.0002036655191489838
+US,Businesses_R&D expenditure_yearly_avg_lag2,-0.00031287248189141453
+US,Businesses_R&D expenditure_yearly_avg_lag3,-0.000308943756164211
+US,Businesses_product development_mean_YTD,-0.007632507424829389
+US,Businesses_product development_yearly_avg_lag1,0.003026987351268641
+US,Businesses_product development_yearly_avg_lag2,0.0016338170139873123
+US,Businesses_product development_yearly_avg_lag3,0.002296739645343997
+US,Consulting Firms_innovation management_mean_YTD,-0.0014190375731055584
+US,Consulting Firms_innovation management_yearly_avg_lag1,0.00038701405296095217
+US,Consulting Firms_innovation management_yearly_avg_lag2,0.00045136526392498263
+US,Consulting Firms_innovation management_yearly_avg_lag3,0.0009069413234698656
+US,Consulting Firms_innovation strategy_mean_YTD,-0.0015496376816291056
+US,Consulting Firms_innovation strategy_yearly_avg_lag1,0.0010568397866784415
+US,Consulting Firms_innovation strategy_yearly_avg_lag2,0.0005308022109466716
+US,Consulting Firms_innovation strategy_yearly_avg_lag3,0.0007257151181562873
+US,Government agencies_government grants_mean_YTD,0.0021186982897899126
+US,Government agencies_government grants_yearly_avg_lag1,-0.00047732548200792057
+US,Government agencies_government grants_yearly_avg_lag2,-0.0006787505048014825
+US,Government agencies_government grants_yearly_avg_lag3,-0.0007087180067391097
+US,Government agencies_research funding_mean_YTD,-0.00011524451583817839
+US,Government agencies_research funding_yearly_avg_lag1,0.0009163217379063465
+US,Government agencies_research funding_yearly_avg_lag2,-0.0008176396398206933
+US,Government agencies_research funding_yearly_avg_lag3,-1.3694204183783726e-05
+US,Innovation Hubs_startup incubation_mean_YTD,-0.00043978119736412237
+US,Innovation Hubs_startup incubation_yearly_avg_lag1,8.135857963530562e-06
+US,Innovation Hubs_startup incubation_yearly_avg_lag2,-8.096334283721656e-05
+US,Innovation Hubs_startup incubation_yearly_avg_lag3,-0.00018641553244596077
+US,Innovation Hubs_technology park_mean_YTD,-0.00013086294464287744
+US,Innovation Hubs_technology park_yearly_avg_lag1,0.0009344287207215475
+US,Innovation Hubs_technology park_yearly_avg_lag2,-0.0004798290000603154
+US,Innovation Hubs_technology park_yearly_avg_lag3,-0.0009188967144552014
+US,Month,-0.0031675659128770567
+US,Patent Attorneys_patent attorney_mean_YTD,-0.002546103154491536
+US,Patent Attorneys_patent attorney_yearly_avg_lag1,0.0016939552675032598
+US,Patent Attorneys_patent attorney_yearly_avg_lag2,-0.00012493710708223437
+US,Patent Attorneys_patent attorney_yearly_avg_lag3,-0.00022342954042557463
+US,Patent Attorneys_patent registration_mean_YTD,-0.0004271833586516102
+US,Patent Attorneys_patent registration_yearly_avg_lag1,0.0010692397748908974
+US,Patent Attorneys_patent registration_yearly_avg_lag2,0.0003549885314801506
+US,Patent Attorneys_patent registration_yearly_avg_lag3,0.0005234851946149876
+US,R&D Employees_R&D jobs_mean_YTD,-0.001551291346723742
+US,R&D Employees_R&D jobs_yearly_avg_lag1,0.00021997786657198387
+US,R&D Employees_R&D jobs_yearly_avg_lag2,0.0002863835571629148
+US,R&D Employees_R&D jobs_yearly_avg_lag3,0.00032930430461419746
+US,Research Institutions_collaboration with industry_mean_YTD,-0.0007130115721867778
+US,Research Institutions_collaboration with industry_yearly_avg_lag1,0.0005608950953352015
+US,Research Institutions_collaboration with industry_yearly_avg_lag2,0.000674714736767294
+US,Research Institutions_collaboration with industry_yearly_avg_lag3,0.0005109560521277807
+US,Research Institutions_research grant_mean_YTD,-0.0021631584577470908
+US,Research Institutions_research grant_yearly_avg_lag1,0.0023339728626280104
+US,Research Institutions_research grant_yearly_avg_lag2,0.0003733662163526855
+US,Research Institutions_research grant_yearly_avg_lag3,0.0006385003633574763
+US,Tax Authorities_R&D tax credit_mean_YTD,0.00010008751470100399
+US,Tax Authorities_R&D tax credit_yearly_avg_lag1,0.00015678180843950492
+US,Tax Authorities_R&D tax credit_yearly_avg_lag2,-0.0005755064428658851
+US,Tax Authorities_R&D tax credit_yearly_avg_lag3,-0.00041966117747343465
+US,VCs_VC investment_mean_YTD,0.00014767273854370466
+US,VCs_VC investment_yearly_avg_lag1,-2.0217277113858214e-05
+US,VCs_VC investment_yearly_avg_lag2,9.889280156483491e-06
+US,VCs_VC investment_yearly_avg_lag3,-7.274224752570683e-05
+US,VCs_startup funding_mean_YTD,-0.0012295870194011784
+US,VCs_startup funding_yearly_avg_lag1,0.0006997928253779841
+US,VCs_startup funding_yearly_avg_lag2,0.000824661982448167
+US,VCs_startup funding_yearly_avg_lag3,0.0008139354163787759
+US,Year,0.003624432010457976
+US,rd_expenditure_lag1,0.912291948030244
+US,rd_expenditure_lag2,-0.019582354964049004
+US,rd_expenditure_lag3,0.105902696862372
+US,rd_expenditure_missing_lag1,0.0
+US,rd_expenditure_missing_lag2,0.0
+US,rd_expenditure_missing_lag3,0.0

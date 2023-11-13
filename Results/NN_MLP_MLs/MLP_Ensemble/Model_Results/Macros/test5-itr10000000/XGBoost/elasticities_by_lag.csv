@@ -1,0 +1,595 @@
+Lag,Feature Name,Elasticity
+3,Year,3.6577353
+3,rd_expenditure_lag1,0.209889
+3,rd_expenditure_missing_lag1,0.0
+3,gdpca_lag1,-0.0016323898
+3,unemp_rate_lag1,-0.0019070834
+3,population_lag1,0.005641344
+3,inflation_lag1,-6.0479124e-05
+3,export_vol_lag1,0.0
+3,import_vol_lag1,0.0
+3,rd_expenditure_lag2,0.00030863183
+3,rd_expenditure_missing_lag2,0.0
+3,gdpca_lag2,0.0
+3,unemp_rate_lag2,-0.00030761966
+3,population_lag2,-4.364501e-06
+3,inflation_lag2,-0.00020667577
+3,export_vol_lag2,-1.3477412e-05
+3,import_vol_lag2,0.0
+3,rd_expenditure_lag3,-2.1910382e-05
+3,rd_expenditure_missing_lag3,0.0
+3,gdpca_lag3,0.00012578232
+3,unemp_rate_lag3,0.00036580642
+3,population_lag3,0.0
+3,inflation_lag3,-0.00047437137
+3,export_vol_lag3,0.0
+3,import_vol_lag3,0.0
+3,Country_CA,0.0
+3,Country_CH,0.0
+3,Country_CN,0.0
+3,Country_DE,0.0
+3,Country_GB,0.0
+3,Country_JP,0.0
+3,Country_KR,0.0
+3,Country_US,0.0
+3,Year^2,0.0
+3,Year rd_expenditure_lag1,1.5055596
+3,Year rd_expenditure_missing_lag1,0.0
+3,Year gdpca_lag1,0.03373259
+3,Year unemp_rate_lag1,0.0067399666
+3,Year population_lag1,0.026150746
+3,Year inflation_lag1,0.026298387
+3,Year export_vol_lag1,0.08233575
+3,Year import_vol_lag1,0.022825584
+3,Year rd_expenditure_lag2,0.013196959
+3,Year rd_expenditure_missing_lag2,0.0
+3,Year gdpca_lag2,0.005796755
+3,Year unemp_rate_lag2,0.0013089332
+3,Year population_lag2,0.068127036
+3,Year inflation_lag2,0.0033513173
+3,Year export_vol_lag2,0.0017403017
+3,Year import_vol_lag2,-0.0005606251
+3,Year rd_expenditure_lag3,0.022401085
+3,Year rd_expenditure_missing_lag3,0.0
+3,Year gdpca_lag3,0.0005167401
+3,Year unemp_rate_lag3,0.0038381375
+3,Year population_lag3,0.0023807476
+3,Year inflation_lag3,-0.002197497
+3,Year export_vol_lag3,0.0007744406
+3,Year import_vol_lag3,5.901503e-05
+3,Year Country_CA,0.0
+3,Year Country_CH,0.00036644156
+3,Year Country_CN,0.0
+3,Year Country_DE,0.029781215
+3,Year Country_GB,0.0020561651
+3,Year Country_JP,0.013216324
+3,Year Country_KR,0.34113577
+3,Year Country_US,0.0
+3,rd_expenditure_lag1^2,0.0
+3,rd_expenditure_lag1 rd_expenditure_missing_lag1,0.0
+3,rd_expenditure_lag1 gdpca_lag1,4.5531215e-05
+3,rd_expenditure_lag1 unemp_rate_lag1,0.00096570695
+3,rd_expenditure_lag1 population_lag1,0.033725027
+3,rd_expenditure_lag1 inflation_lag1,0.007215177
+3,rd_expenditure_lag1 export_vol_lag1,0.0
+3,rd_expenditure_lag1 import_vol_lag1,0.0
+3,rd_expenditure_lag1 rd_expenditure_lag2,0.006282194
+3,rd_expenditure_lag1 rd_expenditure_missing_lag2,0.0
+3,rd_expenditure_lag1 gdpca_lag2,0.0
+3,rd_expenditure_lag1 unemp_rate_lag2,0.0005699747
+3,rd_expenditure_lag1 population_lag2,-2.7839562e-05
+3,rd_expenditure_lag1 inflation_lag2,0.0
+3,rd_expenditure_lag1 export_vol_lag2,0.0
+3,rd_expenditure_lag1 import_vol_lag2,0.0
+3,rd_expenditure_lag1 rd_expenditure_lag3,0.0043717464
+3,rd_expenditure_lag1 rd_expenditure_missing_lag3,0.0
+3,rd_expenditure_lag1 gdpca_lag3,0.0
+3,rd_expenditure_lag1 unemp_rate_lag3,0.0007183506
+3,rd_expenditure_lag1 population_lag3,2.149738e-05
+3,rd_expenditure_lag1 inflation_lag3,3.3408352e-05
+3,rd_expenditure_lag1 export_vol_lag3,0.0
+3,rd_expenditure_lag1 import_vol_lag3,0.0
+3,rd_expenditure_lag1 Country_CA,0.0
+3,rd_expenditure_lag1 Country_CH,0.0
+3,rd_expenditure_lag1 Country_CN,0.0
+3,rd_expenditure_lag1 Country_DE,0.0
+3,rd_expenditure_lag1 Country_GB,0.0
+3,rd_expenditure_lag1 Country_JP,0.0
+3,rd_expenditure_lag1 Country_KR,0.0
+3,rd_expenditure_lag1 Country_US,0.0
+3,rd_expenditure_missing_lag1^2,0.0
+3,rd_expenditure_missing_lag1 gdpca_lag1,0.0
+3,rd_expenditure_missing_lag1 unemp_rate_lag1,0.0
+3,rd_expenditure_missing_lag1 population_lag1,0.0
+3,rd_expenditure_missing_lag1 inflation_lag1,0.0
+3,rd_expenditure_missing_lag1 export_vol_lag1,0.0
+3,rd_expenditure_missing_lag1 import_vol_lag1,0.0
+3,rd_expenditure_missing_lag1 rd_expenditure_lag2,0.0
+3,rd_expenditure_missing_lag1 rd_expenditure_missing_lag2,0.0
+3,rd_expenditure_missing_lag1 gdpca_lag2,0.0
+3,rd_expenditure_missing_lag1 unemp_rate_lag2,0.0
+3,rd_expenditure_missing_lag1 population_lag2,0.0
+3,rd_expenditure_missing_lag1 inflation_lag2,0.0
+3,rd_expenditure_missing_lag1 export_vol_lag2,0.0
+3,rd_expenditure_missing_lag1 import_vol_lag2,0.0
+3,rd_expenditure_missing_lag1 rd_expenditure_lag3,0.0
+3,rd_expenditure_missing_lag1 rd_expenditure_missing_lag3,0.0
+3,rd_expenditure_missing_lag1 gdpca_lag3,0.0
+3,rd_expenditure_missing_lag1 unemp_rate_lag3,0.0
+3,rd_expenditure_missing_lag1 population_lag3,0.0
+3,rd_expenditure_missing_lag1 inflation_lag3,0.0
+3,rd_expenditure_missing_lag1 export_vol_lag3,0.0
+3,rd_expenditure_missing_lag1 import_vol_lag3,0.0
+3,rd_expenditure_missing_lag1 Country_CA,0.0
+3,rd_expenditure_missing_lag1 Country_CH,0.0
+3,rd_expenditure_missing_lag1 Country_CN,0.0
+3,rd_expenditure_missing_lag1 Country_DE,0.0
+3,rd_expenditure_missing_lag1 Country_GB,0.0
+3,rd_expenditure_missing_lag1 Country_JP,0.0
+3,rd_expenditure_missing_lag1 Country_KR,0.0
+3,rd_expenditure_missing_lag1 Country_US,0.0
+3,gdpca_lag1^2,0.0
+3,gdpca_lag1 unemp_rate_lag1,-0.0026475121
+3,gdpca_lag1 population_lag1,0.00012456713
+3,gdpca_lag1 inflation_lag1,0.0
+3,gdpca_lag1 export_vol_lag1,0.0
+3,gdpca_lag1 import_vol_lag1,0.00025563827
+3,gdpca_lag1 rd_expenditure_lag2,0.0
+3,gdpca_lag1 rd_expenditure_missing_lag2,0.0
+3,gdpca_lag1 gdpca_lag2,0.0
+3,gdpca_lag1 unemp_rate_lag2,0.0
+3,gdpca_lag1 population_lag2,0.0
+3,gdpca_lag1 inflation_lag2,0.0
+3,gdpca_lag1 export_vol_lag2,0.0
+3,gdpca_lag1 import_vol_lag2,0.0
+3,gdpca_lag1 rd_expenditure_lag3,0.0
+3,gdpca_lag1 rd_expenditure_missing_lag3,0.0
+3,gdpca_lag1 gdpca_lag3,0.0
+3,gdpca_lag1 unemp_rate_lag3,0.0
+3,gdpca_lag1 population_lag3,0.0
+3,gdpca_lag1 inflation_lag3,0.0
+3,gdpca_lag1 export_vol_lag3,0.0
+3,gdpca_lag1 import_vol_lag3,0.0
+3,gdpca_lag1 Country_CA,0.0
+3,gdpca_lag1 Country_CH,0.0
+3,gdpca_lag1 Country_CN,0.0
+3,gdpca_lag1 Country_DE,0.0
+3,gdpca_lag1 Country_GB,0.0
+3,gdpca_lag1 Country_JP,0.00012987407
+3,gdpca_lag1 Country_KR,0.0
+3,gdpca_lag1 Country_US,0.0
+3,unemp_rate_lag1^2,0.0
+3,unemp_rate_lag1 population_lag1,-0.00070236076
+3,unemp_rate_lag1 inflation_lag1,-4.2720316e-05
+3,unemp_rate_lag1 export_vol_lag1,0.0
+3,unemp_rate_lag1 import_vol_lag1,0.0
+3,unemp_rate_lag1 rd_expenditure_lag2,-1.00264215e-05
+3,unemp_rate_lag1 rd_expenditure_missing_lag2,0.0
+3,unemp_rate_lag1 gdpca_lag2,0.0
+3,unemp_rate_lag1 unemp_rate_lag2,0.0
+3,unemp_rate_lag1 population_lag2,0.0
+3,unemp_rate_lag1 inflation_lag2,0.0
+3,unemp_rate_lag1 export_vol_lag2,0.0
+3,unemp_rate_lag1 import_vol_lag2,0.0
+3,unemp_rate_lag1 rd_expenditure_lag3,5.1933595e-05
+3,unemp_rate_lag1 rd_expenditure_missing_lag3,0.0
+3,unemp_rate_lag1 gdpca_lag3,-0.0015195329
+3,unemp_rate_lag1 unemp_rate_lag3,0.0
+3,unemp_rate_lag1 population_lag3,-0.00011584006
+3,unemp_rate_lag1 inflation_lag3,0.0
+3,unemp_rate_lag1 export_vol_lag3,0.0
+3,unemp_rate_lag1 import_vol_lag3,0.0
+3,unemp_rate_lag1 Country_CA,0.0
+3,unemp_rate_lag1 Country_CH,0.0
+3,unemp_rate_lag1 Country_CN,0.0
+3,unemp_rate_lag1 Country_DE,-2.7851987e-05
+3,unemp_rate_lag1 Country_GB,0.0
+3,unemp_rate_lag1 Country_JP,0.0
+3,unemp_rate_lag1 Country_KR,0.0
+3,unemp_rate_lag1 Country_US,0.0
+3,population_lag1^2,0.0
+3,population_lag1 inflation_lag1,-4.4117325e-05
+3,population_lag1 export_vol_lag1,0.0
+3,population_lag1 import_vol_lag1,0.0
+3,population_lag1 rd_expenditure_lag2,0.0
+3,population_lag1 rd_expenditure_missing_lag2,0.0
+3,population_lag1 gdpca_lag2,0.0
+3,population_lag1 unemp_rate_lag2,0.0
+3,population_lag1 population_lag2,0.0
+3,population_lag1 inflation_lag2,0.0
+3,population_lag1 export_vol_lag2,0.0
+3,population_lag1 import_vol_lag2,0.0
+3,population_lag1 rd_expenditure_lag3,2.823597e-05
+3,population_lag1 rd_expenditure_missing_lag3,0.0
+3,population_lag1 gdpca_lag3,1.7889275e-05
+3,population_lag1 unemp_rate_lag3,-5.815438e-06
+3,population_lag1 population_lag3,0.0
+3,population_lag1 inflation_lag3,0.0
+3,population_lag1 export_vol_lag3,0.0
+3,population_lag1 import_vol_lag3,-3.9771494e-05
+3,population_lag1 Country_CA,0.0
+3,population_lag1 Country_CH,0.0
+3,population_lag1 Country_CN,0.0
+3,population_lag1 Country_DE,0.0
+3,population_lag1 Country_GB,0.0
+3,population_lag1 Country_JP,-0.0037818567
+3,population_lag1 Country_KR,0.0
+3,population_lag1 Country_US,0.0
+3,inflation_lag1^2,0.0
+3,inflation_lag1 export_vol_lag1,0.0
+3,inflation_lag1 import_vol_lag1,0.0
+3,inflation_lag1 rd_expenditure_lag2,0.0
+3,inflation_lag1 rd_expenditure_missing_lag2,0.0
+3,inflation_lag1 gdpca_lag2,0.00036496215
+3,inflation_lag1 unemp_rate_lag2,-0.00027834775
+3,inflation_lag1 population_lag2,0.0
+3,inflation_lag1 inflation_lag2,0.0
+3,inflation_lag1 export_vol_lag2,-0.00014723252
+3,inflation_lag1 import_vol_lag2,0.0
+3,inflation_lag1 rd_expenditure_lag3,0.00010505257
+3,inflation_lag1 rd_expenditure_missing_lag3,0.0
+3,inflation_lag1 gdpca_lag3,0.0
+3,inflation_lag1 unemp_rate_lag3,6.909239e-06
+3,inflation_lag1 population_lag3,-0.00055827753
+3,inflation_lag1 inflation_lag3,-0.00013065673
+3,inflation_lag1 export_vol_lag3,0.0
+3,inflation_lag1 import_vol_lag3,0.0
+3,inflation_lag1 Country_CA,0.0
+3,inflation_lag1 Country_CH,0.0
+3,inflation_lag1 Country_CN,0.0
+3,inflation_lag1 Country_DE,0.0
+3,inflation_lag1 Country_GB,0.0
+3,inflation_lag1 Country_JP,0.0006332506
+3,inflation_lag1 Country_KR,0.0
+3,inflation_lag1 Country_US,0.0
+3,export_vol_lag1^2,0.0
+3,export_vol_lag1 import_vol_lag1,0.0
+3,export_vol_lag1 rd_expenditure_lag2,0.0
+3,export_vol_lag1 rd_expenditure_missing_lag2,0.0
+3,export_vol_lag1 gdpca_lag2,0.0
+3,export_vol_lag1 unemp_rate_lag2,0.0
+3,export_vol_lag1 population_lag2,0.0
+3,export_vol_lag1 inflation_lag2,-6.795817e-05
+3,export_vol_lag1 export_vol_lag2,0.0
+3,export_vol_lag1 import_vol_lag2,0.0
+3,export_vol_lag1 rd_expenditure_lag3,-7.145797e-06
+3,export_vol_lag1 rd_expenditure_missing_lag3,0.0
+3,export_vol_lag1 gdpca_lag3,-2.0577314e-05
+3,export_vol_lag1 unemp_rate_lag3,6.653833e-05
+3,export_vol_lag1 population_lag3,7.694195e-05
+3,export_vol_lag1 inflation_lag3,-3.4992925e-05
+3,export_vol_lag1 export_vol_lag3,-1.4790112e-05
+3,export_vol_lag1 import_vol_lag3,0.0
+3,export_vol_lag1 Country_CA,0.0
+3,export_vol_lag1 Country_CH,0.0
+3,export_vol_lag1 Country_CN,0.0
+3,export_vol_lag1 Country_DE,0.0
+3,export_vol_lag1 Country_GB,0.0
+3,export_vol_lag1 Country_JP,0.0
+3,export_vol_lag1 Country_KR,0.0
+3,export_vol_lag1 Country_US,0.0
+3,import_vol_lag1^2,0.0
+3,import_vol_lag1 rd_expenditure_lag2,0.0034869981
+3,import_vol_lag1 rd_expenditure_missing_lag2,0.0
+3,import_vol_lag1 gdpca_lag2,0.0
+3,import_vol_lag1 unemp_rate_lag2,0.00016159416
+3,import_vol_lag1 population_lag2,0.0
+3,import_vol_lag1 inflation_lag2,0.0
+3,import_vol_lag1 export_vol_lag2,0.0
+3,import_vol_lag1 import_vol_lag2,0.0
+3,import_vol_lag1 rd_expenditure_lag3,0.0
+3,import_vol_lag1 rd_expenditure_missing_lag3,0.0
+3,import_vol_lag1 gdpca_lag3,0.0
+3,import_vol_lag1 unemp_rate_lag3,0.0
+3,import_vol_lag1 population_lag3,0.0
+3,import_vol_lag1 inflation_lag3,0.0
+3,import_vol_lag1 export_vol_lag3,0.0
+3,import_vol_lag1 import_vol_lag3,0.0
+3,import_vol_lag1 Country_CA,0.0
+3,import_vol_lag1 Country_CH,0.0
+3,import_vol_lag1 Country_CN,0.0
+3,import_vol_lag1 Country_DE,0.0
+3,import_vol_lag1 Country_GB,0.0
+3,import_vol_lag1 Country_JP,0.0
+3,import_vol_lag1 Country_KR,0.0
+3,import_vol_lag1 Country_US,0.0
+3,rd_expenditure_lag2^2,0.0
+3,rd_expenditure_lag2 rd_expenditure_missing_lag2,0.0
+3,rd_expenditure_lag2 gdpca_lag2,0.0
+3,rd_expenditure_lag2 unemp_rate_lag2,0.0
+3,rd_expenditure_lag2 population_lag2,0.0
+3,rd_expenditure_lag2 inflation_lag2,0.0
+3,rd_expenditure_lag2 export_vol_lag2,0.0
+3,rd_expenditure_lag2 import_vol_lag2,0.0
+3,rd_expenditure_lag2 rd_expenditure_lag3,0.0
+3,rd_expenditure_lag2 rd_expenditure_missing_lag3,0.0
+3,rd_expenditure_lag2 gdpca_lag3,0.0
+3,rd_expenditure_lag2 unemp_rate_lag3,0.0
+3,rd_expenditure_lag2 population_lag3,0.0
+3,rd_expenditure_lag2 inflation_lag3,0.0
+3,rd_expenditure_lag2 export_vol_lag3,0.0
+3,rd_expenditure_lag2 import_vol_lag3,0.0
+3,rd_expenditure_lag2 Country_CA,0.0
+3,rd_expenditure_lag2 Country_CH,0.0
+3,rd_expenditure_lag2 Country_CN,0.0
+3,rd_expenditure_lag2 Country_DE,0.0
+3,rd_expenditure_lag2 Country_GB,0.0
+3,rd_expenditure_lag2 Country_JP,0.0
+3,rd_expenditure_lag2 Country_KR,0.0
+3,rd_expenditure_lag2 Country_US,0.0
+3,rd_expenditure_missing_lag2^2,0.0
+3,rd_expenditure_missing_lag2 gdpca_lag2,0.0
+3,rd_expenditure_missing_lag2 unemp_rate_lag2,0.0
+3,rd_expenditure_missing_lag2 population_lag2,0.0
+3,rd_expenditure_missing_lag2 inflation_lag2,0.0
+3,rd_expenditure_missing_lag2 export_vol_lag2,0.0
+3,rd_expenditure_missing_lag2 import_vol_lag2,0.0
+3,rd_expenditure_missing_lag2 rd_expenditure_lag3,0.0
+3,rd_expenditure_missing_lag2 rd_expenditure_missing_lag3,0.0
+3,rd_expenditure_missing_lag2 gdpca_lag3,0.0
+3,rd_expenditure_missing_lag2 unemp_rate_lag3,0.0
+3,rd_expenditure_missing_lag2 population_lag3,0.0
+3,rd_expenditure_missing_lag2 inflation_lag3,0.0
+3,rd_expenditure_missing_lag2 export_vol_lag3,0.0
+3,rd_expenditure_missing_lag2 import_vol_lag3,0.0
+3,rd_expenditure_missing_lag2 Country_CA,0.0
+3,rd_expenditure_missing_lag2 Country_CH,0.0
+3,rd_expenditure_missing_lag2 Country_CN,0.0
+3,rd_expenditure_missing_lag2 Country_DE,0.0
+3,rd_expenditure_missing_lag2 Country_GB,0.0
+3,rd_expenditure_missing_lag2 Country_JP,0.0
+3,rd_expenditure_missing_lag2 Country_KR,0.0
+3,rd_expenditure_missing_lag2 Country_US,0.0
+3,gdpca_lag2^2,0.0
+3,gdpca_lag2 unemp_rate_lag2,-0.0010601776
+3,gdpca_lag2 population_lag2,0.0
+3,gdpca_lag2 inflation_lag2,0.0
+3,gdpca_lag2 export_vol_lag2,0.0
+3,gdpca_lag2 import_vol_lag2,-0.0005229132
+3,gdpca_lag2 rd_expenditure_lag3,8.487455e-06
+3,gdpca_lag2 rd_expenditure_missing_lag3,0.0
+3,gdpca_lag2 gdpca_lag3,0.0
+3,gdpca_lag2 unemp_rate_lag3,0.0
+3,gdpca_lag2 population_lag3,0.0
+3,gdpca_lag2 inflation_lag3,0.0
+3,gdpca_lag2 export_vol_lag3,0.0
+3,gdpca_lag2 import_vol_lag3,0.0
+3,gdpca_lag2 Country_CA,0.0
+3,gdpca_lag2 Country_CH,0.0
+3,gdpca_lag2 Country_CN,0.0
+3,gdpca_lag2 Country_DE,-1.622248e-05
+3,gdpca_lag2 Country_GB,0.0
+3,gdpca_lag2 Country_JP,0.0
+3,gdpca_lag2 Country_KR,0.0
+3,gdpca_lag2 Country_US,0.0
+3,unemp_rate_lag2^2,0.0
+3,unemp_rate_lag2 population_lag2,0.0
+3,unemp_rate_lag2 inflation_lag2,0.0
+3,unemp_rate_lag2 export_vol_lag2,0.0
+3,unemp_rate_lag2 import_vol_lag2,0.0
+3,unemp_rate_lag2 rd_expenditure_lag3,0.0
+3,unemp_rate_lag2 rd_expenditure_missing_lag3,0.0
+3,unemp_rate_lag2 gdpca_lag3,0.0
+3,unemp_rate_lag2 unemp_rate_lag3,0.0
+3,unemp_rate_lag2 population_lag3,0.0
+3,unemp_rate_lag2 inflation_lag3,0.0
+3,unemp_rate_lag2 export_vol_lag3,0.0
+3,unemp_rate_lag2 import_vol_lag3,0.0
+3,unemp_rate_lag2 Country_CA,0.0
+3,unemp_rate_lag2 Country_CH,0.0
+3,unemp_rate_lag2 Country_CN,0.0
+3,unemp_rate_lag2 Country_DE,0.0
+3,unemp_rate_lag2 Country_GB,0.0
+3,unemp_rate_lag2 Country_JP,0.0
+3,unemp_rate_lag2 Country_KR,0.0
+3,unemp_rate_lag2 Country_US,0.0
+3,population_lag2^2,0.0
+3,population_lag2 inflation_lag2,0.0
+3,population_lag2 export_vol_lag2,0.0
+3,population_lag2 import_vol_lag2,0.0
+3,population_lag2 rd_expenditure_lag3,0.0
+3,population_lag2 rd_expenditure_missing_lag3,0.0
+3,population_lag2 gdpca_lag3,0.0
+3,population_lag2 unemp_rate_lag3,0.0
+3,population_lag2 population_lag3,0.0
+3,population_lag2 inflation_lag3,0.0
+3,population_lag2 export_vol_lag3,0.0
+3,population_lag2 import_vol_lag3,0.0
+3,population_lag2 Country_CA,0.0
+3,population_lag2 Country_CH,0.0
+3,population_lag2 Country_CN,0.0
+3,population_lag2 Country_DE,0.0
+3,population_lag2 Country_GB,0.0
+3,population_lag2 Country_JP,0.0
+3,population_lag2 Country_KR,0.0
+3,population_lag2 Country_US,0.0
+3,inflation_lag2^2,0.0
+3,inflation_lag2 export_vol_lag2,0.0
+3,inflation_lag2 import_vol_lag2,0.0
+3,inflation_lag2 rd_expenditure_lag3,0.0
+3,inflation_lag2 rd_expenditure_missing_lag3,0.0
+3,inflation_lag2 gdpca_lag3,0.0
+3,inflation_lag2 unemp_rate_lag3,0.0
+3,inflation_lag2 population_lag3,0.0
+3,inflation_lag2 inflation_lag3,0.0
+3,inflation_lag2 export_vol_lag3,0.0
+3,inflation_lag2 import_vol_lag3,0.0
+3,inflation_lag2 Country_CA,0.0
+3,inflation_lag2 Country_CH,0.0
+3,inflation_lag2 Country_CN,0.0
+3,inflation_lag2 Country_DE,0.0
+3,inflation_lag2 Country_GB,0.0
+3,inflation_lag2 Country_JP,0.0
+3,inflation_lag2 Country_KR,0.0
+3,inflation_lag2 Country_US,0.0
+3,export_vol_lag2^2,0.0
+3,export_vol_lag2 import_vol_lag2,0.0
+3,export_vol_lag2 rd_expenditure_lag3,0.0
+3,export_vol_lag2 rd_expenditure_missing_lag3,0.0
+3,export_vol_lag2 gdpca_lag3,0.0
+3,export_vol_lag2 unemp_rate_lag3,0.0
+3,export_vol_lag2 population_lag3,0.0
+3,export_vol_lag2 inflation_lag3,0.0
+3,export_vol_lag2 export_vol_lag3,0.0
+3,export_vol_lag2 import_vol_lag3,0.0
+3,export_vol_lag2 Country_CA,0.0
+3,export_vol_lag2 Country_CH,0.0
+3,export_vol_lag2 Country_CN,0.0
+3,export_vol_lag2 Country_DE,0.0
+3,export_vol_lag2 Country_GB,0.0
+3,export_vol_lag2 Country_JP,0.0
+3,export_vol_lag2 Country_KR,0.0
+3,export_vol_lag2 Country_US,0.0
+3,import_vol_lag2^2,0.0
+3,import_vol_lag2 rd_expenditure_lag3,0.0
+3,import_vol_lag2 rd_expenditure_missing_lag3,0.0
+3,import_vol_lag2 gdpca_lag3,0.0
+3,import_vol_lag2 unemp_rate_lag3,0.0
+3,import_vol_lag2 population_lag3,0.0
+3,import_vol_lag2 inflation_lag3,0.0
+3,import_vol_lag2 export_vol_lag3,0.0
+3,import_vol_lag2 import_vol_lag3,0.0
+3,import_vol_lag2 Country_CA,0.0
+3,import_vol_lag2 Country_CH,0.0
+3,import_vol_lag2 Country_CN,0.0
+3,import_vol_lag2 Country_DE,0.0
+3,import_vol_lag2 Country_GB,0.0
+3,import_vol_lag2 Country_JP,0.0
+3,import_vol_lag2 Country_KR,0.0
+3,import_vol_lag2 Country_US,0.0
+3,rd_expenditure_lag3^2,0.0
+3,rd_expenditure_lag3 rd_expenditure_missing_lag3,0.0
+3,rd_expenditure_lag3 gdpca_lag3,0.0
+3,rd_expenditure_lag3 unemp_rate_lag3,0.0
+3,rd_expenditure_lag3 population_lag3,0.0
+3,rd_expenditure_lag3 inflation_lag3,5.8028312e-05
+3,rd_expenditure_lag3 export_vol_lag3,0.0
+3,rd_expenditure_lag3 import_vol_lag3,0.0
+3,rd_expenditure_lag3 Country_CA,0.0
+3,rd_expenditure_lag3 Country_CH,0.0
+3,rd_expenditure_lag3 Country_CN,0.0
+3,rd_expenditure_lag3 Country_DE,0.0
+3,rd_expenditure_lag3 Country_GB,0.0
+3,rd_expenditure_lag3 Country_JP,0.0
+3,rd_expenditure_lag3 Country_KR,0.0
+3,rd_expenditure_lag3 Country_US,0.0
+3,rd_expenditure_missing_lag3^2,0.0
+3,rd_expenditure_missing_lag3 gdpca_lag3,0.0
+3,rd_expenditure_missing_lag3 unemp_rate_lag3,0.0
+3,rd_expenditure_missing_lag3 population_lag3,0.0
+3,rd_expenditure_missing_lag3 inflation_lag3,0.0
+3,rd_expenditure_missing_lag3 export_vol_lag3,0.0
+3,rd_expenditure_missing_lag3 import_vol_lag3,0.0
+3,rd_expenditure_missing_lag3 Country_CA,0.0
+3,rd_expenditure_missing_lag3 Country_CH,0.0
+3,rd_expenditure_missing_lag3 Country_CN,0.0
+3,rd_expenditure_missing_lag3 Country_DE,0.0
+3,rd_expenditure_missing_lag3 Country_GB,0.0
+3,rd_expenditure_missing_lag3 Country_JP,0.0
+3,rd_expenditure_missing_lag3 Country_KR,0.0
+3,rd_expenditure_missing_lag3 Country_US,0.0
+3,gdpca_lag3^2,0.0
+3,gdpca_lag3 unemp_rate_lag3,0.0
+3,gdpca_lag3 population_lag3,0.0
+3,gdpca_lag3 inflation_lag3,0.0
+3,gdpca_lag3 export_vol_lag3,0.0
+3,gdpca_lag3 import_vol_lag3,-0.0001438824
+3,gdpca_lag3 Country_CA,0.0
+3,gdpca_lag3 Country_CH,0.0
+3,gdpca_lag3 Country_CN,0.0
+3,gdpca_lag3 Country_DE,0.0
+3,gdpca_lag3 Country_GB,0.0
+3,gdpca_lag3 Country_JP,0.0
+3,gdpca_lag3 Country_KR,0.0
+3,gdpca_lag3 Country_US,0.0
+3,unemp_rate_lag3^2,0.0
+3,unemp_rate_lag3 population_lag3,-0.00015473689
+3,unemp_rate_lag3 inflation_lag3,0.0
+3,unemp_rate_lag3 export_vol_lag3,0.0
+3,unemp_rate_lag3 import_vol_lag3,0.0
+3,unemp_rate_lag3 Country_CA,0.0
+3,unemp_rate_lag3 Country_CH,0.0
+3,unemp_rate_lag3 Country_CN,0.0
+3,unemp_rate_lag3 Country_DE,0.0
+3,unemp_rate_lag3 Country_GB,0.0
+3,unemp_rate_lag3 Country_JP,0.0
+3,unemp_rate_lag3 Country_KR,0.0
+3,unemp_rate_lag3 Country_US,0.0
+3,population_lag3^2,0.0
+3,population_lag3 inflation_lag3,0.0013199389
+3,population_lag3 export_vol_lag3,0.0
+3,population_lag3 import_vol_lag3,0.0
+3,population_lag3 Country_CA,0.0
+3,population_lag3 Country_CH,0.0
+3,population_lag3 Country_CN,0.0
+3,population_lag3 Country_DE,0.0
+3,population_lag3 Country_GB,0.0
+3,population_lag3 Country_JP,0.0
+3,population_lag3 Country_KR,0.0
+3,population_lag3 Country_US,0.0
+3,inflation_lag3^2,0.0
+3,inflation_lag3 export_vol_lag3,0.0
+3,inflation_lag3 import_vol_lag3,0.0
+3,inflation_lag3 Country_CA,0.0
+3,inflation_lag3 Country_CH,0.0
+3,inflation_lag3 Country_CN,0.0
+3,inflation_lag3 Country_DE,0.0
+3,inflation_lag3 Country_GB,0.0
+3,inflation_lag3 Country_JP,0.0
+3,inflation_lag3 Country_KR,0.0
+3,inflation_lag3 Country_US,0.0
+3,export_vol_lag3^2,0.0
+3,export_vol_lag3 import_vol_lag3,0.0
+3,export_vol_lag3 Country_CA,0.0
+3,export_vol_lag3 Country_CH,0.0
+3,export_vol_lag3 Country_CN,0.0
+3,export_vol_lag3 Country_DE,0.0
+3,export_vol_lag3 Country_GB,0.0
+3,export_vol_lag3 Country_JP,0.0
+3,export_vol_lag3 Country_KR,0.0
+3,export_vol_lag3 Country_US,0.0
+3,import_vol_lag3^2,0.0
+3,import_vol_lag3 Country_CA,0.0
+3,import_vol_lag3 Country_CH,0.0
+3,import_vol_lag3 Country_CN,0.0
+3,import_vol_lag3 Country_DE,0.0
+3,import_vol_lag3 Country_GB,0.0
+3,import_vol_lag3 Country_JP,0.0
+3,import_vol_lag3 Country_KR,0.0
+3,import_vol_lag3 Country_US,0.0
+3,Country_CA^2,0.0
+3,Country_CA Country_CH,0.0
+3,Country_CA Country_CN,0.0
+3,Country_CA Country_DE,0.0
+3,Country_CA Country_GB,0.0
+3,Country_CA Country_JP,0.0
+3,Country_CA Country_KR,0.0
+3,Country_CA Country_US,0.0
+3,Country_CH^2,0.0
+3,Country_CH Country_CN,0.0
+3,Country_CH Country_DE,0.0
+3,Country_CH Country_GB,0.0
+3,Country_CH Country_JP,0.0
+3,Country_CH Country_KR,0.0
+3,Country_CH Country_US,0.0
+3,Country_CN^2,0.0
+3,Country_CN Country_DE,0.0
+3,Country_CN Country_GB,0.0
+3,Country_CN Country_JP,0.0
+3,Country_CN Country_KR,0.0
+3,Country_CN Country_US,0.0
+3,Country_DE^2,0.0
+3,Country_DE Country_GB,0.0
+3,Country_DE Country_JP,0.0
+3,Country_DE Country_KR,0.0
+3,Country_DE Country_US,0.0
+3,Country_GB^2,0.0
+3,Country_GB Country_JP,0.0
+3,Country_GB Country_KR,0.0
+3,Country_GB Country_US,0.0
+3,Country_JP^2,0.0
+3,Country_JP Country_KR,0.0
+3,Country_JP Country_US,0.0
+3,Country_KR^2,0.0
+3,Country_KR Country_US,0.0
+3,Country_US^2,0.0
