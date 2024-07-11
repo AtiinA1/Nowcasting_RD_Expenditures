@@ -1,4 +1,0 @@
-lag,important_features
-1,"rd_expenditure_lag1, Consulting Firms_innovation strategy_yearly_avg_lag1 Year, VCs_VC investment_yearly_avg_lag1 Year, rd_expenditure_lag1 Year"
-2,"rd_expenditure_lag2, rd_expenditure_lag2 Year, rd_expenditure_lag1 Year"
-3,"rd_expenditure_lag1, gdpca_lag2 Year, rd_expenditure_lag1 Year, rd_expenditure_lag1 rd_expenditure_lag2, Year rd_expenditure_lag2, Year rd_expenditure_lag3"
