@@ -1,0 +1,349 @@
+description,mid,type
+Expense,/m/01n9ps,Topic
+Research and development,/m/01lr_q,Topic
+Research,/m/06cs1,Organization type
+Capital expenditure,/m/04xxl8,Topic
+Business,/g/121jnq1m,Topic
+Cost,/m/0168hv,Topic
+Industry,/m/03rnh,Economics
+Company,/g/120z18l3,Organization type
+Tax,/m/07g82,Topic
+Financial capital,/m/0cf7f,Topic
+Investment,/m/0g_fl,Topic
+Gross domestic product,/m/039mk,Topic
+Credit,/m/05p8s2,Topic
+Government spending,/m/04g_71,Topic
+Pharmaceutical industry,/m/02q3wl,Topic
+Percentage,/m/0h6zk,Unit of proportion
+Technology,/m/07c1v,Topic
+Finance,/m/02_7t,Discipline
+Economy,/m/0gfps3,Topic
+Pharmaceutical drug,/m/018l35,Topic
+Country,/m/01lff,Topic
+Organisation for Economic Co-operation and Development,/m/018cqq,Topic
+Corporation,/m/023k2,Organization type
+Innovation,/m/0vh9p,Topic
+Income,/m/03wj0,Topic
+Product,/m/01jwgf,Business
+Product development,/m/01fnjy,Topic
+Management,/m/04_tv,Field of study
+Design,/m/02cwm,Topic
+Marketing,/m/0g4gr,Topic
+Strategy,/m/07b7r,Topic
+Salary,/m/02w88k,Topic
+Software,/m/01mf0,Software grouping
+Market,/m/09y4pm,Economics
+Project,/m/0156dy,Topic
+Team,/m/011l78,Topic
+Engineering,/m/02ky346,Discipline
+Customer,/m/01j0mk,Topic
+Organization,/m/0qb7t,Topic
+System,/m/0bj6r,Topic
+Engineer,/m/09j9h,Degree
+Product design,/m/03y18t,Topic
+Product Management,/m/01jsnw,Topic
+Consumer,/m/025_b,Topic
+Manufacturing,/m/09t4t,Topic
+Funding,/m/03dd26,Film company role or service
+Startup company,/m/0h01f,Topic
+Venture capital,/m/01m2bt,Topic
+Loan,/m/01dnzs,Topic
+Small business,/m/01pdc4,Organization type
+Seed money,/m/02g2hm,Securities offering
+Grant,/m/06bpsl,Money
+Investor,/m/025sppp,Topic
+Capital,/g/1233863h,Economics
+Money,/m/04_x4,Topic
+Website,/m/085n4,Topic
+Equity,/m/0hz8s,Finance
+Angel investor,/m/03m3ym9,Topic
+Business loan,/g/11bc8lgh_8,Topic
+Crowdfunding,/m/05ztt99,Organization type
+crunchbase,/m/0cc6_7b,Topic
+Nonprofit organization,/m/0259tnd,Organization type
+Valuation,/m/01yv7p,Finance
+Plan,/m/018jrr,Topic
+Entrepreneur,/g/12hhh4stc,Career
+Investment fund,/m/08nwn8,Topic
+Bank,/m/017ql,Building function
+Investment banking,/m/015p1m,Topic
+Investment company,/m/078jxd,Organization type
+Private equity,/m/01b4x4,Topic
+Return on investment,/m/0h3p28z,Topic
+Rate of return,/m/09ckfv,Topic
+Tax credit,/m/01rqh3,Topic
+Research & Experimentation Tax Credit,/m/07s4vgp,Topic
+small,/g/11l864w__t,Topic
+Production,/m/0806jls,Economics
+Cash,/m/0fd6q,Topic
+Mortgage loan,/m/0273t5w,Topic
+Stock,/m/077mq,Topic
+Calculator,/m/024d2,Topic
+Student loan,/m/02crs_,Topic
+Small Business Innovation Research,/m/066ylq,Topic
+Community bank,/m/0bhbl62,Topic
+Debt,/m/013y7y,Topic
+Government,/m/036nz,Organization type
+Bond,/m/0ghcr,Finance
+Term,/m/05yknl,Topic
+Asset,/m/0z1j,Topic
+Income statement,/m/07lfq0v,Topic
+Budget,/g/120jxn0b,Topic
+Financial statement,/m/0n82v,Topic
+Contract,/m/0245b,Topic
+Decision-making,/m/01nccs,Topic
+Quizlet,/m/0rymy5s,Computer software company
+University,/m/07tf8,School category
+NIH,/g/11b7ckf1qc,Topic
+Student,/m/014cnc,Topic
+Research proposal,/g/11bzx4chkk,Topic
+Science,/m/06mq7,School category
+Funding of science,/m/04vp_m,Topic
+Award,/g/1219y4f5,Topic
+National Science Foundation,/m/014psl,Government agency
+Education,/m/02jfc,Topic
+Medicine,/m/04sh3,Topic
+Writing,/m/081rb,Writing system
+Fellow,/m/021q0l,Board member title
+Graduate school,/m/01yslh,Degree
+Undergraduate education,/m/01ft79,Degree
+Grant writing,/m/04643_0,Topic
+Foundation,/m/0339xs,Nonprofit
+Cancer,/m/0qcr0,Disease
+Undergraduate research,/m/0y6d0y0,Topic
+Summer,/m/078qz,Holiday
+Scholarship,/m/018m77,Topic
+Doctor of Philosophy,/m/04zx3q1,Degree
+Collaboration,/m/01s560,Topic
+Information,/m/03y39,Topic
+Communication,/m/01lhf,Field of study
+Data,/m/026sq,Topic
+Competition,/m/02p8j7_,Economics
+Service,/m/018tkd,Topic
+Experience,/m/01rhgl,Topic
+Academy,/m/0134hp,School category
+Health care,/m/01mw2x,Professional field
+Computers and information technology,/m/03ytc,Topic
+Cell,/m/01cbd,Biology
+Stem cell,/m/06xn9,Topic
+Health,/m/0kt51,Topic
+Cancer research,/m/04tll8,Topic
+Disease,/m/027x3,Topic
+Medical research,/m/06ywtl,Topic
+Embryo,/m/094r_,Topic
+Federal government of the United States,/m/01bqks,Government
+Home,/m/01l0mw,Topic
+Power,/g/122vxtj0,Social and political
+Constitution,/m/01l_g,Topic
+Housing,/m/04dn__2,Topic
+Federalism,/m/0321s,Form of government
+State,/m/06_02,Polity
+Individual,/m/03s26,Topic
+Constitution of the United States,/m/07sdd,Constitution
+Federal grants in the United States,/m/014zqq,Topic
+Single parent,/m/01gz3_,Topic
+Block grant,/m/024ggr,Topic
+Rights,/m/0dl2z,Topic
+U.S. state,/m/0d0xs,Topic
+United States Congress,/m/07t31,Governing body
+Job,/m/04115t2,Topic
+Career,/m/03ml62y,Topic
+R&D management,/m/0czcqjd,Topic
+R&D Engineer,/m/02kxq7b,Job title
+Scientist,/m/06q2q,Career
+Laboratory,/m/017clw,Topic
+Technician,/m/049btd,Career
+Entry-level job,/m/05xf3m,Topic
+Director,/m/02hw9s0,Business
+Wage,/m/01_942,Topic
+Chemist,/m/01pxg,Career
+Mechanical Engineering,/m/04x_3,Field of study
+Form,/m/046zzg,Document
+Internal Revenue Service,/m/03z19,Statutory body
+Payroll,/m/02bjhh,Topic
+Calculation,/m/01jpbw,Topic
+Payroll tax,/m/028mlt,Topic
+Tax deduction,/m/01rqfh,Topic
+Tax report,/g/121vr3lx,Topic
+Research and Development Tax Credit,/m/0vpvyg4,Topic
+Corporate tax,/m/03p7hr,Topic
+Accounting,/m/0_jm,Professional field
+Incentive,/m/026kxv,Topic
+Tax incentive,/m/03nm865,Topic
+Report,/m/0chln1,Topic
+Strategic management,/m/01jqpl,Field of study
+Brand,/m/01cd9,Topic
+Marketing strategy,/m/01wg0g,Topic
+Goal,/m/03g_1kv,Topic
+Leadership,/m/025rt2s,Topic
+Innovation management,/m/051yrpj,Topic
+Change management,/m/05qb9n6,Topic
+Project management,/m/05_p2,Topic
+Academic journal,/m/01vz_k,Topic
+Entrepreneurship,/m/02nwq,Topic
+Egg incubation,/m/02lbk6,Topic
+Business incubator,/m/0581_y,Organization type
+Incubation period,/m/0jf0l,Topic
+Incubator,/m/097m1t,Culture
+Startup accelerator,/m/0gmc207,Topic
+India,/m/03rk0,Country in South Asia
+Idea,/m/015hcf,Topic
+Park,/m/0166ls,Topic
+Science park,/m/02t1bm,Topic
+Museum,/m/09cmq,Topic
+National park,/m/05gz5,IUCN protected area categories
+Institute,/m/01q2mr,School category
+University of Maryland,/m/01jq34,"University in Prince George's County, Maryland"
+Billerica,/m/0tzzh,Town in Massachusetts
+Limited liability company,/m/01prdc,Private limited company
+Jurassic Park,/m/0102z8pc,Film series
+Rohnert Park,/m/01zm1wh,City in California
+Westford,/m/0t_9y,Town in Massachusetts
+Patent,/m/05sq5,Topic
+Trademark,/m/07d0f,Topic
+Patent application,/m/0c7ztg,Topic
+USPTO,/g/11b827txyx,Topic
+United States,/m/09c7w0,Country in North America
+Copyright,/m/01m5t,Copyright license
+Patent attorney,/m/037ngc,Patent attorney
+Lawyer,/m/04gc2,Profession
+USPTO registration examination,/m/0fdfts,Topic
+Exam,/g/121jyvn6,Topic
+Name,/m/015vq3,Topic
+Law,/m/04gb7,Topic
+Patent office,/m/04kc_d,Topic
+Copyright registration,/m/09zjb6,Topic
+Fee,/m/03fk6m,Topic
+Intellectual property,/m/03t0y,Topic
+Property,/m/05wrt,Topic
+Invention,/m/0c2fj,Topic
+Office,/g/122sgqnb,Building function
+Design patent,/m/05z0vs,US patent type
+patent law,/g/121rctyz,Topic
+Intellectual,/m/01h2yy,Topic
+Law firm,/m/03mjyc,Topic
+Law school,/m/0921h6,School category
+Trademark attorney,/g/122c632c,Topic
+Patent infringement,/m/02wwyh,Topic
+Bachelor's degree,/m/019v9k,Degree
+Provisional application,/m/068bwk,Topic
+Generally Accepted Accounting Principles,/m/018z79,United States
+Capitalization,/m/01fl8h,Topic
+Account,/m/0414vq,Bookkeeping
+Financial Accounting Standards Board,/m/018xf5,Company
+China,/m/0d05w3,Country in East Asia
+LinkedIn,/m/03vgrr,Website
+Process,/m/0c909,Computing
+Product Manager,/m/098f56,Job title
+Business development,/m/0c6zkt,Field of study
+Google,/m/045c7b,Technology company
+Chinese,/m/01r2l,Spoken language
+Shanghai,/m/06wjf,Municipality in China
+Natural environment,/m/02py09,Topic
+Hong Kong,/m/03h64,Special administrative regions of China
+Germany,/m/0345h,Country in Europe
+Council,/m/01196kkh,Topic
+Basic research,/m/03bx4kh,Topic
+Biology,/m/01540,Field of study
+Postdoctoral researcher,/m/011bgs4m,Job title
+European Research Council,/m/06_v3b,Government agency
+Financial endowment,/m/04rl_5,Topic
+Proposal,/m/03t15q,Business
+College and university rankings,/m/029r0f,Topic
+United Kingdom,/m/07ssc,Country in Europe
+Travel visa,/m/01wtrk,Topic
+European Union,/m/0_6t_z8,Topic
+Technological innovation,/g/121zpl2_,Topic
+Product innovation,/m/089kv1,Topic
+Energy,/m/02mm_,Topic
+London,/m/04jpl,Capital of England
+Planning,/m/0217bt,Topic
+Business model,/m/0hd4m,Topic
+Economics,/m/02j62,Field of study
+Technology management,/m/02qjhg0,Discipline
+Master of Science,/m/03bwzr4,Degree
+Knowledge,/m/01k8wb,Topic
+Policy,/m/020xwm,Topic
+Creativity,/m/0120fn,Discipline
+Shenzhen,/m/0lbmv,City in China
+Georgia Institute of Technology,/m/0f1nl,"Public university in Atlanta, Georgia"
+Georgia,/m/0d0x8,US state
+Maryland,/m/04rrd,US state
+Suzhou,/m/01qq80,City in China
+College Park,/m/0pc6x,City in Maryland
+Penn State University,/m/04hgpt,"Land-grant university in Centre County, Pennsylvania"
+University Park,/m/05hzb_,Topic
+Suzhou Industrial Park,/m/08tkhq,Topic
+Champaign County,/m/0nvvw,County in Illinois
+Building,/m/0cgh4,Site listing category
+High tech,/m/02lj5l,Topic
+Patent Agent,/g/121_c49d,Profession
+Power of attorney,/m/0164wn,Topic
+Statistics,/m/06mnr,Discipline
+Computer Application,/m/02bj4k,Software classification
+Agile software development,/m/02zhbn,Topic
+Code signing,/m/09zzb_,Topic
+Scrum,/m/0ck_p8,Software development
+Economic development,/m/011d_9rh,Field of study
+Japan,/m/03_3d,Country in East Asia
+Japanese people,/m/019kn7,Ethnic group
+Japanese,/m/03_9r,Spoken language
+Portfolio,/m/051fm6,Finance
+Grant-in-aid,/m/0795dm,Topic
+Grants-in-Aid for Scientific Research,/g/128dgck8x,Topic
+Japan Society for the Promotion of Science,/m/04g2rw5,Topic
+"Ministry of Health, Labour and Welfare of Japan",/m/04t31s,Government ministry
+Researcher,/m/03bx017,Profession
+English Language,/m/02h40lc,Spoken language
+Social,/m/01qfr1,Topic
+Thesis,/m/01rt50,Literary genre
+School,/m/06zdj,Topic
+Subsidy,/m/012qhn,Topic
+Australia,/m/0chghy,Country in Oceania
+Singapore,/m/06t2t,Country in Asia
+Sustainability,/m/0hkst,Topic
+Blue Ocean Strategy,/m/025t066,Book by Renée Mauborgne and W. Chan Kim
+PDF,/m/0600q,File format
+Assessment,/m/0gw5h,Topic
+Impact factor,/m/040dhg,Topic
+Open innovation,/m/08pl0z,Topic
+The University of Tokyo,/m/017lvd,"University in the special wards of Tokyo, Japan"
+Wireless,/m/019dhf,Topic
+Malaysia,/m/09pmkv,Country in Asia
+Limited company,/m/02mxx4,Company type
+Massachusetts,/m/05k7sb,US state
+Guangdong Province,/m/0h9vh,Chinese province
+Industrial park,/m/02k7bf,Topic
+Philippines,/m/05v8c,Country in Asia
+Taiwan,/m/06f32,Topic
+Semiconductor,/m/08mh3kd,Topic
+Meaning,/g/1219h60v,Topic
+Benrishi,/m/084vxk,Topic
+Mandate,/g/11bc5vw_48,Topic
+Eurostat,/m/0328nz,Government agency
+Manager,/m/0nblvpz,Profession
+Definition,/m/026yf,Topic
+scrum sprint,/g/11bc5m_5dj,Topic
+Europe,/m/02j9z,Continent
+StartUp,/g/11cn8zz_m8,TV series
+Series A round,/m/02x4nvx,Investment round
+Artificial intelligence,/m/0mkz,Topic
+Union Investment,/m/0bwm133,Real estate investment management company
+Investment management,/m/05b6l8,Topic
+Share,/m/03jzl9,Finance
+DWS Group,/g/123385cj,Asset management company
+Klaus Kaldemorgen,/g/120pnc89,Investor
+Family,/m/09dhj,Topic
+Analyst,/g/122h5gw1,Career
+German Research Foundation,/m/03sp0q,Topic
+European Research Council Starting Grant,/g/11frfdm5qg,Topic
+German Academic Exchange Service,/m/02kg_z,Student society
+Travel,/m/014dsx,Topic
+Professor,/m/016fly,Academic rank
+Google Scholar,/m/057mg4,Web site
+Building insulation,/m/0gw5n6,Topic
+College,/m/02p0qmm,School category
+International Financial Reporting Standards,/m/0lzs_,Topic
+Insurance,/m/03xks,Topic
+Government of the United Kingdom,/m/09g9s5g,Government
+Employment,/g/11gbfbpzht,Topic
