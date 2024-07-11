@@ -30,4 +30,7 @@ The framework comprises two main steps:
    ```sh
    git clone https://github.com/AtiinA1/Nowcasting_RD_Expenditures.git
    cd Nowcasting_RD_Expenditures
+
+## Contact
    
+For any questions or issues, please do not hesitate to contact Atin at atin.aboutorabi@epfl.ch :)
