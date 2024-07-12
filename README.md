@@ -33,4 +33,4 @@ The framework comprises two main steps:
 
 ## Contact
    
-For any questions or issues, please do not hesitate to contact Atin at atin.aboutorabi@epfl.ch :)
+For any questions or issues, please do not hesitate to contact [Atin Aboutorabi](https://people.epfl.ch/atin.aboutorabi?lang=en) :)
