@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 
-pred_monthly = pd.read_csv('/Users/atin/Nowcasting/data/Results/AggMGT_Evolution/MLP_Ensemble_10_Final/XGBoost_MLP_Meta_Model/AGT/test10_related_topic_final_states_fixed_dimension_bem/df_trends_monthly_elast_adjusted_onpreds.csv')
+pred_monthly = pd.read_csv('/Nowcasting/nn_mlp_nowcasting_model/results/AGT/4TD/df_trends_monthly_elast_adjusted_onpreds.csv')
 pred_monthly = pred_monthly[['Year','Month','Country','monthly_rd_expenditure','monthly_rd_expenditure_onpreds']]
 pred_monthly = pred_monthly.rename(columns={'monthly_rd_expenditure': 'Monthly_RD_Expenditure_Tempdisagg_GT_NNelasticity', 'monthly_rd_expenditure_onpreds':'Monthly_RD_Expenditure_Tempdisagg_GT_NNelasticity_onPreds'})  
 
@@ -20,7 +20,7 @@ combined_df_org = combined_df
 tempdisagg_sax_df = pd.read_csv('/Nowcasting/temporal_disaggregation/classical_regression_tempdisagg/Disaggregated_Monthly_RD_Expenditure_Sax.csv')
 tempdisagg_sax_df = tempdisagg_sax_df.rename(columns={'Monthly_RD_Expenditure': 'Monthly_RD_Expenditure_Tempdisagg_Sax'})  
 
-tempdisagg_mosley_df = pd.read_csv('/Nowcasting/temporal_disaggregation/classical_regression_tempdisagg/test1/Disaggregated_RD_Expenditure_spTD.csv')
+tempdisagg_mosley_df = pd.read_csv('/Nowcasting/temporal_disaggregation/classical_regression_tempdisagg/Disaggregated_RD_Expenditure_spTD.csv')
 tempdisagg_mosley_df = tempdisagg_mosley_df.rename(columns={'Monthly_RD_Expenditure': 'Monthly_RD_Expenditure_Tempdisagg_Mosley'})  
 
 combined_df = combined_df.merge(tempdisagg_sax_df, on=['Year', 'Month'], how='left')

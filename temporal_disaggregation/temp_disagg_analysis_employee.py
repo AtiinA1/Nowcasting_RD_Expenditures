@@ -25,107 +25,13 @@ combined_df = combined_df.merge(monthly_naive_estimate, on=['Year'], how='left')
 ## Tests
 
 # Load US additional data
-us_gdp = pd.read_csv('/Nowcasting/data/FRED/realGDP_FRED.csv')
 us_employment = pd.read_csv('/Nowcasting/data/datausa.io/Monthly Employment.csv')
-
-us_pat_application_pre_grant = pd.read_csv('/Nowcasting/data/USPTO/pg_published_application.tsv', sep='\t')
-us_pat_assignee_pre_grant = pd.read_csv('/Nowcasting/data/USPTO/pg_assignee_disambiguated.tsv', sep='\t')
-
-us_pat_application_granted = pd.read_csv('/Nowcasting/data/USPTO/g_application_USPTO.tsv', sep='\t')
-us_pat_assignee_granted = pd.read_csv('/Nowcasting/data/USPTO/g_assignee_disambiguated.tsv', sep='\t')
-
-
-us_pat_application_pre_grant = us_pat_application_pre_grant[['pgpub_id', 'filing_date']]
-us_pat_assignee_pre_grant = us_pat_assignee_pre_grant[['pgpub_id', 'assignee_type']]
-
-#us_pat_assignee_pre_grant = us_pat_assignee_pre_grant[(us_pat_assignee_pre_grant['assignee_type'] != 1) & (us_pat_assignee_pre_grant['assignee_type'] != 3) & (us_pat_assignee_pre_grant['assignee_type'] != 5) & (us_pat_assignee_pre_grant['assignee_type'] != 7)]
-
-us_pat_application_pre_grant['filing_date'] = us_pat_application_pre_grant['filing_date'].astype(str)
-
-
-# Extract Year and Month, handling cases where filing_date might be 'nan'
-us_pat_application_pre_grant['Year'] = us_pat_application_pre_grant['filing_date'].apply(
-    lambda x: int(x.split('-')[0]) if '-' in x else np.nan
-)
-us_pat_application_pre_grant['Month'] = us_pat_application_pre_grant['filing_date'].apply(
-    lambda x: int(x.split('-')[1]) if '-' in x else np.nan
-)
-
-us_pat_application_pre_grant = us_pat_application_pre_grant.drop(columns=['filing_date'])
-
-#us_pat_appl_pre_grant = us_pat_application_pre_grant.merge(us_pat_assignee_pre_grant, on=['pgpub_id'], how='inner')
-us_pat_appl_pre_grant = us_pat_application_pre_grant
-
-us_pat_appl_pre_grant.dropna(inplace=True)
-# Remove duplicates, assuming unique entries are defined by both 'patent_id' and 'application_id'
-us_pat_appl_pre_grant = us_pat_appl_pre_grant.drop_duplicates()
-
-# Calculate monthly patent filings and add as a new column directly within df
-us_pat_appl_pre_grant['Monthly_Filings'] = us_pat_appl_pre_grant.groupby(['Year', 'Month'])['pgpub_id'].transform('nunique')
-us_pat_appl_pre_grant['Yearly_Filings'] = us_pat_appl_pre_grant.groupby(['Year'])['pgpub_id'].transform('nunique')
-
-us_pat_appl_pre_grant['Monthly_Filings'] = us_pat_appl_pre_grant['Monthly_Filings'].astype(int)
-us_pat_appl_pre_grant['Yearly_Filings'] = us_pat_appl_pre_grant['Yearly_Filings'].astype(int)
-
-us_pat_appl_pre_grant = us_pat_appl_pre_grant[['Year', 'Month', 'Monthly_Filings', 'Yearly_Filings']]
-us_pat_appl_pre_grant = us_pat_appl_pre_grant.drop_duplicates()
-
-#####
-
-us_pat_application = us_pat_application_granted[['patent_id', 'filing_date']]
-us_pat_assignee_granted = us_pat_assignee_granted[['patent_id', 'assignee_type']]
-
-us_pat_assignee_granted = us_pat_assignee_granted[(us_pat_assignee_granted['assignee_type'] != 1) & (us_pat_assignee_granted['assignee_type'] != 3) & (us_pat_assignee_granted['assignee_type'] != 5) & (us_pat_assignee_granted['assignee_type'] != 7)]
-
-us_pat_application['Year'] = us_pat_application['filing_date'].apply(lambda x: int(x.split('-')[0]))
-us_pat_application['Month'] = us_pat_application['filing_date'].apply(lambda x: int(x.split('-')[1]))
-
-# Drop 'filing_date' column
-us_pat_application = us_pat_application.drop(columns=['filing_date'])
-us_pat_application = us_pat_application.drop_duplicates()
-
-us_pat_application = us_pat_application.merge(us_pat_assignee_granted, on=['patent_id'], how='inner')
-
-# Remove duplicates, assuming unique entries are defined by both 'patent_id' and 'application_id'
-us_pat_application = us_pat_application.drop_duplicates()
-
-# Calculate monthly patent filings and add as a new column directly within df
-us_pat_application['Monthly_Granted'] = us_pat_application.groupby(['Year', 'Month'])['patent_id'].transform('nunique')
-us_pat_application['Yearly_Granted'] = us_pat_application.groupby(['Year'])['patent_id'].transform('nunique')
-
-us_pat_application['Monthly_Granted'] = us_pat_application['Monthly_Granted'].astype(int)
-us_pat_application['Yearly_Granted'] = us_pat_application['Yearly_Granted'].astype(int)
-
-us_pat_application=us_pat_application[['Year', 'Month', 'Monthly_Granted', 'Yearly_Granted']]
-us_pat_application = us_pat_application.drop_duplicates()
-
-########################################
-
-us_gdp['DATE'] = pd.to_datetime(us_gdp['DATE'])
-us_gdp.set_index('DATE', inplace=True)
-us_gdp_monthly = us_gdp.resample('M').ffill()
-us_gdp_monthly.reset_index(inplace=True)
-us_gdp_monthly['Month'] = us_gdp_monthly['DATE'].dt.month
-us_gdp_monthly['Year'] = us_gdp_monthly['DATE'].dt.year
-us_gdp_monthly = us_gdp_monthly.drop(columns=['DATE'])
-us_gdp = us_gdp_monthly
-
-########################################
-
 us_employment=us_employment[['Month of Year ID', 'Month of Year', 'NSA Employees']]
 
 # Extract year and month from 'Month of Year ID'
 us_employment['Year'] = us_employment['Month of Year ID'].apply(lambda x: int(x.split('-')[0]))
 us_employment['Month'] = us_employment['Month of Year ID'].apply(lambda x: int(x.split('-')[1]))
 us_employment=us_employment[['Year', 'Month', 'NSA Employees']]
-
-########################################
-
-us_gdp['Year'] = us_gdp['Year'].astype(int)
-us_gdp['Month'] = us_gdp['Month'].astype(int)
-
-us_pat_application['Year'] = us_pat_application['Year'].astype(int)
-us_pat_application['Month'] = us_pat_application['Month'].astype(int)
 
 us_employment['Year'] = us_employment['Year'].astype(int)
 us_employment['Month'] = us_employment['Month'].astype(int)
@@ -139,18 +45,14 @@ combined_df = combined_df[combined_df['Country'] == 'US']
 ########################################
 
 # Merging all data together based on 'Year' and 'Month'
-combined_df_us = combined_df.merge(us_gdp, on=['Year', 'Month'], how='left')
-combined_df_us = combined_df_us.merge(us_pat_application, on=['Year', 'Month'], how='left')
-combined_df_us = combined_df_us.merge(us_pat_appl_pre_grant, on=['Year', 'Month'], how='left')
-combined_df_us = combined_df_us.merge(us_employment, on=['Year', 'Month'], how='left')
-
+combined_df_us = combined_df.merge(us_employment, on=['Year', 'Month'], how='left')
 combined_df_us = combined_df_us.drop_duplicates()
 
 combined_df_us.to_csv('/Nowcasting/temporal_disaggregation/results/combined_df_us_summary.csv', index=False)
 
 
 # Calculate growth rates and correlations
-growth_columns = ['Monthly_RD_Expenditure_Tempdisagg_GT_NNelasticity', 'Monthly_RD_Expenditure_Tempdisagg_Sax', 'Monthly_RD_Expenditure_Tempdisagg_Mosley', 'rd_exp_month_naive_estimate', 'NSA Employees', 'Monthly_Filings', 'Monthly_Granted', 'GDP']
+growth_columns = ['Monthly_RD_Expenditure_Tempdisagg_GT_NNelasticity', 'Monthly_RD_Expenditure_Tempdisagg_Sax', 'Monthly_RD_Expenditure_Tempdisagg_Mosley', 'rd_exp_month_naive_estimate', 'NSA Employees']
 rd_growth_columns = ['Monthly_RD_Expenditure_Tempdisagg_GT_NNelasticity', 'Monthly_RD_Expenditure_Tempdisagg_Sax', 'Monthly_RD_Expenditure_Tempdisagg_Mosley', 'rd_exp_month_naive_estimate']
 
 #combined_df_us = combined_df_us[combined_df_us['Year']>=2008]
@@ -181,24 +83,19 @@ for lag in lags:
                     correlation_results.append({'Variable 1': f'{col1}_growth', 'Variable 2': f'{col2}_growth', 'Lag': lag, 'Correlation': correlation, 'P-Value': p_value})
 
 correlation_df = pd.DataFrame(correlation_results)
-
 correlation_df.to_csv('/Nowcasting/temporal_disaggregation/results/correlations_with_lags_all.csv', index=False)
 
 #################################################################################
 #################################################################################
 
 # Merging all data together based on 'Year' and 'Month'
-combined_df_us = combined_df.merge(us_gdp, on=['Year', 'Month'], how='left')
-combined_df_us = combined_df_us.merge(us_pat_application, on=['Year', 'Month'], how='left')
-combined_df_us = combined_df_us.merge(us_pat_appl_pre_grant, on=['Year', 'Month'], how='left')
-combined_df_us = combined_df_us.merge(us_employment, on=['Year', 'Month'], how='left')
-
+combined_df_us = combined_df.merge(us_employment, on=['Year', 'Month'], how='left')
 combined_df_us = combined_df_us.drop_duplicates()
 
 combined_df_us.to_csv('/Nowcasting/temporal_disaggregation/results/combined_df_us_summary.csv', index=False)
 
 # Calculate growth rates and correlations
-growth_columns = ['Monthly_RD_Expenditure_Tempdisagg_GT_NNelasticity', 'Monthly_RD_Expenditure_Tempdisagg_Sax', 'Monthly_RD_Expenditure_Tempdisagg_Mosley', 'rd_exp_month_naive_estimate', 'NSA Employees', 'Monthly_Filings', 'Monthly_Granted', 'GDP']
+growth_columns = ['Monthly_RD_Expenditure_Tempdisagg_GT_NNelasticity', 'Monthly_RD_Expenditure_Tempdisagg_Sax', 'Monthly_RD_Expenditure_Tempdisagg_Mosley', 'rd_exp_month_naive_estimate', 'NSA Employees']
 rd_growth_columns = ['Monthly_RD_Expenditure_Tempdisagg_GT_NNelasticity', 'Monthly_RD_Expenditure_Tempdisagg_Sax', 'Monthly_RD_Expenditure_Tempdisagg_Mosley', 'rd_exp_month_naive_estimate']
 
 combined_df_us = combined_df_us[combined_df_us['Year']>=2008]
