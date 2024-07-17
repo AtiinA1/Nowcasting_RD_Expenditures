@@ -4,6 +4,8 @@
 
 This repository contains the implementation of a neural network-based nowcasting model to predict and interpolate research and development (R&D) expenditure data using mixed-frequency, high-dimensional data sources such as internet search volume data. The project addresses the 'ragged-edge' problem in macroeconomic data acquisition, providing timely and high-frequency estimates of R&D investments, which are traditionally collected through infrequent and delayed surveys.
 
+The full paper associated with this repository on arXiv: [link](http://arxiv.org/abs/2407.11765).
+
 ## Framework
 
 The framework comprises two main steps:
