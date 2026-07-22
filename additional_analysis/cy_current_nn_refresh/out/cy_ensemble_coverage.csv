@@ -1,0 +1,8 @@
+Config,cov_quantile_%,cov_gaussian_%,avg_rel_width_%
+LagRD,43.48,47.83,5.17
+Macros,43.48,43.48,6.93
+AGT,52.17,60.87,11.6
+MGT,39.13,52.17,10.33
+AGTwRD,60.87,65.22,10.26
+MGTwRD,39.13,43.48,10.96
+AllVar,47.83,56.52,10.48

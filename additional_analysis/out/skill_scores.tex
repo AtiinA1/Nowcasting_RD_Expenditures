@@ -1,0 +1,23 @@
+\begin{table}
+\centering
+\caption{Out-of-sample forecast accuracy and skill scores on the shared test set (pooled, $n=314$). MASE and out-of-sample $R^2$ are computed relative to a no-change random walk; positive $R^2$ indicates the model beats the random walk.}
+\label{tab:skill_scores}
+\begin{tabular}{lrrrr}
+\toprule
+{} &  MAPE &  RMSE &  MASE &  OOS\_R2\_vs\_RW \\
+Model    &       &       &       &               \\
+\midrule
+LagRD    &  3.69 &  6.00 &  0.46 &          0.82 \\
+Macros   &  2.64 &  4.19 &  0.29 &          0.91 \\
+AGT      &  0.32 &  0.34 &  0.02 &          1.00 \\
+MGT      &  0.91 &  1.82 &  0.09 &          0.98 \\
+AGTwRD   &  0.31 &  0.65 &  0.03 &          1.00 \\
+MGTwRD   &  0.99 &  1.81 &  0.11 &          0.98 \\
+AllVar   &  0.81 &  1.36 &  0.09 &          0.99 \\
+RW       &  5.17 & 14.26 &  1.01 &          0.00 \\
+RW\_drift &  3.68 &  8.82 &  0.64 &          0.62 \\
+AR1      &  2.61 &  5.24 &  0.39 &          0.86 \\
+HistMean & 17.03 & 60.34 &  3.85 &        -16.91 \\
+\bottomrule
+\end{tabular}
+\end{table}

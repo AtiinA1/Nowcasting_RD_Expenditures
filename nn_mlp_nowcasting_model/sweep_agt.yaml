@@ -1,0 +1,43 @@
+project: nowcasting-rd-mlp
+entity: epfl_stip
+method: bayes
+metric:
+  name: final_ensemble_val_rmse
+  goal: minimize
+parameters:
+  learning_rate:
+    distribution: log_uniform_values
+    min: 0.0005
+    max: 0.02
+  batch_size:
+    values: [16, 32, 64]
+  hidden1_dim:
+    values: [128, 200, 256]
+  hidden2_dim:
+    values: [0, 16, 20, 32]
+  hidden3_dim:
+    values: [0, 16, 20, 32]
+  dropout_rate:
+    values: [0.0, 0.1, 0.2, 0.3]
+  weight_decay:
+    values: [0.0, 0.0001, 0.001]
+  lr_milestone:
+    values: [300, 800, 1200]
+  lr_gamma:
+    values: [0.1, 0.3, 0.5]
+  num_epochs:
+    values: [12000, 18000, 30000]
+  patience:
+    values: [4000, 8000, 12000]
+  size_ensemble:
+    values: [3, 5]
+program: MLP_AGT_temporalsplit_wandb.py
+command:
+  - ${env}
+  - python
+  - ${program}
+early_terminate:
+  type: hyperband
+  min_iter: 400
+
+

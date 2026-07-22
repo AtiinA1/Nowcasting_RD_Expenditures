@@ -1,0 +1,29 @@
+% Source: additional_analysis/pre_raw_stepb_method_audit/leakage_free_midas_benchmarks.py
+\begin{table}[!htb]
+\centering
+\caption{Temporal-split out-of-sample accuracy (annual test points, $n=23$). $R^2_{\mathrm{TSS}}=1-\mathrm{SSE}/\mathrm{TSS}$ is the conventional test-set coefficient of determination. DM tests compare each model with the feasible RW($L{=}3$) benchmark.}
+\label{tab:temporal_benchmarks}
+\begin{tabular}{l c c c c c}
+\toprule
+Model & MAPE (\%) & RMSE & $R^2_{\mathrm{TSS}}$ & DM vs RW(3) & $p$ \\
+\midrule
+\textit{LagRD} & 15.02 & 46.04 & 0.95 & -1.29 & 0.21 \\
+\textit{Macros} & 14.29 & 62.87 & 0.91 & 0.75 & 0.46 \\
+\textit{AGT} & 13.96 & 70.16 & 0.89 & 1.43 & 0.17 \\
+\textit{MGT} & 15.26 & 78.15 & 0.87 & 1.50 & 0.15 \\
+\textit{AGTwRD} & 13.13 & 59.34 & 0.92 & 0.66 & 0.52 \\
+\textit{MGTwRD} & 12.37 & 54.42 & 0.94 & -0.08 & 0.94 \\
+\textit{AllVar} & 12.19 & 53.95 & 0.94 & -0.14 & 0.89 \\
+\midrule
+\textit{RW (L=1)} & 4.80 & 19.46 & 0.99 & -2.68 & 0.01 \\
+\textit{RW (L=2)} & 8.26 & 38.06 & 0.97 & -2.64 & 0.01 \\
+\textit{RW (L=3, feasible)} & 12.04 & 54.94 & 0.93 &  &  \\
+\midrule
+\textit{AR(1) (L=3)} & 5.18 & 19.22 & 0.99 & -2.74 & 0.01 \\
+\textit{MIDAS (GT)} & 32.94 & 157.65 & 0.46 & 2.18 & 0.04 \\
+\textit{U-MIDAS (GT)} & 34.20 & 163.35 & 0.42 & 2.24 & 0.04 \\
+\textit{sg-LASSO-MIDAS (GT, 47 common topics)} & 42.90 & 392.53 & -2.33 & 1.13 & 0.27 \\
+\textit{Hist. mean} & 27.29 & 113.68 & 0.72 & 2.65 & 0.01 \\
+\bottomrule
+\end{tabular}
+\end{table}

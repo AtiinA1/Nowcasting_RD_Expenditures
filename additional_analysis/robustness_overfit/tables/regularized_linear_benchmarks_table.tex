@@ -1,0 +1,33 @@
+% Source: additional_analysis/robustness_overfit/02_regularized_linear_benchmarks.py
+\begin{table}[!htb]
+\centering
+\caption{Validation-tuned regularized linear benchmarks under the temporal split. Ridge and Elastic Net use the same engineered feature spaces, month indicators, country indicators, and within-country log-standardized target as the neural network. Hyperparameters are selected on the validation fold and performance is reported on annual test country-years.}
+\label{tab:regularized_linear_benchmarks}
+\begin{tabular}{l l c c c l}
+\toprule
+Configuration & Model & MAPE (\%) & RMSE & $R^2$ & Tuning \\
+\midrule
+\textit{AGT} & OLS & 22.38 & 152.56 & 0.50 &  \\
+\textit{AGT} & Ridge & 14.99 & 97.69 & 0.79 & $\alpha=3.16$ \\
+\textit{AGT} & Elastic Net & 15.43 & 122.84 & 0.67 & $\alpha=0.001$, $l_1=0.5$ \\
+\textit{AGT} & NN & 15.62 & 79.30 & 0.86 &  \\
+\textit{AGT} & sg-LASSO-MIDAS & 22.15 & 77.03 & 0.87 &  \\
+\textit{AGTwRD} & OLS & 21.62 & 173.43 & 0.35 &  \\
+\textit{AGTwRD} & Ridge & 11.99 & 70.01 & 0.89 & $\alpha=10$ \\
+\textit{AGTwRD} & Elastic Net & 17.81 & 134.05 & 0.61 & $\alpha=0.001$, $l_1=0.5$ \\
+\textit{AGTwRD} & NN & 14.84 & 69.33 & 0.90 &  \\
+\textit{AllVar} & OLS & 21.53 & 167.34 & 0.40 &  \\
+\textit{AllVar} & Ridge & 11.56 & 70.17 & 0.89 & $\alpha=10$ \\
+\textit{AllVar} & Elastic Net & 9.79 & 52.92 & 0.94 & $\alpha=0.01$, $l_1=0.05$ \\
+\textit{AllVar} & NN & 14.76 & 69.21 & 0.90 &  \\
+\textit{MGT} & OLS & 22.22 & 160.08 & 0.45 &  \\
+\textit{MGT} & Ridge & 12.35 & 74.04 & 0.88 & $\alpha=3.16$ \\
+\textit{MGT} & Elastic Net & 11.57 & 73.73 & 0.88 & $\alpha=0.001$, $l_1=0.5$ \\
+\textit{MGT} & NN & 16.79 & 86.07 & 0.84 &  \\
+\textit{MGTwRD} & OLS & 21.58 & 173.05 & 0.35 &  \\
+\textit{MGTwRD} & Ridge & 13.96 & 94.17 & 0.81 & $\alpha=3.16$ \\
+\textit{MGTwRD} & Elastic Net & 10.51 & 62.47 & 0.92 & $\alpha=0.01$, $l_1=0.05$ \\
+\textit{MGTwRD} & NN & 15.28 & 71.85 & 0.89 &  \\
+\bottomrule
+\end{tabular}
+\end{table}

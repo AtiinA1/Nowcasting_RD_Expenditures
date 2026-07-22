@@ -1,0 +1,24 @@
+=== temporal ===
+  NN-Mosley lvl=0.90 gr=0.53 | NN-Sax lvl=0.73 gr=-0.17
+  top10 topics: ['Research_&_Experimentation_Tax_Credit', 'Trademark_attorney', 'Subsidy', 'Business_loan', 'Innovation_management', 'Small_Business_Innovation_Research', 'Patent_infringement', 'Health', 'Wage', 'Tax_credit']
+=== random ===
+  NN-Mosley lvl=0.89 gr=0.52 | NN-Sax lvl=0.73 gr=-0.14
+  top10 topics: ['Business_loan', 'Trademark_attorney', 'Innovation_management', 'Research_&_Experimentation_Tax_Credit', 'Subsidy', 'Credit', 'Tax_credit', 'Laboratory', 'Patent_infringement', 'Health']
+=== alldata ===
+  NN-Mosley lvl=0.86 gr=0.48 | NN-Sax lvl=0.70 gr=-0.13
+  top10 topics: ['Business_loan', 'Trademark_attorney', 'Innovation_management', 'Research_&_Experimentation_Tax_Credit', 'Subsidy', 'Tax_credit', 'Patent_infringement', 'Laboratory', 'Credit', 'Health']
+
+=== top-6 topics by |elasticity| per split ===
+  temporal: ['Research_&_Experimentation_Tax_Credit', 'Trademark_attorney', 'Subsidy', 'Business_loan', 'Innovation_management', 'Small_Business_Innovation_Research']
+  random: ['Business_loan', 'Trademark_attorney', 'Innovation_management', 'Research_&_Experimentation_Tax_Credit', 'Subsidy', 'Credit']
+  alldata: ['Business_loan', 'Trademark_attorney', 'Innovation_management', 'Research_&_Experimentation_Tax_Credit', 'Subsidy', 'Tax_credit']
+  Chow-Lin (original, SHAP top-6): ['Capitalization', 'Investment_management', 'Patent_office', 'Tax_credit', 'Cost', 'Technology']
+
+=== temporal-level NN employment lag-correlations (p<0.01) ===
+  lag -5: r=-0.41 p=0.0000
+  lag +0: r=-0.36 p=0.0000
+  lag -2: r=0.24 p=0.0022
+  lag +5: r=0.24 p=0.0018
+  lag +4: r=0.23 p=0.0031
+
+saved combined_estimates_temporal_level.csv, stepB_*.csv, figures

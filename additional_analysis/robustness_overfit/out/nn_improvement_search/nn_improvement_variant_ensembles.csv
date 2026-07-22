@@ -1,0 +1,17 @@
+Config,Rule,Variants,MAPE,RMSE,R2
+AGT,top2_by_val,wide_deep_small;wide_deep_huber,14.350696369147897,66.6009831751265,0.9042429961813461
+AGT,top3_by_val,wide_deep_small;wide_deep_huber;medium_ln_mse,14.618552084656839,70.55448680022265,0.8925371033960601
+AGT,top4_by_val,wide_deep_small;wide_deep_huber;medium_ln_mse;wide_deep_tiny,15.008052281261264,72.58347865148762,0.8862674373196234
+AGT,top6_by_val,wide_deep_small;wide_deep_huber;medium_ln_mse;wide_deep_tiny;small_ln_mse;small_ln_huber,15.828449835240496,75.79682282577417,0.8759744186238194
+AGTwRD,top2_by_val,medium_ln_mse;wide_deep_small,12.539558910567594,55.708057948212726,0.9330045504801017
+AGTwRD,top4_by_val,medium_ln_mse;wide_deep_small;small_ln_mse;wide_deep_huber,12.581248009036857,56.093659998002586,0.9320738775566679
+AGTwRD,top3_by_val,medium_ln_mse;wide_deep_small;small_ln_mse,12.581633217134353,57.1468509787182,0.9294992274341368
+AGTwRD,top6_by_val,medium_ln_mse;wide_deep_small;small_ln_mse;wide_deep_huber;small_ln_huber;wide_deep_tiny,13.251230220628898,58.12212872815651,0.9270723377634704
+AllVar,top2_by_val,wide_deep_huber;wide_deep_small,12.583604557997063,58.67004343226507,0.9256908852549353
+AllVar,top3_by_val,wide_deep_huber;wide_deep_small;medium_ln_mse,12.646670752282132,55.061004408050614,0.9345518271073328
+AllVar,top4_by_val,wide_deep_huber;wide_deep_small;medium_ln_mse;small_ln_mse,12.947188338739291,55.610654151215144,0.9332386245617129
+AllVar,top6_by_val,wide_deep_huber;wide_deep_small;medium_ln_mse;small_ln_mse;wide_deep_tiny;small_ln_huber,13.342935843218578,57.751889644841185,0.9279984798028716
+Macros,top2_by_val,wide_deep_small;wide_deep_huber,14.720787075469763,64.29046775041687,0.9107717369101177
+Macros,top3_by_val,wide_deep_small;wide_deep_huber;wide_deep_tiny,14.813433972644447,63.448446245061355,0.9130937019214217
+Macros,top4_by_val,wide_deep_small;wide_deep_huber;wide_deep_tiny;small_ln_mse,15.649450503588966,67.30820342660638,0.9021985563742455
+Macros,top6_by_val,wide_deep_small;wide_deep_huber;wide_deep_tiny;small_ln_mse;medium_ln_mse;small_ln_huber,16.81360556714056,72.40418944916968,0.886828607348493

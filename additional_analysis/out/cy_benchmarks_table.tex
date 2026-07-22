@@ -1,0 +1,25 @@
+% Source: additional_analysis/evaluate_country_year.py (skill+DM), nn_vs_ols_benchmarks.py (OLS)
+\begin{table}[!htb]
+\centering
+\caption{Out-of-sample accuracy under the country-year split. DM tests compare each model with the random walk.}
+\label{tab:cy_benchmarks}
+\begin{tabular}{l c c c c c c}
+\toprule
+Model & MAPE (\%) & RMSE & MASE & OOS $R^2$ & DM vs RW & $p$ \\
+\midrule
+\textit{LagRD} & 8.01 & 8.63 & 0.78 & 0.59 & -1.85 & 0.08 \\
+\textit{Macros} & 11.04 & 8.93 & 0.89 & 0.56 & -1.47 & 0.16 \\
+\textit{AGT} & 11.23 & 16.97 & 1.36 & -0.59 & 1.23 & 0.23 \\
+\textit{MGT} & 11.55 & 13.93 & 1.19 & -0.07 & 0.24 & 0.81 \\
+\textit{AGTwRD} & 11.57 & 13.48 & 1.18 & -0.01 & 0.03 & 0.98 \\
+\textit{MGTwRD} & 8.49 & 11.21 & 0.95 & 0.30 & -1.08 & 0.29 \\
+\textit{AllVar} & 8.63 & 10.71 & 0.91 & 0.37 & -1.40 & 0.17 \\
+\midrule
+\textit{RW} & 6.44 & 13.44 & 1.05 & 0.00 &  &  \\
+\textit{AR1} & 5.70 & 7.18 & 0.62 & 0.71 & -1.87 & 0.07 \\
+\textit{HistMean} & 15.95 & 54.82 & 3.47 & -15.63 &  &  \\
+\textit{UMIDAS} & 23.93 & 61.62 & 3.39 & -20.02 & 1.65 & 0.11 \\
+\textit{MIDAS} & 23.00 & 63.58 & 3.68 & -21.38 & 1.64 & 0.11 \\
+\bottomrule
+\end{tabular}
+\end{table}

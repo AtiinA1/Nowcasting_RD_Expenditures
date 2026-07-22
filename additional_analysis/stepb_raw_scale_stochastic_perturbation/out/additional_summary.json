@@ -1,0 +1,40 @@
+{
+  "topic_elasticity_correlation": 0.9999999999852085,
+  "topic_elasticity_mean_absolute_difference": 5.816922889928777e-07,
+  "topic_sign_agreement": 0.9824561403508771,
+  "top10_overlap_by_absolute_value": 10,
+  "fixed_significant_monthly_employment_lags_p01": [
+    {
+      "lag": -9,
+      "correlation": 0.24724077712080234,
+      "p_value": 0.001737020183089936
+    },
+    {
+      "lag": 3,
+      "correlation": 0.23705554680340854,
+      "p_value": 0.002241190634260842
+    }
+  ],
+  "normal_significant_monthly_employment_lags_p01": [
+    {
+      "lag": -9,
+      "correlation": 0.2472421192723736,
+      "p_value": 0.001736916361451229
+    },
+    {
+      "lag": 3,
+      "correlation": 0.23705681680913473,
+      "p_value": 0.0022410646281427575
+    }
+  ],
+  "annual_aggregation_checks": [
+    {
+      "estimator": "fixed_1pct",
+      "maximum_absolute_annual_error": 1.1368683772161603e-13
+    },
+    {
+      "estimator": "normal_mean",
+      "maximum_absolute_annual_error": 5.684341886080802e-14
+    }
+  ]
+}

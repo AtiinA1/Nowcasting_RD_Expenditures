@@ -1,0 +1,41 @@
+program: MLP_AGT_temporalsplit_wandb.py
+method: bayes
+metric:
+  name: final_ensemble_val_rmse
+  goal: minimize
+early_terminate:
+  type: hyperband
+  min_iter: 30
+parameters:
+  learning_rate:
+    distribution: log_uniform_values
+    min: 0.00001
+    max: 0.1                      # Wider range including higher LR
+  batch_size:
+    values: [4, 8, 16, 32, 64, 128]  # Even smaller batch sizes for small dataset
+  hidden1_dim:
+    values: [16, 32, 64, 128, 256]   # Smaller architectures
+  hidden2_dim:
+    values: [8, 16, 32, 64, 128]     # Smaller architectures
+  hidden3_dim:
+    values: [4, 8, 16, 32, 64]       # Smaller architectures
+  embedding_dim:
+    values: [2, 4, 8, 16, 32]        # Smaller embeddings
+  size_ensemble:
+    values: [1, 3, 5, 7, 10, 15]     # Including single model to reduce complexity
+  num_epochs:
+    values: [600, 800, 1000, 1200]      # Much longer training
+  patience:
+    values: [180, 240, 300, 360]        # MUCH more patience (30% of epochs)
+  lr_milestone:
+    values: [50, 100, 200, 300, 500]    # Later milestones for longer training
+  lr_gamma:
+    values: [0.01, 0.05, 0.1, 0.3, 0.5, 0.7]  # More decay options
+  optimizer:
+    value: "adamw"  # Use AdamW as default optimizer
+  weight_decay:
+    distribution: log_uniform_values
+    min: 0.000001
+    max: 0.1                     # Strong regularization range
+  dropout_rate:
+    values: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7]  # Wider dropout range 

@@ -1,0 +1,39 @@
+program: MLP_AGT_temporalsplit_wandb.py
+method: bayes
+metric:
+  name: final_ensemble_val_rmse
+  goal: minimize
+early_terminate:
+  type: hyperband
+  min_iter: 20
+parameters:
+  learning_rate:
+    values: [0.005, 0.01, 0.02, 0.03]  # Higher starting rates
+  batch_size:
+    values: [4, 8, 16, 32]             # Smaller batches only
+  hidden1_dim:
+    values: [16, 24, 32, 48, 64, 96]   # Reasonable range for single layer
+  hidden2_dim:
+    value: 0  # Disable second layer
+  hidden3_dim:
+    value: 0  # Disable third layer
+  embedding_dim:
+    values: [2, 4, 6, 8]               # Smaller embeddings
+  size_ensemble:
+    values: [1, 3, 5]                  # Smaller ensembles
+  num_epochs:
+    values: [800, 1200, 1600, 2000]    # EXTREME training time!
+  patience:
+    values: [240, 360, 480, 600]       # MASSIVE patience (30% of epochs)
+  lr_milestone:
+    values: [300, 500, 800]            # ULTRA late milestones
+  lr_gamma:
+    values: [0.1, 0.3, 0.5]
+  optimizer:
+    value: "adamw"  # Use AdamW as default optimizer
+  weight_decay:
+    distribution: log_uniform_values
+    min: 0.000001
+    max: 0.01
+  dropout_rate:
+    values: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5] 
