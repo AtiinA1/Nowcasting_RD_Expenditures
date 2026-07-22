@@ -1,12 +1,13 @@
 # Paper-ready artifacts
 
-The public repository intentionally contains the current paper-ready artifacts,
-but not the revision's LaTeX source, bibliography, internal notes, or compiled
-draft. The public manuscript record is
+The public repository contains the current revised manuscript and its
+paper-ready artifacts, but not the revision's LaTeX source, bibliography, or
+internal notes. The original public manuscript record is
 [arXiv:2407.11765](https://arxiv.org/abs/2407.11765).
 
 | Path | Contents |
 | --- | --- |
+| [`Nowcasting_Temporal_Disaggregation_RD.pdf`](Nowcasting_Temporal_Disaggregation_RD.pdf) | The newest compiled revision of the paper |
 | `figures/` | The 28 main-text and appendix figures referenced by the current manuscript |
 | `tables/` | The 8 generated table fragments referenced by the current manuscript |
 

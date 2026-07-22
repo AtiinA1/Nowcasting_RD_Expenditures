@@ -5,10 +5,10 @@ robustness analyses for **Nowcasting and Temporal Disaggregation of R&D
 Expenditures Using Internet Search Data** by Atin Aboutorabi and Gaétan de
 Rassenfosse.
 
-The public manuscript is available from the
-[arXiv record](https://arxiv.org/abs/2407.11765) and as a
-[direct PDF](https://arxiv.org/pdf/2407.11765). The PDF link resolves to the
-latest version published under this arXiv identifier.
+The newest revised manuscript is available as a
+[direct PDF](https://raw.githubusercontent.com/AtiinA1/Nowcasting_RD_Expenditures/main/paper/Nowcasting_Temporal_Disaggregation_RD.pdf).
+The original public manuscript record remains available on
+[arXiv:2407.11765](https://arxiv.org/abs/2407.11765).
 
 The study has two components:
 
@@ -110,13 +110,13 @@ from the initial repository are not required by the current paper pipeline and
 are intentionally excluded from this research snapshot.
 
 The public repository intentionally excludes the revision's LaTeX source,
-bibliography, internal version notes, and compiled draft. The curated figures
-and generated table fragments used by the current manuscript remain available
-under [`paper/`](paper/), while the manuscript itself is linked through arXiv.
+bibliography, and internal version notes. The compiled revised manuscript,
+curated figures, and generated table fragments remain available under
+[`paper/`](paper/).
 
 ## Citation
 
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). Please cite
-the public manuscript record on [arXiv](https://arxiv.org/abs/2407.11765). A
-[direct link to the latest public PDF](https://arxiv.org/pdf/2407.11765) is also
-available.
+Citation metadata are provided in [`CITATION.cff`](CITATION.cff). The
+[newest revised paper is available directly as a PDF](https://raw.githubusercontent.com/AtiinA1/Nowcasting_RD_Expenditures/main/paper/Nowcasting_Temporal_Disaggregation_RD.pdf),
+and the original public manuscript record remains available on
+[arXiv](https://arxiv.org/abs/2407.11765).

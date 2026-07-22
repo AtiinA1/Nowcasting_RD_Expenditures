@@ -14,6 +14,7 @@ MAX_GITHUB_BYTES = 100 * 1024 * 1024
 
 REQUIRED = [
     "paper/README.md",
+    "paper/Nowcasting_Temporal_Disaggregation_RD.pdf",
     "paper/figures/Framework_NowcastingRD2024.pdf",
     "paper/figures/Nowcast_Model_Temporal/NNvsOLS_Temporal_distribution.png",
     "paper/figures/Disaggregation/NNelasticity_temporal_level.png",

@@ -19,10 +19,12 @@ wandb/
 runs/
 mplconfig/
 cache/
+tmp/
 *.log
 
-# Manuscript source is kept outside the public repository. Paper-ready figures
-# and generated table fragments under paper/ remain versioned.
+# Manuscript source and local build files are kept outside the public
+# repository. The descriptively named revised PDF and paper-ready artifacts
+# under paper/ remain versioned.
 paper/template-arxiv.tex
 paper/annex-arxiv.tex
 paper/references.bib
