@@ -1,0 +1,18 @@
+Temporal split: train=1020 val=252 test=276 rows; test country-years=23
+  Macros   | level           | MAPE=  16.85  RMSE=   43.17  R2=  0.96
+  Macros   | log             | MAPE=  12.87  RMSE=   50.52  R2=  0.94
+  Macros   | logstd_country  | MAPE=  15.76  RMSE=   73.38  R2=  0.88
+  AGT      | level           | MAPE=  51.32  RMSE=  119.00  R2=  0.69
+  AGT      | log             | MAPE=  28.08  RMSE=  126.19  R2=  0.66
+  AGT      | logstd_country  | MAPE=  16.36  RMSE=   82.33  R2=  0.85
+  MGT      | level           | MAPE=  54.67  RMSE=  128.95  R2=  0.64
+  MGT      | log             | MAPE=  38.28  RMSE=  145.36  R2=  0.54
+  MGT      | logstd_country  | MAPE=  16.67  RMSE=   85.70  R2=  0.84
+  AGTwRD   | level           | MAPE=  43.50  RMSE=   78.09  R2=  0.87
+  AGTwRD   | log             | MAPE=  21.00  RMSE=   80.03  R2=  0.86
+  AGTwRD   | logstd_country  | MAPE=  14.38  RMSE=   67.04  R2=  0.90
+  AllVar   | level           | MAPE=  46.79  RMSE=   86.86  R2=  0.84
+  AllVar   | log             | MAPE=  32.21  RMSE=   97.97  R2=  0.79
+  AllVar   | logstd_country  | MAPE=  14.65  RMSE=   68.64  R2=  0.90
+
+saved temporal_target_screen.csv

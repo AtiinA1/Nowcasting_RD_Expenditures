@@ -1,0 +1,3 @@
+training AllVar (10)...
+done
+saved AllVar_TrueVsPred_Temporal.png

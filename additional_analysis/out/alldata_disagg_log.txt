@@ -1,0 +1,8 @@
+training all-data AGT ensemble...
+done
+
+US disaggregation 2004-2021 N=216
+NN(all-data) vs Mosley : level r(214)=0.24 (p=4.6e-04) | growth r=0.07 (p=0.31)
+NN(all-data) vs Sax    : level r(214)=0.20 (p=2.7e-03) | growth r=-0.01 (p=0.88)
+Employment lag-correlations (p<0.01):
+saved out/combined_estimates_alldata.csv

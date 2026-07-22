@@ -1,0 +1,7 @@
+split=random   target=level          N=216 | NN-Mosley lvl=0.88 gr=0.51 | NN-Sax lvl=0.72 gr=-0.14
+split=random   target=logstd_country N=216 | NN-Mosley lvl=0.22 gr=-0.05 | NN-Sax lvl=0.22 gr=0.04
+split=temporal target=level          N=216 | NN-Mosley lvl=0.90 gr=0.51 | NN-Sax lvl=0.72 gr=-0.16
+split=temporal target=logstd_country N=216 | NN-Mosley lvl=0.52 gr=0.21 | NN-Sax lvl=0.37 gr=0.06
+split=alldata  target=level          N=216 | NN-Mosley lvl=0.84 gr=0.47 | NN-Sax lvl=0.69 gr=-0.13
+split=alldata  target=logstd_country N=216 | NN-Mosley lvl=0.22 gr=0.07 | NN-Sax lvl=0.21 gr=0.05
+saved out/elasticity_grid.csv

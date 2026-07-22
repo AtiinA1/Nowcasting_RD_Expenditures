@@ -1,0 +1,34 @@
+program: MLP_AGT_temporalsplit_wandb.py
+method: grid
+metric:
+  name: final_ensemble_val_rmse
+  goal: minimize
+parameters:
+  learning_rate:
+    value: 0.01                    # Start high
+  batch_size:
+    value: 8                       # Even smaller batch
+  hidden1_dim:
+    value: 24                      # Simpler architecture
+  hidden2_dim:
+    value: 12
+  hidden3_dim:
+    value: 6
+  embedding_dim:
+    value: 4                       # Small embedding
+  size_ensemble:
+    value: 3                       # Small ensemble for speed
+  num_epochs:
+    value: 3000                    # EXTREME training time!
+  patience:
+    value: 1000                    # MASSIVE patience (33% of epochs)
+  lr_milestone:
+    value: 800                     # Very late decay 0.01→0.001 at epoch 800
+  lr_gamma:
+    value: 0.1
+  optimizer:
+    value: "adamw"
+  weight_decay:
+    value: 0.0001                  # Light regularization  
+  dropout_rate:
+    value: 0.1                     # Light dropout 

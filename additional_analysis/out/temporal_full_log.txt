@@ -1,0 +1,51 @@
+[temporal] test country-years=23
+  trained+OLS LagRD
+  trained+OLS Macros
+  trained+OLS AGT
+  trained+OLS MGT
+  trained+OLS AGTwRD
+  trained+OLS MGTwRD
+  trained+OLS AllVar
+
+=== Temporal skill (annual, logstd target) ===
+            MAPE    RMSE    R2  OOSR2_RW
+Model                                   
+NN_LagRD   25.58  181.32  0.29    -85.85
+NN_Macros  15.88   72.08  0.89    -12.72
+NN_AGT     15.62   79.30  0.86    -15.61
+NN_MGT     16.79   86.07  0.84    -18.57
+NN_AGTwRD  14.84   69.33  0.90    -11.70
+NN_MGTwRD  15.28   71.85  0.89    -12.64
+NN_AllVar  14.76   69.21  0.90    -11.65
+RW          4.80   19.46  0.99      0.00
+AR1         2.92    6.97  1.00      0.87
+HistMean   27.29  113.68  0.72    -33.14
+UMIDAS     31.92  145.45  0.54    -54.88
+MIDAS      31.20  140.73  0.57    -51.32
+
+=== NN vs OLS (same input space), temporal split ===
+        NN_MAPE  OLS_MAPE  NN_R2  OLS_R2
+Config                                  
+LagRD     25.58     37.97   0.29   -0.88
+Macros    15.88      9.16   0.89    0.96
+AGT       15.62     22.29   0.86    0.22
+MGT       16.79     22.19   0.84    0.23
+AGTwRD    14.84     22.30   0.90    0.22
+MGTwRD    15.28     22.19   0.89    0.23
+AllVar    14.76     22.26   0.90    0.22
+
+=== DM tests (neg => first better) ===
+                   pair     DM     p
+  NN_LagRD vs OLS_LagRD -1.671 0.109
+NN_Macros vs OLS_Macros  1.480 0.153
+      NN_AGT vs OLS_AGT -1.034 0.312
+      NN_MGT vs OLS_MGT -1.006 0.325
+NN_AGTwRD vs OLS_AGTwRD -1.074 0.294
+NN_MGTwRD vs OLS_MGTwRD -1.067 0.297
+NN_AllVar vs OLS_AllVar -1.074 0.295
+       NN_AGT vs UMIDAS -2.490 0.021
+        NN_AGT vs MIDAS -2.429 0.024
+           NN_AGT vs RW  2.525 0.019
+          NN_AGT vs AR1  2.564 0.018
+
+DONE

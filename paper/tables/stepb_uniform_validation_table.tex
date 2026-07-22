@@ -1,0 +1,16 @@
+% Source: additional_analysis/pre_raw_stepb_method_audit/incremental_timing_test.py
+\begin{table}[!htb]
+\centering
+\caption{Employment comparison after removing annual levels.}
+\label{tab:uniform_employment_validation}
+\begin{tabular}{l c c c}
+\toprule
+Method & Share correlation & Month-adjusted correlation & Share RMSE \\
+\midrule
+NN sensitivity & -0.32 & 0.09 & 0.00864 \\
+Sparse temporal disaggregation & -0.33 & 0.00 & 0.00562 \\
+Chow-Lin & 0.30 & 0.16 & 0.00765 \\
+Uniform allocation & -- & -- & 0.00118 \\
+\bottomrule
+\end{tabular}
+\end{table}

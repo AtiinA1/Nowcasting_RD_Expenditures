@@ -1,0 +1,27 @@
+% Sources: additional_analysis/cy_current_nn_refresh/evaluate_current_nn.py;
+% additional_analysis/pre_raw_stepb_method_audit/leakage_free_cy_midas.py;
+% additional_analysis/exact_stepa_stepb_audit/correct_country_year_dm.py
+\begin{table}[!htb]
+\centering
+\caption{Out-of-sample accuracy under the country-year split. $R^2_{\mathrm{RW}}=1-\mathrm{MSE}_{\mathrm{model}}/\mathrm{MSE}_{\mathrm{RW}}$ measures skill relative to the random walk. DM tests use the same benchmark.}
+\label{tab:cy_benchmarks}
+\begin{tabular}{l c c c c c c}
+\toprule
+Model & MAPE (\%) & RMSE & MASE & $R^2_{\mathrm{RW}}$ & DM vs RW & $p$ \\
+\midrule
+\textit{LagRD} & 4.62 & 6.39 & 0.51 & 0.77 & -1.93 & 0.07 \\
+\textit{Macros} & 5.31 & 7.12 & 0.63 & 0.72 & -1.82 & 0.08 \\
+\textit{AGT} & 5.38 & 16.63 & 0.98 & -0.53 & 0.63 & 0.54 \\
+\textit{MGT} & 5.43 & 16.73 & 1.04 & -0.55 & 0.63 & 0.53 \\
+\textit{AGTwRD} & 5.10 & 18.37 & 0.99 & -0.87 & 0.66 & 0.51 \\
+\textit{MGTwRD} & 5.42 & 12.94 & 0.95 & 0.07 & -0.20 & 0.84 \\
+\textit{AllVar} & 5.21 & 15.00 & 0.96 & -0.24 & 0.36 & 0.72 \\
+\midrule
+\textit{RW} & 6.44 & 13.44 & 1.05 & 0.00 &  &  \\
+\textit{AR1} & 5.70 & 7.18 & 0.62 & 0.71 & -1.79 & 0.09 \\
+\textit{HistMean} & 15.95 & 54.82 & 3.47 & -15.63 &  &  \\
+\textit{UMIDAS} & 21.00 & 63.98 & 3.34 & -21.65 & 1.24 & 0.23 \\
+\textit{MIDAS} & 19.69 & 64.31 & 3.59 & -21.89 & 1.33 & 0.20 \\
+\bottomrule
+\end{tabular}
+\end{table}

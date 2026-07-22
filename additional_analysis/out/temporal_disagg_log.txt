@@ -1,0 +1,16 @@
+training AGT temporal ensemble (10 members)...
+done training
+computed elasticities for 8 countries x 57 topics
+
+US monthly disaggregation: 2004-2021, N=216
+
+=== Correlations (temporal NN-elasticity) ===
+NN vs Mosley : level r(214)=0.64 (p=2.3e-26) | growth r=0.40 (p=0.00)
+NN vs Sax    : level r(214)=0.47 (p=2.6e-13) | growth r=0.04 (p=0.57)
+Sax vs Mosley: level r=0.87 (p=1.1e-68) | growth r=0.17 (p=0.01)
+
+=== Employment growth lag-correlations (|p|<0.01), temporal NN ===
+  lag +4: r=0.29 p=0.0002
+  lag +0: r=-0.25 p=0.0010
+
+saved out/combined_estimates_temporal.csv + out/temporal_disagg_US.png

@@ -1,0 +1,35 @@
+program: MLP_AGT_temporalsplit_wandb.py
+method: bayes
+metric:
+  name: final_ensemble_val_rmse
+  goal: minimize
+early_terminate:
+  type: hyperband
+  min_iter: 10
+parameters:
+  learning_rate:
+    distribution: log_uniform_values
+    min: 0.0001
+    max: 0.01
+  batch_size:
+    values: [32, 64, 128, 256]
+  hidden1_dim:
+    values: [64, 128, 256, 512]
+  hidden2_dim:
+    values: [32, 64, 128, 256]
+  hidden3_dim:
+    values: [16, 32, 64, 128]
+  embedding_dim:
+    values: [8, 16, 32, 64]
+  size_ensemble:
+    values: [3, 5, 7]
+  num_epochs:
+    value: 200
+  patience:
+    value: 20
+  lr_milestone:
+    values: [50, 100, 150]
+  lr_gamma:
+    values: [0.1, 0.3, 0.5]
+  optimizer:
+    values: ["adam", "adamw", "sgd"] 

@@ -1,0 +1,20 @@
+% Source: additional_analysis/robustness_overfit/04_stepb_model_agnostic_elasticities.py
+\begin{table}[!htb]
+\centering
+\caption{Model-agnostic Step B robustness using alternative predictive sensitivities.}
+\label{tab:stepb_model_agnostic_elasticities}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{l l c c c c c}
+\toprule
+Model & Variant & NN level & NN growth & Mosley level & Mosley growth & Neg. topics \\
+\midrule
+Elastic Net & positive part & 0.88 & 0.34 & 0.92 & 0.58 & 0.42 \\
+Elastic Net & signed & 0.21 & -0.18 & 0.24 & 0.01 & 0.42 \\
+OLS & positive part & 0.88 & 0.45 & 0.92 & 0.69 & 0.44 \\
+OLS & signed & 0.35 & 0.06 & 0.35 & 0.19 & 0.44 \\
+Ridge & positive part & 0.96 & 0.83 & 0.93 & 0.63 & 0.42 \\
+Ridge & signed & 0.96 & 0.93 & 0.84 & 0.37 & 0.42 \\
+\bottomrule
+\end{tabular}
+\end{table}

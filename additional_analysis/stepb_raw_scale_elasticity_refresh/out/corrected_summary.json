@@ -1,0 +1,19 @@
+{
+  "series_comparison_with_previous_implementation": {
+    "N_months": 216,
+    "level_correlation": 0.9065151065875227,
+    "growth_correlation": 0.874175688905199,
+    "mean_absolute_difference_usd_bn": 3.3996881250876037,
+    "mean_absolute_percent_difference": 8.157692755176189,
+    "maximum_absolute_difference_usd_bn": 14.602569398095149
+  },
+  "topic_weight_comparison_with_previous_implementation": {
+    "N_topics": 57,
+    "signed_elasticity_correlation": 0.8637462993727263,
+    "absolute_elasticity_correlation": 0.8694337432150047,
+    "sign_agreement_share": 0.8421052631578947,
+    "top10_overlap": 7
+  },
+  "maximum_absolute_annual_aggregation_error": 5.684341886080802e-14,
+  "all_corrected_monthly_estimates_positive": true
+}

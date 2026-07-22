@@ -1,0 +1,6 @@
+Method,share_dev_corr,growth_corr,nRMSE
+NN-elasticity,-0.5163,-0.356,0.1052
+Sparse (Mosley),-0.3283,-0.1487,0.0684
+Chow-Lin (Sax),0.302,0.482,0.0935
+Denton (GT composite),-0.6213,-0.4778,0.0961
+Uniform,,-0.1309,0.0151

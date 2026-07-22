@@ -1,0 +1,16 @@
+% Source: additional_analysis/robustness_overfit/06_nn_improvement_search.py
+\begin{table}[!htb]
+\centering
+\caption{Targeted neural-network improvement search under the temporal split.}
+\label{tab:nn_improvement_search}
+\begin{tabular}{l l c c c c}
+\toprule
+Config & Variant & Val MAPE & Test MAPE & RMSE & $R^2$ \\
+\midrule
+AGT & wide_deep_huber & 5.82 & 14.17 & 65.34 & 0.91 \\
+AGTwRD & medium_ln_mse & 5.00 & 12.41 & 58.25 & 0.93 \\
+AllVar & wide_deep_huber & 4.28 & 12.50 & 58.25 & 0.93 \\
+Macros & wide_deep_small & 6.21 & 14.43 & 64.80 & 0.91 \\
+\bottomrule
+\end{tabular}
+\end{table}

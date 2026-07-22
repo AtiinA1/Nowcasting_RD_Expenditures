@@ -1,0 +1,21 @@
+% Source: additional_analysis/robustness_overfit/03_rolling_origin_sensitivity.py
+\begin{table}[!htb]
+\centering
+\caption{Rolling-origin sensitivity for the AGT configuration. For each origin, models are trained on years before the two-year validation window, tuned or early-stopped on the validation window, and evaluated on the origin year. The exercise is a small-sample robustness check rather than a full time-series cross-validation design.}
+\label{tab:rolling_origin_sensitivity}
+\begin{tabular}{l l c c c c}
+\toprule
+Origin & Model & Countries & MAPE (\%) & RMSE & $R^2$ \\
+\midrule
+2017 & NN-AGT & 7 & 10.16 & 58.97 & 0.90 \\
+2017 & Elastic Net & 7 & 5.31 & 26.33 & 0.98 \\
+2017 & RW(3) & 7 & 10.19 & 44.46 & 0.94 \\
+2018 & NN-AGT & 7 & 13.93 & 68.02 & 0.88 \\
+2018 & Elastic Net & 7 & 9.93 & 32.06 & 0.97 \\
+2018 & RW(3) & 7 & 14.04 & 49.03 & 0.94 \\
+2019 & NN-AGT & 6 & 8.50 & 27.26 & 0.98 \\
+2019 & Elastic Net & 6 & 2.51 & 4.16 & 1.00 \\
+2019 & RW(3) & 6 & 13.56 & 44.16 & 0.95 \\
+\bottomrule
+\end{tabular}
+\end{table}

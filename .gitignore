@@ -1,0 +1,47 @@
+# Operating-system and editor files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Experiment services and local caches
+wandb/
+runs/
+mplconfig/
+cache/
+*.log
+
+# Manuscript source is kept outside the public repository. Paper-ready figures
+# and generated table fragments under paper/ remain versioned.
+paper/template-arxiv.tex
+paper/annex-arxiv.tex
+paper/references.bib
+paper/arxiv.sty
+paper/VERSION_NOTE.md
+paper/template-arxiv.pdf
+
+# Local LaTeX build products
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# Large raw sources and generated model checkpoints
+data/USPTO/
+data/OECD/PATS_IPC_*.csv
+**/best_model_*.pt
+**/*.ckpt

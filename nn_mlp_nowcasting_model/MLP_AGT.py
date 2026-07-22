@@ -190,7 +190,7 @@ df_trends = df_trends[df_trends.columns.drop(list(df_trends.filter(regex='isPart
 df_trends = df_trends.reset_index(drop=True).melt(id_vars='Year', var_name='Country_Keyword', value_name='Value')
 
 # Extract the country code and keyword from the "Country_Keyword" column
-df_trends[['Country', 'Keyword']] = df_trends['Country_Keyword'].str.split('_', 1, expand=True)
+df_trends[['Country', 'Keyword']] = df_trends['Country_Keyword'].str.split('_', n=1, expand=True)
 
 # Rename keywords that contain 'Country'
 df_trends['Keyword'] = df_trends['Keyword'].apply(lambda x: x + '_topic' if 'Country' in x else x)
@@ -213,7 +213,7 @@ df_trends_monthly = df_trends_monthly[df_trends_monthly.columns.drop(list(df_tre
 df_trends_monthly = df_trends_monthly.reset_index(drop=True).melt(id_vars='date', var_name='Country_Keyword', value_name='Value')
 
 # Extract the country code and keyword from the "Country_Keyword" column
-df_trends_monthly[['Country', 'Keyword']] = df_trends_monthly['Country_Keyword'].str.split('_', 1, expand=True)
+df_trends_monthly[['Country', 'Keyword']] = df_trends_monthly['Country_Keyword'].str.split('_', n=1, expand=True)
 
 # Rename keywords that contain 'Country'
 df_trends_monthly['Keyword'] = df_trends_monthly['Keyword'].apply(lambda x: x + '_topic' if 'Country' in x else x)
@@ -330,7 +330,7 @@ def conditional_interpolate(group):
     return group
 
 # Apply the conditional interpolation to the 'rd_expenditure' column
-merged_df = merged_df.groupby('Country').apply(conditional_interpolate)
+merged_df = merged_df.groupby('Country').apply(conditional_interpolate).reset_index(drop=True)
 
 # Now create the lagged values as before
 for lag in range(1, max_lag+1):
@@ -398,7 +398,7 @@ y = merged_df[['Country', 'Year', 'Month', 'rd_expenditure']]
 #breakpoint()
 
 #--------------------------------------------------------------------------------------------------------------------------
-## Set-up Train, Validation and Test Sets
+## Set-up Train, Validation and Test Sets (TEMPORAL SPLIT)
 #--------------------------------------------------------------------------------------------------------------------------
 
 # Get unique countries
@@ -412,15 +412,47 @@ y_train_combined = pd.Series()
 y_val_combined = pd.Series()
 y_test_combined = pd.Series()
 
-# Split the data for each country
-for country in countries:
-    X_country = X_all[X_all['Country'] == country]
-    y_country = y[X_all['Country'] == country]
+# Define split ratios
+train_ratio = 0.64  # 64% for training
+val_ratio = 0.16    # 16% for validation
+test_ratio = 0.20   # 20% for test
 
-    # Split into training + validation and test sets
-    X_temp, X_test, y_temp, y_test = train_test_split(X_country, y_country, test_size=0.2, random_state=42)
-    # Split training + validation into training and validation sets
-    X_train, X_val, y_train, y_val = train_test_split(X_temp, y_temp, test_size=0.2, random_state=42)
+print(f"Temporal split ratios - Train: {train_ratio:.0%}, Validation: {val_ratio:.0%}, Test: {test_ratio:.0%}")
+
+# Split the data temporally for each country
+for country in countries:
+    X_country = X_all[X_all['Country'] == country].copy()
+    y_country = y[X_all['Country'] == country].copy()
+    
+    # Sort by Year and Month to ensure temporal order
+    X_country = X_country.sort_values(['Year', 'Month']).reset_index(drop=True)
+    y_country = y_country.loc[X_country.index].reset_index(drop=True)
+    
+    # Calculate split indices
+    n_samples = len(X_country)
+    train_end = int(n_samples * train_ratio)
+    val_end = int(n_samples * (train_ratio + val_ratio))
+    
+    # Create temporal splits
+    X_train = X_country.iloc[:train_end]
+    X_val = X_country.iloc[train_end:val_end]
+    X_test = X_country.iloc[val_end:]
+    
+    y_train = y_country.iloc[:train_end]
+    y_val = y_country.iloc[train_end:val_end]
+    y_test = y_country.iloc[val_end:]
+    
+    # Print info for debugging
+    if len(X_train) > 0 and len(X_test) > 0:
+        train_period = f"{int(X_train['Year'].min())}-{int(X_train['Month'].min()):02d} to {int(X_train['Year'].max())}-{int(X_train['Month'].max()):02d}"
+        if len(X_val) > 0:
+            val_period = f"{int(X_val['Year'].min())}-{int(X_val['Month'].min()):02d} to {int(X_val['Year'].max())}-{int(X_val['Month'].max()):02d}"
+        else:
+            val_period = "No validation data"
+        test_period = f"{int(X_test['Year'].min())}-{int(X_test['Month'].min()):02d} to {int(X_test['Year'].max())}-{int(X_test['Month'].max()):02d}"
+        print(f"{country}: Train ({len(X_train)} samples): {train_period}")
+        print(f"{country}: Val ({len(X_val)} samples): {val_period}")
+        print(f"{country}: Test ({len(X_test)} samples): {test_period}")
 
     # Combine the splits
     X_train_combined = pd.concat([X_train_combined, X_train])
@@ -431,12 +463,18 @@ for country in countries:
     y_test_combined = pd.concat([y_test_combined, y_test])
 
 # The final combined datasets
-X_train = X_train_combined
-X_val = X_val_combined
-X_test = X_test_combined
-y_train = y_train_combined
-y_val = y_val_combined
-y_test = y_test_combined
+X_train = X_train_combined.reset_index(drop=True)
+X_val = X_val_combined.reset_index(drop=True)
+X_test = X_test_combined.reset_index(drop=True)
+y_train = y_train_combined.reset_index(drop=True)
+y_val = y_val_combined.reset_index(drop=True)
+y_test = y_test_combined.reset_index(drop=True)
+
+print(f"\nFinal dataset sizes:")
+print(f"Training: {len(X_train)} samples ({len(X_train)/len(X_all):.1%})")
+print(f"Validation: {len(X_val)} samples ({len(X_val)/len(X_all):.1%})")
+print(f"Test: {len(X_test)} samples ({len(X_test)/len(X_all):.1%})")
+print(f"Total: {len(X_all)} samples")
 
 # # First, split data into training + validation and test sets (e.g., 80-20 split)
 # X_temp, X_test, y_temp, y_test = train_test_split(X_all, y, test_size=0.2, random_state=42)

@@ -1,0 +1,3 @@
+[AllVar] trained 10 members
+[AllVar] saved shap_summary_AllVar.png  (pooled 40 points)
+DONE
