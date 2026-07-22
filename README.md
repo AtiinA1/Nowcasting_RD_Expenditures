@@ -2,11 +2,13 @@
 
 This repository contains the data snapshots, models, benchmarks, and
 robustness analyses for **Nowcasting and Temporal Disaggregation of R&D
-Expenditures Using Internet Search Data** by Atin Aboutorabi and Gaetan de
+Expenditures Using Internet Search Data** by Atin Aboutorabi and Gaétan de
 Rassenfosse.
 
-The public manuscript record is available on
-[arXiv:2407.11765](https://arxiv.org/abs/2407.11765).
+The public manuscript is available from the
+[arXiv record](https://arxiv.org/abs/2407.11765) and as a
+[direct PDF](https://arxiv.org/pdf/2407.11765). The PDF link resolves to the
+latest version published under this arXiv identifier.
 
 The study has two components:
 
@@ -115,4 +117,6 @@ under [`paper/`](paper/), while the manuscript itself is linked through arXiv.
 ## Citation
 
 Citation metadata are provided in [`CITATION.cff`](CITATION.cff). Please cite
-the public manuscript record on [arXiv](https://arxiv.org/abs/2407.11765).
+the public manuscript record on [arXiv](https://arxiv.org/abs/2407.11765). A
+[direct link to the latest public PDF](https://arxiv.org/pdf/2407.11765) is also
+available.
