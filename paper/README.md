@@ -8,11 +8,12 @@ internal notes. The original public manuscript record is
 | Path | Contents |
 | --- | --- |
 | [`Nowcasting_Temporal_Disaggregation_RD.pdf`](Nowcasting_Temporal_Disaggregation_RD.pdf) | The newest compiled revision of the paper |
-| `figures/` | The 28 main-text and appendix figures referenced by the current manuscript |
+| `figures/` | The 32 main-text and appendix figures referenced by the current manuscript |
 | `tables/` | The 8 generated table fragments referenced by the current manuscript |
 
-The figures cover the framework, Step A performance and diagnostics, Step B
-monthly allocations, classical temporal-disaggregation comparisons,
+The figures cover the framework, matched-refit Step A performance and
+diagnostics, Gaussian-relevance Step B monthly allocations, classical
+temporal-disaggregation comparisons,
 employment diagnostics, calibration, seasonality, and country-year robustness.
 The tables report the temporal and country-year benchmarks and coverage checks,
 plus the model-agnostic, quarterly, sensitivity-definition, and uniform Step B

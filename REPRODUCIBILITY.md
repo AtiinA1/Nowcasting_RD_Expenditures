@@ -66,6 +66,14 @@ python additional_analysis/robustness_overfit/11_refresh_stepA_paper_artifacts.p
 python additional_analysis/robustness_overfit/13_fig2_distribution_refresh.py
 ```
 
+Apply the matched final-refit protocol used in the current results and add the
+validation-tuned Ridge comparison with:
+
+```bash
+python additional_analysis/robustness_overfit/14_regenerate_fair_fig2_candidates.py
+python additional_analysis/robustness_overfit/19_stepA_plot_with_ridge.py
+```
+
 ## 4. Step A benchmarks
 
 The corrected temporal MIDAS, U-MIDAS, and sparse-group-LASSO MIDAS analysis
@@ -89,17 +97,19 @@ are represented in the checked-in outputs and paper tables.
 
 ## 5. Step B: model-implied allocation
 
-The principal paper results use standardized-input predictive sensitivities
-from the AGT neural-network architecture and a dedicated level-target
-sensitivity fit:
+The principal paper results use Gaussian perturbation relevance from the AGT
+neural-network architecture after the matched final refit:
 
 ```bash
-python additional_analysis/robustness_overfit/12_refresh_stepB_updated_agt.py
+python additional_analysis/robustness_overfit/16_regenerate_stepB_matched_refit.py
+python additional_analysis/robustness_overfit/18_stepB_gaussian_relevance.py
+python additional_analysis/robustness_overfit/20_stepB_gaussian_linear_checks.py
 ```
 
-Despite the historical filename, this is the paper's current neural-network
-Step B implementation. The script trains ensembles and is computationally
-expensive.
+The first script trains the matched-refit ensemble and is computationally
+expensive. The second constructs the principal neural-network allocation and
+checks alternative perturbation scales. The third applies the same relevance
+definition to centered minimum-norm OLS and validation-tuned Ridge.
 
 The exact Step A-to-Step B audit computes both original-scale elasticities and
 standardized-input predictive sensitivities:
@@ -160,9 +170,10 @@ make check
 `make check` verifies required artifacts, benchmark rows, Step B adding-up,
 portable paths in the primary scripts, the curated paper-artifact inventory,
 and GitHub's file-size constraint. The public repository excludes the LaTeX
-manuscript source and current revision PDF. The 28 current paper-ready figures
-and 8 generated table fragments are retained under `paper/`; the public
-manuscript record is available at https://arxiv.org/abs/2407.11765.
+manuscript source. The compiled revised manuscript, current paper-ready
+figures, and generated table fragments are retained under `paper/`; the
+original public manuscript record remains available at
+https://arxiv.org/abs/2407.11765.
 
 ## 9. Saved outputs and numerical variation
 

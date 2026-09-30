@@ -18,10 +18,17 @@ REQUIRED = [
     "paper/figures/Framework_NowcastingRD2024.pdf",
     "paper/figures/Nowcast_Model_Temporal/NNvsOLS_Temporal_distribution.png",
     "paper/figures/Disaggregation/NNelasticity_temporal_level.png",
+    "paper/figures/UpdatedResults/c1_stepA_dist.png",
+    "paper/figures/UpdatedResults/c1_disagg_nn_gaussian_s010.png",
+    "paper/figures/UpdatedResults/c1_disagg_mosley_gaussian_s010.png",
+    "paper/figures/UpdatedResults/c1_disagg_sax_gaussian_s010.png",
     "paper/tables/temporal_benchmarks_table.tex",
     "paper/tables/stepb_sensitivity_definition_table.tex",
     "additional_analysis/out/merged_features.csv",
     "additional_analysis/robustness_overfit/out/all_configs_updated_pure_nn/all_configs_updated_pure_nn_results.csv",
+    "additional_analysis/robustness_overfit/out/paper_stepA_refresh/c1_stepA_matched_refit_with_ridge_audit.csv",
+    "additional_analysis/robustness_overfit/out/stepB_matched_refit/gaussian_relevance/gaussian_agreement.csv",
+    "additional_analysis/robustness_overfit/out/stepB_matched_refit/matched_refit_stepB_annual_sum_check.csv",
     "additional_analysis/pre_raw_stepb_method_audit/out/leakage_free_midas_metrics.csv",
     "additional_analysis/exact_stepa_stepb_audit/out/annual_adding_up_check.csv",
     "additional_analysis/employment_inference_robustness/out/strongest_lag_by_method.csv",
@@ -42,6 +49,11 @@ PRIMARY_SCRIPTS = [
     "additional_analysis/robustness_overfit/11_refresh_stepA_paper_artifacts.py",
     "additional_analysis/robustness_overfit/12_refresh_stepB_updated_agt.py",
     "additional_analysis/robustness_overfit/13_fig2_distribution_refresh.py",
+    "additional_analysis/robustness_overfit/14_regenerate_fair_fig2_candidates.py",
+    "additional_analysis/robustness_overfit/16_regenerate_stepB_matched_refit.py",
+    "additional_analysis/robustness_overfit/18_stepB_gaussian_relevance.py",
+    "additional_analysis/robustness_overfit/19_stepA_plot_with_ridge.py",
+    "additional_analysis/robustness_overfit/20_stepB_gaussian_linear_checks.py",
     "additional_analysis/pre_raw_stepb_method_audit/leakage_free_midas_benchmarks.py",
     "additional_analysis/pre_raw_stepb_method_audit/leakage_free_cy_midas.py",
     "additional_analysis/cy_current_nn_refresh/run_cy_current_nn.py",
@@ -75,8 +87,8 @@ def main() -> int:
 
     tracked_figures = {path for path in tracked if path.startswith("paper/figures/")}
     tracked_tables = {path for path in tracked if path.startswith("paper/tables/")}
-    if len(tracked_figures) != 28:
-        fail(f"expected 28 curated paper figures, found {len(tracked_figures)}", errors)
+    if len(tracked_figures) != 32:
+        fail(f"expected 32 curated paper figures, found {len(tracked_figures)}", errors)
     if len(tracked_tables) != 8:
         fail(f"expected 8 generated paper tables, found {len(tracked_tables)}", errors)
 
@@ -99,13 +111,17 @@ def main() -> int:
             fail(f"machine-specific path remains in primary script: {relative}", errors)
 
     if not errors:
-        nn_rows = read_rows(
-            "additional_analysis/robustness_overfit/out/all_configs_updated_pure_nn/"
-            "all_configs_updated_pure_nn_results.csv"
+        matched_rows = read_rows(
+            "additional_analysis/robustness_overfit/out/paper_stepA_refresh/"
+            "c1_stepA_matched_refit_with_ridge_audit.csv"
         )
-        agt = [row for row in nn_rows if row["Config"] == "AGT" and row["ensemble_size"] == "15"]
-        if len(agt) != 1 or abs(float(agt[0]["test_MAPE"]) - 13.959167) > 0.01:
-            fail("the saved 15-member AGT result does not match the paper snapshot", errors)
+        agt = [
+            row
+            for row in matched_rows
+            if row["Config"] == "AGT" and row["Model"] == "Neural network"
+        ]
+        if len(agt) != 1 or abs(float(agt[0]["MAPE"]) - 7.249142) > 0.01:
+            fail("the matched-refit AGT result does not match the paper snapshot", errors)
 
         benchmark_rows = read_rows(
             "additional_analysis/pre_raw_stepb_method_audit/out/leakage_free_midas_metrics.csv"
@@ -120,8 +136,16 @@ def main() -> int:
         if not required_models.issubset(found_models):
             fail("corrected Step A benchmark rows are incomplete", errors)
 
-        adding_up = read_rows("additional_analysis/exact_stepa_stepb_audit/out/annual_adding_up_check.csv")
-        maximum_gap = max(abs(float(row["difference"])) for row in adding_up)
+        adding_up = read_rows(
+            "additional_analysis/robustness_overfit/out/stepB_matched_refit/"
+            "matched_refit_stepB_annual_sum_check.csv"
+        )
+        difference_columns = [
+            name for name in adding_up[0] if name.endswith("_difference")
+        ]
+        maximum_gap = max(
+            abs(float(row[name])) for row in adding_up for name in difference_columns
+        )
         if maximum_gap > 1e-6:
             fail(f"Step B annual adding-up gap is {maximum_gap:.3g}", errors)
 
@@ -130,7 +154,7 @@ def main() -> int:
         return 1
 
     print("Repository validation passed.")
-    print("AGT temporal test MAPE: 13.96%")
+    print("Matched-refit AGT temporal test MAPE: 7.25%")
     print("Step B maximum annual adding-up gap: < 1e-6")
     return 0
 

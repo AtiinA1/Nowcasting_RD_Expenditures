@@ -2,8 +2,7 @@
 
 This repository contains the data snapshots, models, benchmarks, and
 robustness analyses for **Nowcasting and Temporal Disaggregation of R&D
-Expenditures Using Internet Search Data** by Atin Aboutorabi and Gaétan de
-Rassenfosse.
+Expenditures** by Atin Aboutorabi and Gaétan de Rassenfosse.
 
 The newest revised manuscript is available as a
 [direct PDF](https://raw.githubusercontent.com/AtiinA1/Nowcasting_RD_Expenditures/main/paper/Nowcasting_Temporal_Disaggregation_RD.pdf).
@@ -32,8 +31,10 @@ recommended starting point for reproducing the reported results.
 | --- | --- |
 | Build the merged analysis panel | [`additional_analysis/out/merged_features.csv`](additional_analysis/out/merged_features.csv) is the checked-in research snapshot |
 | Train the aligned Step A neural networks | [`additional_analysis/robustness_overfit/10_all_configs_updated_pure_nn.py`](additional_analysis/robustness_overfit/10_all_configs_updated_pure_nn.py) |
+| Apply the matched final-refit protocol and compare NN, OLS, and Ridge | [`additional_analysis/robustness_overfit/14_regenerate_fair_fig2_candidates.py`](additional_analysis/robustness_overfit/14_regenerate_fair_fig2_candidates.py) and [`19_stepA_plot_with_ridge.py`](additional_analysis/robustness_overfit/19_stepA_plot_with_ridge.py) |
 | Run corrected MIDAS benchmarks | [`additional_analysis/pre_raw_stepb_method_audit/leakage_free_midas_benchmarks.py`](additional_analysis/pre_raw_stepb_method_audit/leakage_free_midas_benchmarks.py) |
-| Reproduce the principal Step B allocation | [`additional_analysis/robustness_overfit/12_refresh_stepB_updated_agt.py`](additional_analysis/robustness_overfit/12_refresh_stepB_updated_agt.py) |
+| Reproduce the principal Step B Gaussian-relevance allocation | [`additional_analysis/robustness_overfit/16_regenerate_stepB_matched_refit.py`](additional_analysis/robustness_overfit/16_regenerate_stepB_matched_refit.py) and [`18_stepB_gaussian_relevance.py`](additional_analysis/robustness_overfit/18_stepB_gaussian_relevance.py) |
+| Compare Gaussian relevance across NN, OLS, and Ridge | [`additional_analysis/robustness_overfit/20_stepB_gaussian_linear_checks.py`](additional_analysis/robustness_overfit/20_stepB_gaussian_linear_checks.py) |
 | Audit both Step B sensitivity definitions | [`additional_analysis/exact_stepa_stepb_audit/`](additional_analysis/exact_stepa_stepb_audit/) |
 | Run the country-year robustness design | [`additional_analysis/cy_current_nn_refresh/`](additional_analysis/cy_current_nn_refresh/) |
 | Run employment inference | [`additional_analysis/employment_inference_robustness/year_block_hac_inference.py`](additional_analysis/employment_inference_robustness/year_block_hac_inference.py) |
@@ -61,14 +62,18 @@ audited without rerunning every neural-network ensemble.
 
 ## Main results
 
-Under the temporal split, the 15-member AGT neural-network ensemble records a
-test MAPE of **13.96%**, RMSE of **70.16**, and test-set R-squared of **0.894**.
+Under the temporal split and matched final-refit protocol, the 15-member AGT
+neural-network ensemble records a test MAPE of **7.25%**, RMSE of **36.96**, and
+test-set R-squared of **0.971**.
 With training-period normalization, the corresponding MIDAS, U-MIDAS, and
 sparse-group-LASSO MIDAS MAPEs are 32.94%, 34.20%, and 42.90%, respectively.
 The small annual test sample means these numerical differences should not be
 read as definitive model-selection evidence.
 
-Step B preserves annual totals to numerical precision. Its employment
+Step B preserves annual totals to numerical precision. At the principal
+Gaussian perturbation scale, the neural-network monthly allocation correlates
+with sparse temporal disaggregation at **0.91** in levels, **0.68** in monthly
+growth, and **0.74** in quarterly growth. Its employment
 comparisons are descriptive external diagnostics: they do not observe true
 monthly GERD and do not identify or rank the most accurate allocation method.
 

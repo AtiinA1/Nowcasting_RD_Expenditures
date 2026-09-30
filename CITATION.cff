@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or the associated results, please cite the paper."
-title: "Nowcasting and Temporal Disaggregation of R&D Expenditures Using Internet Search Data"
+title: "Nowcasting and Temporal Disaggregation of R&D Expenditures"
 type: software
 authors:
   - family-names: Aboutorabi
@@ -11,5 +11,5 @@ authors:
     orcid: "https://orcid.org/0000-0002-7862-0918"
 repository-code: "https://github.com/AtiinA1/Nowcasting_RD_Expenditures"
 url: "https://arxiv.org/abs/2407.11765"
-version: 0.2.0
-date-released: 2026-07-21
+version: 0.3.0
+date-released: 2026-09-30

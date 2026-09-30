@@ -26,9 +26,10 @@ their outputs below the folder containing the script.
 | Analysis | Script |
 | --- | --- |
 | Step A, all seven neural-network input configurations | `robustness_overfit/10_all_configs_updated_pure_nn.py` |
-| Step A paper figures and tables | `robustness_overfit/11_refresh_stepA_paper_artifacts.py` and `13_fig2_distribution_refresh.py` |
+| Step A matched final refit and paper figure | `robustness_overfit/14_regenerate_fair_fig2_candidates.py` and `19_stepA_plot_with_ridge.py` |
 | Corrected temporal MIDAS and sg-LASSO-MIDAS | `pre_raw_stepb_method_audit/leakage_free_midas_benchmarks.py` |
-| Principal Step B neural-network allocation | `robustness_overfit/12_refresh_stepB_updated_agt.py` |
+| Principal Step B Gaussian-relevance allocation | `robustness_overfit/16_regenerate_stepB_matched_refit.py` and `18_stepB_gaussian_relevance.py` |
+| Gaussian-relevance OLS and Ridge checks | `robustness_overfit/20_stepB_gaussian_linear_checks.py` |
 | Ridge, Elastic Net, OLS, and model-agnostic Step B | `robustness_overfit/02_regularized_linear_benchmarks.py` and `04_stepb_model_agnostic_elasticities.py` |
 | Quarterly Step B checks | `robustness_overfit/05_quarterly_stepb_values.py` |
 | Exact Step A-to-Step B sensitivity audit | `exact_stepa_stepb_audit/run_audit.py` |

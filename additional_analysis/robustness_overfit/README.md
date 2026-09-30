@@ -19,13 +19,29 @@ inside this folder.
   - Runs a lightweight rolling-origin sensitivity check for AGT.
   - Compares NN-AGT, Elastic Net, and RW(3) over three origin years.
 
+- `14_regenerate_fair_fig2_candidates.py` and `19_stepA_plot_with_ridge.py`
+  - Apply the matched final-refit protocol after validation selects each
+    ensemble member's training duration.
+  - Compare the neural network with centered minimum-norm OLS and
+    validation-tuned Ridge on the same estimation sample.
+
+- `16_regenerate_stepB_matched_refit.py` and `18_stepB_gaussian_relevance.py`
+  - Refit the AGT Step A model on training and validation observations.
+  - Generate the principal Step B allocation using Gaussian perturbation
+    relevance and check its stability across perturbation scales.
+
+- `20_stepB_gaussian_linear_checks.py`
+  - Applies the same Gaussian-relevance procedure to matched OLS and Ridge
+    models.
+
 - `run_all.py`
-  - Runs all three analyses in sequence.
+  - Runs the first three diagnostic analyses in sequence.
 
 ## Outputs
 
 - `out/`
-  - Raw CSV results.
+  - Raw CSV results, including `paper_stepA_refresh/` and
+    `stepB_matched_refit/` for the current paper-facing analyses.
 
 - `figures/`
   - `training_diagnostics_loss_curves.png`
@@ -42,4 +58,3 @@ the main benchmark table. They address reviewer-facing concerns about
 overfitting by documenting training behavior, comparing against validation-tuned
 regularized linear models, and checking whether the AGT result is sensitive to a
 single temporal split.
-
